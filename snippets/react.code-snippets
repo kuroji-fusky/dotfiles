@@ -1,0 +1,68 @@
+{
+  "React useState": {
+    "prefix": ["usestate", "state"],
+    "body": ["const [${1:state}, set${1:state}] = useState(${2:initialState})"],
+    "description": "React useState"
+  },
+  "React useEffect": {
+    "prefix": ["useeffect", "effect"],
+    "body": [
+      "useEffect(() => {",
+      "\t${0}",
+      "}, [${1:deps}])"
+    ],
+    "description": "React useEffect"
+  },
+  "React useRef": {
+    "prefix": ["userefdiv", "refdiv"],
+    "body": ["const ${1:ref} = useRef<${2:HTMLDivElement}>(null)"],
+    "description": "React useRef"
+  },
+  "React map": {
+    "prefix": ["map"],
+    "body": [
+      "{${1:key}.map((${2:item}, ${3:index}) => (",
+      "\t<${4:div} key={${3:index}>",
+      "\t\t${5}",
+      "\t</${4:div}>",
+      "))}"
+    ],
+  },
+  "React TypeScript _document.tsx boilerplate": {
+    "prefix": ["importdocument", "importdoc"],
+    "body": [
+      "import Document, { Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps } from 'next/document'",
+      "",
+      "export default class MyDocument extends Document {",
+      "\tstatic async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {",
+      "\t\tconst initialProps = await Document.getInitialProps(ctx)",
+      "\t\treturn initialProps",
+      "",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t<Html>",
+      "\t\t\t\t<Head />",
+      "\t\t\t\t<body>",
+      "\t\t\t\t\t<Main />",
+      "\t\t\t\t\t<NextScript />",
+      "\t\t\t\t</Main>",
+      "\t\t\t</Html>",
+      "\t\t)",
+      "\t}",
+      "}",
+    ],
+    "description": "I'm lazy :3"
+  },
+  "React export boilerplate": {
+    "prefix": ["edf"],
+    "body": [
+      "export default function ${1:ComponentName}(${2:params}) {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t${3}",
+      "\t\t</div>",
+      "\t)",
+      "}",
+    ],
+  }
+}

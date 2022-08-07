@@ -1,0 +1,56 @@
+snippet usesstate
+const [${1:state}, set${1:state}] = useState(${2:initialState})
+endsnippet
+
+snippet usecontext
+const {${1:context}} = useContext(${2:Context})
+endsnippet
+
+snippet useeffect
+useEffect(() => {
+  ${1}
+}, [${2}])
+endsnippet
+
+snippet useref
+const ${1:ref} = useRef<${2:HTMLDivElement}>(${3:null})
+endsnippet
+
+snippet edf
+export default function ${1}(${2:params}) {
+  return(
+    ${3}
+  )
+}
+endsnippet
+
+snippet map
+{${1:key}.map((${2:item}, ${3:index}) => (
+  <${4:div} key={${3:index}}>
+    ${5}
+  </${4:div}>
+))}  
+endsnippet
+
+snippet doctsx "React Typescript _document.tsx" b
+import Document, { Html, Head, Main, NextScript, DocumentInitialProps, DocumentContext} from "next/document"
+
+export default class MyDocument extends Document {
+  static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
+  }
+
+  render() {
+    return (
+      <Html>
+        <Head />
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    )
+  }
+}
+endsnippet

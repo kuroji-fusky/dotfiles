@@ -1,0 +1,16 @@
+{
+  "Import Tailwind to CSS": {
+    "prefix": ["tailwind"],
+    "body": "@tailwind base;\n@tailwind components;\n@tailwind utilities;"
+  },
+
+  "Content - React/Next.js": {
+    "prefix": ["tw-content-react", "tw-content-next"],
+    "body": [
+      "content: {",
+      "\t\"./pages/**/*.{js,ts,jsx,tsx}\",",
+      "\t\"./components/**/*.{js,ts,jsx,tsx}\"",
+      "}"
+    ]
+  }
+}

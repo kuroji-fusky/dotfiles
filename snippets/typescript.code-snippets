@@ -1,0 +1,15 @@
+{
+  "Declare Interface": {
+    "prefix": ["declare"],
+    "body": [
+      "declare interface ${1:InterfaceName} {",
+      "\t${2}",
+      "}",
+    ]
+  },
+  "Export nothing": {
+    "prefix": ["export"],
+    "body": ["export {}"],
+    "description": "Export nothing"
+  },
+}

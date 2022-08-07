@@ -1,0 +1,26 @@
+{
+  "Vue 3 Boilerplate": {
+    "prefix": ["vue3", "vue"],
+    "body": [
+      "<template>",
+      "\t<div>${1}</div>",
+      "</template>",
+      "",
+      "<script setup>",
+      "${2}",
+      "</script>",
+      "",
+      "<style>",
+      "${3}",
+      "</style>",
+    ],
+  },
+  "SCSS tag": {
+    "prefix": ["stylescss"],
+    "body": [
+      "<style lang=\"scss\">",
+      "${1}",
+      "</style>"
+    ],
+  },
+}
