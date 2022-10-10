@@ -1,0 +1,19 @@
+[user]
+	name = 
+	email = 
+
+[alias]
+	cl = clone
+	ch = checkout
+	cho = checkout --orphan
+	cm = commit -m
+	fo = fetch origin
+	s = status
+	psh = push origin
+	pul = pull origin
+
+[init]
+	defaultBranch = main
+
+[core]
+	ignorecase = false
