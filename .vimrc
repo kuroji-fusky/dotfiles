@@ -19,5 +19,4 @@ set statusline+=\ %F\ %R\ %M\
 
 set statusline+=%=
 
-set statusline+=\ row:\ %l\ col:\ %c\ \|\ %p%%
 set laststatus=2
