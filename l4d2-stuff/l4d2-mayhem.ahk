@@ -25,8 +25,8 @@ Return
 
 ; Spawn boomer at the crosshair's position
 ; Works 60% of the time, but I do this to near survivors lol
-; [Shift+LeftClick]
-+LButton::
+; [Alt+LeftClick]
+!LButton::
   SetKeyDelay, 50 
   Send {Numpad5}{Click Left}
 Return
