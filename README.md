@@ -1,2 +1,3 @@
 # dotfiles
-⚙️ Things for my dotfiles, configs, code snippets, and other stuff
+
+The lamest dotfile repo in the world
