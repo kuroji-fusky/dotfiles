@@ -14,9 +14,4 @@ set wildmode=list:longest
 
 autocmd BufRead,BufNewFile *.html setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
-set statusline=
-set statusline+=\ %F\ %R\ %M\
-
-set statusline+=%=
-
 set laststatus=2
