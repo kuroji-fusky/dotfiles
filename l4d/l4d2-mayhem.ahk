@@ -7,7 +7,7 @@
 #IfWinActive ahk_exe left4dead2.exe
 
   ; Do the cheat thing 
-  ^F10::
+  ^X::
     SetKeyDelay, 15 
     Send, sv_cheats 1{Enter}sb_all_bot_game 1{Enter}
   Return
@@ -60,4 +60,8 @@
   ; Ctrl+MidClick  -- set spec and noclip speed to their defaults
   ^MButton::
     Send, {/}
+  Return
+
+  Z::
+	Send, {=}
   Return
