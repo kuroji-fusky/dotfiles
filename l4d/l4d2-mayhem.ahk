@@ -5,11 +5,12 @@
 ; This AHK script will only work if the custom cfg file is applied
 ; ————————————————————————————————————————————————————————————————
 #IfWinActive ahk_exe left4dead2.exe
+  Pause, Off
   ; Spawn a horde of special infected via a special bind command
   F9::
     toggle := !toggle
     While toggle {
-      Send, poi{Numpad5}{Numpad1}
+      Send, poil{Numpad5}{Numpad1}
       Sleep, 50 
     }
   Return
@@ -18,7 +19,8 @@
   ; Won't work sometimes unless you're REALLY close to them
   ; [Alt+Shift+RightClick]
   !+RButton::
-    Send, {NumpadAdd}5{Click Right}
+	SetKeyDelay, 75 
+    Send, {NumpadAdd}55{Click Right}
   Return
 
   ; Spawn boomer at the crosshair's position
@@ -40,17 +42,17 @@
     Send, {NumpadIns}
   Return
 
-  ; Ctrl+SrlUp     -- up spec and noclip speed by 1.75
-  ^WheelUp::
+  ; Alt+SrlUp     -- up spec and noclip speed by 1.75
+  !WheelUp::
     Send, {.}
   Return
 
-  ; Ctrl+SrlDown   -- down spec and noclip speed by 0.25 (perfect for cinematics)
-  ^WheelDown::
-    Send, {,}
+  ; Alt+SrlDown  -- set spec and noclip speed to their defaults
+  !WheelDown::
+    Send, {/}
   Return
 
-  ; Ctrl+MidClick  -- set spec and noclip speed to their defaults
-  ^MButton::
-    Send, {/}
+  ; Alt+1   -- down spec and noclip speed by 0.25 (perfect for cinematics)
+  !1::
+    Send, {,}
   Return
