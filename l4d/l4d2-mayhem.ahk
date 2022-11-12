@@ -5,13 +5,22 @@
 ; This AHK script will only work if the custom cfg file is applied
 ; ————————————————————————————————————————————————————————————————
 #IfWinActive ahk_exe left4dead2.exe
-  Pause, Off
   ; Spawn a horde of special infected via a special bind command
   F9::
     toggle := !toggle
     While toggle {
       Send, poil{Numpad5}{Numpad1}
       Sleep, 50 
+    }
+  Return
+
+  ; Spams `give health` over and over
+  ; Perfect for hordes and special infected that will cuck you lul
+  F10::
+    toggle := !toggle
+    While toggle {
+      Send, {XButton2}
+	  Sleep, 50 
     }
   Return
 
