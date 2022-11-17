@@ -24,6 +24,19 @@
     }
   Return
 
+  ; The ULTIMATE CHAOS,
+  ; SPAMS HEALTH AND PIPE BOMBS UNDER YOU
+  ; YEAHHHH
+  F8::
+    toggle := !toggle
+    While toggle {
+      Send, {XButton2}{Numpad6}
+	  Sleep, 25 
+    }
+  Return
+
+
+
   ; Give pills to survivors quickly via a special bind command
   ; Won't work sometimes unless you're REALLY close to them
   ; [Alt+Shift+RightClick]
