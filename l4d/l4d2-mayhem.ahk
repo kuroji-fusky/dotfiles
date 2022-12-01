@@ -35,8 +35,6 @@
     }
   Return
 
-
-
   ; Give pills to survivors quickly via a special bind command
   ; Won't work sometimes unless you're REALLY close to them
   ; [Alt+Shift+RightClick]
