@@ -76,3 +76,7 @@
   !1::
     Send, {,}
   Return
+
+  !2::
+	Send, {Numpad4}{]}
+  Return
