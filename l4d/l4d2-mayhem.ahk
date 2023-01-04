@@ -31,7 +31,7 @@
     toggle := !toggle
     While toggle {
       Send, {XButton2}{Numpad6}
-	  Sleep, 25 
+	  Sleep, 120 
     }
   Return
 
