@@ -1,5 +1,11 @@
-alias code='code-insiders'
-alias {py,python}='python3'
-alias cl='clear'
-alias ..='cd ..'
-alias ~~='cd ~'
+alias codei       = 'code-insiders'
+alias {py,python} = 'python3'
+alias c           = 'clear'
+alias gp          = "git push"
+alias gfp         = "git fetch && git pull"
+alias gs          = "git status"
+alias gaa         = "git add -A"
+alias gcl         = "git clone"
+alias gpu         = "git push --set-upstream"
+alias gc          = "git commit"
+alias c           = "clear"

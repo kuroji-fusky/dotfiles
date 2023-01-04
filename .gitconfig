@@ -9,8 +9,8 @@
 	cm = commit -m
 	fo = fetch origin
 	s = status
-	psh = push origin
-	pul = pull origin
+	pu = push origin
+	pl = pull origin
 
 [init]
 	defaultBranch = main
