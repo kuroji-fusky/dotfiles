@@ -4,7 +4,9 @@ alias c           = 'clear'
 
 # Git stuff
 alias gp          = "git push"
-alias gfp         = "git fetch && git pull"
+alias gpl         = "git pull"
+alias gf          = "git fetch"
+alias gfp         = "gf && gpl"
 alias gs          = "git status"
 alias gaa         = "git add -A"
 alias gcl         = "git clone"
