@@ -6,3 +6,5 @@ $NEW_VALUE = !$CURRENT_VALUE + 0;
 
 Set-ItemProperty -Path $REG_DIR -Name $APP_KEY -Value $NEW_VALUE -Type Dword -Force;
 Set-ItemProperty -Path $REG_DIR -Name $SYS_KEY -Value $NEW_VALUE -Type Dword -Force;
+
+Stop-Process -Name "explorer"
