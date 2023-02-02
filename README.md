@@ -1,3 +1,3 @@
-# dotfiles
+# Config Dumps
 
-The lamest dotfile repo in the world
+Stuff I need for my machines lol
