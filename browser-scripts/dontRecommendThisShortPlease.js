@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Don't Recommend This Short
-// @description  A simple script that will press a button to never recommend a brain-dead short ever again!
+// @description  A simple script that a single press of a button that will never recommend a brain-dead short ever again!
 // @author       Kuroji Fusky
 // @match        https://www.youtube.com/shorts/*
 // @grant        none
