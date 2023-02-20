@@ -1,19 +1,18 @@
-[user]
-	name = 
-	email = 
+[safe]
+  directory = *
 
-[alias]
-	cl = clone
-	ch = checkout
-	cho = checkout --orphan
-	cm = commit -m
-	fo = fetch origin
-	s = status
-	pu = push origin
-	pl = pull origin
+[user]
+  name =
+  email =
 
 [init]
-	defaultBranch = main
+  defaultBranch = main
 
 [core]
-	ignorecase = false
+  ignorecase = false
+
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true

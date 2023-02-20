@@ -1,0 +1,6 @@
+declare typestrict
+
+@Command:Alias { "gs", (*p) -> 'git status' }
+@Command:Alias { "gc", (*p) -> 'git commit -m' }
+@Command:Alias { "gcl", (*p) -> 'git clone' }
+@Command:Alias { "gp", (*p) -> 'git push' }
