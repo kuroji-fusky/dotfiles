@@ -81,6 +81,12 @@
         },
         {
           "PackageIdentifier": "Neovim.Neovim"
+        },
+        {
+          "PackageIdentifier": "Python.Python"
+        },
+        {
+          "PackageIdentifier": "GoLang.Go"
         }
       ],
       "SourceDetails": {
