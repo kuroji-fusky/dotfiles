@@ -53,6 +53,9 @@
           "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
         },
         {
+          "PackageIdentifier": "JetBrains.PyCharm.Community"
+        },
+        {
           "PackageIdentifier": "Rustlang.Rustup"
         },
         {
@@ -78,6 +81,9 @@
         },
         {
           "PackageIdentifier": "Google.Drive"
+        },
+        {
+          "PackageIdentifier": "Google.AndroidStudio"
         },
         {
           "PackageIdentifier": "Neovim.Neovim"
