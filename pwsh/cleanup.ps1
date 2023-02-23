@@ -6,22 +6,22 @@ $USES_YARN = Test-Path -Path "./yarn.lock"
 $USES_NPM = Test-Path -Path "./package-lock.json"
 $USES_PNPM = Test-Path -Path "./pnpm-lock.yaml"
 
-function Purge-Content() {
-	echo $USES_NPM
-	echo $USES_YARN
-	echo $USES_PNPM
+function PurgeContent() {
+  Write-Output $USES_NPM
+  Write-Output $USES_YARN
+  Write-Output $USES_PNPM
 
-	echo "cleaning node_modules"
+  Write-Output "cleaning node_modules"
 }
 
 if ($NEXT_PROJECT) {
-	echo "Detected Next.js"
+  Write-Output "Detected Next.js"
 }
 elseif ($NUXT_PROJECT) {
-	echo "Detected Nuxt.js"
+  Write-Output "Detected Nuxt.js"
 }
 elseif ($SVELTE_PROJECT) { 
-	echo "Detected Svelte/Kit"
+  Write-Output "Detected Svelte/Kit"
 }
 
-Purge-Content
+PurgeContent

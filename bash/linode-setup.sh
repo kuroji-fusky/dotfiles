@@ -21,7 +21,7 @@ export NVM_DIR="$HOME/.nvm" &&
   \. "$NVM_DIR/bash_completion"
 
 # Install LTS for Node.js
-nvm install --lts
+nvm install lts
 
 # Install yarn package manager
 npm i -g yarn

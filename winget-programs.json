@@ -1,6 +1,5 @@
 {
   "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
-  "CreationDate": "2023-02-23T19:57:57.090-00:00",
   "Sources": [
     {
       "Packages": [

@@ -1,9 +1,7 @@
+; [NOTE] This AHK script will only work if the custom cfg file is applied
 #NoEnv
 #MaxThreadsPerHotkey 4
 
-; ————————————————————————————————————————————————————————————————
-; This AHK script will only work if the custom cfg file is applied
-; ————————————————————————————————————————————————————————————————
 #IfWinActive ahk_exe left4dead2.exe
   ; Spawn a horde of special infected via a special bind command
   F9::
