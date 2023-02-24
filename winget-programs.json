@@ -7,6 +7,15 @@
           "PackageIdentifier": "Microsoft.VisualStudio.2022.Community"
         },
         {
+          "PackageIdentifier": "Microsoft.WindowsTerminal"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VisualStudioCode.Insiders"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerShell.Preview"
+        },
+        {
           "PackageIdentifier": "CoreyButler.NVMforWindows"
         },
         {
@@ -37,9 +46,6 @@
           "PackageIdentifier": "Glarysoft.GlaryUtilities"
         },
         {
-          "PackageIdentifier": "Microsoft.WindowsTerminal"
-        },
-        {
           "PackageIdentifier": "Mozilla.Firefox"
         },
         {
@@ -68,12 +74,6 @@
         },
         {
           "PackageIdentifier": "Notion.Notion"
-        },
-        {
-          "PackageIdentifier": "Microsoft.VisualStudioCode.Insiders"
-        },
-        {
-          "PackageIdentifier": "Microsoft.PowerShell.Preview"
         },
         {
           "PackageIdentifier": "Oracle.VirtualBox"
