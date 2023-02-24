@@ -29,7 +29,7 @@ if (Get-Command winget -ErrorAction SilentlyContinue) {
   SetupWorkspace
 }
 else {
-  Add-AppXPackage -Path .\MicrosoftDesktopAppInstaller_8wekyb3d8bbwe.msixbundle
+  Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
   SetupWorkspace
 }
 
