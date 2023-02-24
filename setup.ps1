@@ -1,15 +1,18 @@
-# =================================================
-# Stuff that requires admin privilages for screwing around with the registry
+#Requires -RunAsAdministrator
 
-# Enable verbose log for shutdown, restart, login
+# ———————————————————————————————————————
+# Stuff that requires admin privilages for screwing around with the registry
+Write-Output "Writing stuff to registry"
+
+# # Enable verbose log for shutdown, restart, login
 $RD_VerboseLogging = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"
 Set-ItemProperty -Path $RD_VerboseLogging -Name "verbosestatus" -Value 1 -Type Dword -Force
 
-# Show file extensions
+# # Show file extensions
 $RD_FileExt = "KHCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
 Set-ItemProperty -Path $RD_FileExt -Name "HideFileExt" -Value 0 -Type Dword -Force
 
-# =================================================
+# ———————————————————————————————————————
 # Install the shit I need lol
 function SetupWorkspace {
   Write-Output "Installing your crap right now"
@@ -21,6 +24,7 @@ function SetupWorkspace {
 }
 
 # Check if the winget command is available, just in case
+# for some old-ass Windows 10 systems
 if (Get-Command winget -ErrorAction SilentlyContinue) {
   SetupWorkspace
 }
@@ -29,6 +33,6 @@ else {
   SetupWorkspace
 }
 
-# =================================================
+# ———————————————————————————————————————
 # Register custom command aliases
 & $PSScriptRoot\pwsh\aliases.ps1
