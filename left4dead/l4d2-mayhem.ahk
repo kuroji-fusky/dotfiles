@@ -22,9 +22,7 @@
     }
   Return
 
-  ; The ULTIMATE CHAOS,
-  ; SPAMS HEALTH AND PIPE BOMBS UNDER YOU
-  ; YEAHHHH
+  ; The ULTIMATE CHAOS, SPAMS HEALTH AND PIPE BOMBS UNDER YOU YEAHHHH
   F8::
     toggle := !toggle
     While toggle {
@@ -34,7 +32,7 @@
   Return
 
   ; Give pills to survivors quickly via a special bind command
-  ; Won't work sometimes unless you're REALLY close to them
+  ; Won't work half the time unless you're REALLY close to them
   ; [Alt+Shift+RightClick]
   !+RButton::
 	SetKeyDelay, 75 
@@ -42,7 +40,7 @@
   Return
 
   ; Spawn boomer at the crosshair's position
-  ; Works 60% of the time (only if you have an explosive upgrade
+  ; Works 60% of the time only if you have an explosive upgrade
   ; in your primary weapon, but I do this to near survivors lol
   ; [Alt+LeftClick]
   !LButton::
@@ -60,17 +58,17 @@
     Send, {NumpadIns}
   Return
 
-  ; Alt+SrlUp     -- up spec and noclip speed by 1.75
+  ; Alt+SrlUp      -- up spec and noclip speed by 1.75
   !WheelUp::
     Send, {.}
   Return
 
-  ; Alt+SrlDown  -- set spec and noclip speed to their defaults
+  ; Alt+SrlDown    -- set spec and noclip speed to their defaults
   !WheelDown::
     Send, {/}
   Return
 
-  ; Alt+1   -- down spec and noclip speed by 0.25 (perfect for cinematics)
+  ; Alt+1          -- down spec and noclip speed by 0.25 (perfect for cinematics)
   !1::
     Send, {,}
   Return

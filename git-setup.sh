@@ -1,5 +1,4 @@
 #!/bin/bash
-
 read -p "Email plis: " email
 read -p "Your name b0ss: " name
 
