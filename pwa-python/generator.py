@@ -54,32 +54,22 @@ class Shortcuts(TypedDict):
 
 
 class GenerateManifest:
-    Display = Literal["browser", "standalone", "material-ui", "fullscreen"]
-    Orientation = Literal["any", "portrait", "landscape"]
 
-    def __init__(
-        self,
-        name: str,
-        short_name: Optional[str] = None,
-        description: Optional[str] = None,
-        theme_color: str = "#000",
-        bg_color: str = "#fff",
-        start_url: str = "/",
-        scope: str = "/",
-        display: Display | None = "standalone",
-        orientation: Orientation | None = "any",
-    ):
+    def __init__(self, **kwargs):
+        Display = Literal["browser", "standalone", "material-ui", "fullscreen"]
+        Orientation = Literal["any", "portrait", "landscape"]
+
         self.pwa_json: dict[str, str] = {}
 
-        self.name = name
-        self.short_name = short_name
-        self.description = description
-        self.theme_color = theme_color
-        self.bg_color = bg_color
-        self.start_url = start_url
-        self.display = display
-        self.scope = scope
-        self.orientation = orientation
+        self.name = kwargs['name']
+        self.short_name: Optional[str] = kwargs['short_name']
+        self.description: Optional[str] = kwargs['description']
+        self.theme_color: str = kwargs['theme_color']
+        self.bg_color: str = kwargs['bg_color']
+        self.start_url: str = kwargs['start_url']
+        self.scope: str = kwargs['scope']
+        self.display: Optional[Display] = kwargs['display']
+        self.orientation: Optional[Orientation] = kwargs['orientation']
 
         # TODO: Make sure the logo provided is 512x512, if not, then throw a warning for a better
         # TODO: image quality and resize the image anyway
@@ -87,22 +77,14 @@ class GenerateManifest:
     def parse_json(self):
         pwa_dict = self.pwa_json
         pwa_dict.update({
-            "name":
-            self.name,
-            "short_name":
-            self.name if self.short_name is None else self.short_name,
-            "background_color":
-            self.bg_color,
-            "theme_color":
-            self.theme_color,
-            "start_url":
-            self.start_url,
-            "scope":
-            self.scope,
-            "display":
-            self.display,
-            "orientation":
-            self.orientation,
+            "name": self.name,
+            "short_name": self.name if self.short_name is None else self.short_name,
+            "background_color": self.bg_color,
+            "theme_color": self.theme_color,
+            "start_url": self.start_url,
+            "scope": self.scope,
+            "display": self.display,
+            "orientation": self.orientation,
         })
 
         print(json.dumps(pwa_dict, indent=2))

@@ -37,7 +37,9 @@ function SetupWorkspace {
 
   # Install latest node version using nvm
   nvm install lts
+  
   npm install --global yarn typescript serve pnpm
+  python -m pip install -U autopep8 yapf
 }
 
 # ———————————————————————————————————————
