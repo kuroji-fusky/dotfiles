@@ -1,9 +1,12 @@
-import glob
 import os
+import os.path
 
 
 def main():
-    print("update left 4 dead autoexec here")
+    steam_path = "D:\\SteamLibrary\\steamapps\\common"
+    for dirpath, _, filenames in os.walk(steam_path):
+        for filename in [f for f in filenames if f.endswith(".cfg")]:
+            print(os.path.join(dirpath, filename))
 
 
 if __name__ == "__main__":
