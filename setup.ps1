@@ -44,4 +44,4 @@ function SetupWorkspace {
 
 # ———————————————————————————————————————
 # Register custom command aliases
-& $PSScriptRoot\pwsh\aliases.ps1
+& $PSScriptRoot\powershell\aliases.ps1
