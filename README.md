@@ -7,7 +7,7 @@ Stuff I need for my machines lol
 ### PowerShell
 
 > **Note**
-> To run `setup.ps1`, will require admin privilages and allow the script by
+> Running `setup.ps1` will require admin privilages and allow the script by
 bypassing its Execution Policy:
 
 ```powershell
