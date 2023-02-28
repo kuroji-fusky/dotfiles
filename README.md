@@ -17,7 +17,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ## Aliases
 
-> 💅 This is for personal preference only - this what I found to be efficient to my desired workflow!
+> 💅 This is for personal preference only - this is what I found to be efficient to my desired workflow!
 
 ### Git
 
