@@ -22,32 +22,38 @@ function mkcd {
   Set-Location $args[0] -PassThru
 }
 
+New-Alias mkcd
+
 # =================================================
 # Add git aliases to make commiting code on the command line easier uwu
-function Get-GitStatus { & git status -sb $args }
-Set-Alias -Name gs -Value Get-GitStatus -Force -Option AllScope
-function Get-GitRefLog { & git reflog . $args }
-Set-Alias -Name grl -Value Get-GitRefLog -Force -Option AllScope
 
-function Get-GitBranch { & git branch $args }
-Set-Alias -Name gb -Value Get-GitBranch -Force -Option AllScope
-function Get-GitClone { & git clone $args }
-Set-Alias -Name gcl -Value Get-GitClone -Force -Option AllScope
-function Get-GitCheckout { & git checkout $args }
-Set-Alias -Name gch -Value Get-GitCheckout -Force -Option AllScope
+function RegisterAlias {
+  param (
+    [string]$alias,
+    $func
+  )
 
-function Get-GitFetch { & git fetch $args }
-Set-Alias -Name gf -Value Get-GitFetch -Force -Option AllScope
-function Get-GitFetchAll { & git fetch --all $args }
-Set-Alias -Name gf -Value Get-GitFetch -Force -Option AllScope
-function Get-GitPull { & git pull $args }
-Set-Alias -Name gl -Value Get-GitPull -Force -Option AllScope
-function Get-GitPush { & git push $args }
-Set-Alias -Name gp -Value Get-GitPush -Force -Option AllScope
-function Get-GitAdd { & git add --all $args }
-Set-Alias -Name ga -Value Get-GitAdd -Force -Option AllScope
-function Get-GitCommit { & git commit -m $args }
-Set-Alias -Name gc -Value Get-GitCommit -Force -Option AllScope
+  if (!(Get-Alias -Name $alias -ErrorAction Ignore)) {
+    Write-Output "It seems like the alias '$alias' is not registered; setting alias $alias"
+    Set-Alias -Name $alias -Value $func -Force -Option AllScope
+  }
+  else {
+    Write-Output "Alias '$alias' is already registered!"
+  }
+}
 
-function Get-GitResetCache { & git rm -r --cached . $args; Get-GitAdd }
-Set-Alias -Name gre -Value Get-GitResetCache -Force -Option AllScope
+RegisterAlias -alias "gaa"   -func -scriptBlockToCall { & git add --all }
+RegisterAlias -alias "gb"    -func -scriptBlockToCall { & git branch }
+RegisterAlias -alias "gc"    -func -scriptBlockToCall { & git commit -m }
+RegisterAlias -alias "gcl"   -func -scriptBlockToCall { & git clone }
+RegisterAlias -alias "gch"   -func -scriptBlockToCall { & git checkout }
+RegisterAlias -alias "gcho"  -func -scriptBlockToCall { & git checkout --orphan }
+RegisterAlias -alias "gf"    -func -scriptBlockToCall { & git fetch }
+RegisterAlias -alias "gfl"   -func -scriptBlockToCall { & gf && gpl }
+RegisterAlias -alias "gpl"   -func -scriptBlockToCall { & git pull }
+RegisterAlias -alias "gp"    -func -scriptBlockToCall { & git push }
+RegisterAlias -alias "gpu"   -func -scriptBlockToCall { & git push --set-upstream }
+RegisterAlias -alias "grl"   -func -scriptBlockToCall { & git reflog . }
+RegisterAlias -alias "grc"   -func -scriptBlockToCall { & git rm -r --cached . }
+RegisterAlias -alias "gs"    -func -scriptBlockToCall { & git status -sb }
+RegisterAlias -alias "gsync" -func -scriptBlockToCall { & grc && gaa }
