@@ -1,11 +1,5 @@
 #Requires -RunAsAdministrator
 
-if (!(Test-Path -Path ".\winget-programs.json")) {
-  Write-Error "winget-programs.json not found, you failure"
-  Exit 1
-}
-
-# ———————————————————————————————————————
 # Stuff that requires admin privilages for screwing around with the registry
 Write-Output "Writing stuff to registry"
 
@@ -17,8 +11,6 @@ Set-ItemProperty -Path $RD_VerboseLogging -Name "verbosestatus" -Value 1 -Type D
 $RD_FileExt = "KHCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
 Set-ItemProperty -Path $RD_FileExt -Name "HideFileExt" -Value 0 -Type Dword -Force
 
-# ———————————————————————————————————————
-# Install the shit I need
 
 # Check if the winget command is available, just in case
 # of a fresh install
@@ -34,7 +26,7 @@ else {
 function SetupWorkspace {
   Write-Output "Installing your crap right now"
   Write-Output "Installing stuff via winget"
-  winget import .\winget-programs.json
+  winget import .\winget.json
 
   # Install latest node version using nvm
   nvm install lts
