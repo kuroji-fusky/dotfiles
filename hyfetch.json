@@ -1,0 +1,13 @@
+{
+  "preset": "asexual",
+  "mode": "rgb",
+  "light_dark": "dark",
+  "lightness": 0.7,
+  "color_align": {
+    "mode": "horizontal",
+    "custom_colors": [],
+    "fore_back": null
+  },
+  "backend": "neofetch",
+  "distro": null
+}
