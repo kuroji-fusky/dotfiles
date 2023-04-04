@@ -4,6 +4,72 @@
     {
       "Packages": [
         {
+          "PackageIdentifier": "7zip.7zip"
+        },
+        {
+          "PackageIdentifier": "Git.Git"
+        },
+        {
+          "PackageIdentifier": "Glarysoft.GlaryUtilities"
+        },
+        {
+          "PackageIdentifier": "Discord.Discord"
+        },
+        {
+          "PackageIdentifier": "Mozilla.Firefox"
+        },
+        {
+          "PackageIdentifier": "Mozilla.Thunderbird"
+        },
+        {
+          "PackageIdentifier": "Brave.Brave"
+        },
+        {
+          "PackageIdentifier": "IObit.IObitUnlocker"
+        },
+        {
+          "PackageIdentifier": "Valve.Steam"
+        },
+        {
+          "PackageIdentifier": "VideoLAN.VLC"
+        },
+        {
+          "PackageIdentifier": "WinDirStat.WinDirStat"
+        },
+        {
+          "PackageIdentifier": "JetBrains.PyCharm.Community"
+        },
+        {
+          "PackageIdentifier": "AutoHotkey.AutoHotkey"
+        },
+        {
+          "PackageIdentifier": "voidtools.Everything"
+        },
+        {
+          "PackageIdentifier": "Figma.Figma"
+        },
+        {
+          "PackageIdentifier": "GitHub.GitHubDesktop"
+        },
+        {
+          "PackageIdentifier": "Google.Drive"
+        },
+        {
+          "PackageIdentifier": "HandBrake.HandBrake"
+        },
+        {
+          "PackageIdentifier": "Telegram.TelegramDesktop"
+        },
+        {
+          "PackageIdentifier": "OBSProject.OBSStudio"
+        },
+        {
+          "PackageIdentifier": "Notion.Notion"
+        },
+        {
+          "PackageIdentifier": "Oracle.VirtualBox"
+        },
+        {
           "PackageIdentifier": "Microsoft.VisualStudioCode.Insiders"
         },
         {
@@ -25,88 +91,19 @@
           "PackageIdentifier": "Microsoft.VCRedist.2010.x64"
         },
         {
-          "PackageIdentifier": "Microsoft.VCRedist.2012.x86"
-        },
-        {
-          "PackageIdentifier": "Microsoft.VCRedist.2013.x86"
-        },
-        {
           "PackageIdentifier": "Microsoft.VCRedist.2010.x86"
         },
         {
           "PackageIdentifier": "Microsoft.VCRedist.2012.x64"
         },
         {
-          "PackageIdentifier": "Telegram.TelegramDesktop"
+          "PackageIdentifier": "Microsoft.VCRedist.2012.x86"
         },
         {
-          "PackageIdentifier": "CoreyButler.NVMforWindows"
-        },
-        {
-          "PackageIdentifier": "7zip.7zip"
-        },
-        {
-          "PackageIdentifier": "AutoHotkey.AutoHotkey"
-        },
-        {
-          "PackageIdentifier": "Brave.Brave"
-        },
-        {
-          "PackageIdentifier": "Discord.Discord"
-        },
-        {
-          "PackageIdentifier": "voidtools.Everything"
-        },
-        {
-          "PackageIdentifier": "Figma.Figma"
-        },
-        {
-          "PackageIdentifier": "GitHub.GitHubDesktop"
-        },
-        {
-          "PackageIdentifier": "Git.Git"
-        },
-        {
-          "PackageIdentifier": "Glarysoft.GlaryUtilities"
-        },
-        {
-          "PackageIdentifier": "Mozilla.Firefox"
-        },
-        {
-          "PackageIdentifier": "HandBrake.HandBrake"
-        },
-        {
-          "PackageIdentifier": "Mozilla.Thunderbird"
-        },
-        {
-          "PackageIdentifier": "OBSProject.OBSStudio"
+          "PackageIdentifier": "Microsoft.VCRedist.2013.x86"
         },
         {
           "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
-        },
-        {
-          "PackageIdentifier": "IObit.IObitUnlocker"
-        },
-        {
-          "PackageIdentifier": "JetBrains.PyCharm.Community"
-        },
-        {
-          "PackageIdentifier": "Valve.Steam"
-        },
-        {
-          "PackageIdentifier": "VideoLAN.VLC"
-        },
-        {
-          "PackageIdentifier": "WinDirStat.WinDirStat"
-        },
-        {
-          "PackageIdentifier": "Notion.Notion"
-        },
-        {
-          "PackageIdentifier": "Oracle.VirtualBox"
-        },
-        {
-          "PackageIdentifier": "Google.Drive"
         },
         {
           "PackageIdentifier": "Google.AndroidStudio"
@@ -116,6 +113,9 @@
         },
         {
           "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
+        },
+        {
+          "PackageIdentifier": "CoreyButler.NVMforWindows"
         },
         {
           "PackageIdentifier": "Python.Python.3.11"
