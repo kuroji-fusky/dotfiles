@@ -1,7 +1,7 @@
 #!/bin/bash
 # Check if system is running either Linux or Windows because I'm a Windows pleb
 if [[ "$OSTYPE" == "linux-gnu"* ] || [ "$OSTYPE" == "cygwin" ]]; then
-  apt-get install git python3-pip
+  apt install git python3-pip
 elif [[ "$OSTYPE" == "msys" ]]; then
   echo "Couldn't install stuff on Windows-based systems you idiot"
 fi
@@ -30,6 +30,7 @@ node_pkgs=(
   yarn
   typescript
   concurrently
+  prettier
 )
 
 npm install -g ${node_pkgs[@]}
@@ -40,7 +41,7 @@ pip_pkgs=(
   bs4
   requests
   opencv-python
-  Jupyter
+  ipykernel
 )
 
 pip install ${pip_pkgs[@]}

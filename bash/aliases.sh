@@ -3,8 +3,13 @@
 alias {py,python}='python3'
 alias {c,cls}='clear'
 
-alias ls='ls --color=auto'
-alias la='ls -la'
+alias ls="ls --color=auto"
+alias la="ls -la"
+
+alais ~="cd ~"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 
 alias codei= 'code-insiders'
 

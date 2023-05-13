@@ -1,18 +1,29 @@
 # =================================================
 # ALIASES
+
 Set-Alias -Name codei -Value 'code-insiders'
+Set-Alias -Name c -Value Clear-Host
+Set-Alias -Name cc -Value Clear-Host
 
 # =================================================
 # Navigate directories
-Set-Alias -Name "~" -Value Set-LocationHome 
-Set-Alias -Name "cd-" -Value Set-LocationLast 
-Set-Alias -Name "cd.." -Value Set-LocationUp 
-Set-Alias -Name ".." -Value Set-LocationUp 
-Set-Alias -Name "..." -Value Set-LocationUp2 
-Set-Alias -Name "...." -Value Set-LocationUp3 
+
+function Set-LocationHome { & Set-Location ~ }
+Set-Alias -Name "~" -Value Set-LocationHome
+
+function Set-LocationUp { & Set-Location .. }
+Set-Alias -Name "cd.." -Value Set-LocationUp
+Set-Alias -Name ".." -Value Set-LocationUp
+
+function Set-LocationUp2 { & Set-Location ../.. }
+Set-Alias -Name "..." -Value Set-LocationUp2
+
+function Set-GithubDir { & Set-Location ~/Documents/GitHub }
+Set-Alias -Name kgh -Value Set-GithubDir
 
 # =================================================
 # Register `mkcd` command for Windows
+
 function mkcd {
   # Check if the path already exists
   if (!(Test-Path -Path $args[0])) {
@@ -22,38 +33,63 @@ function mkcd {
   Set-Location $args[0] -PassThru
 }
 
-New-Alias mkcd
+Set-Alias -Name mkcd -Value mkcd
 
 # =================================================
-# Add git aliases to make commiting code on the command line easier uwu
+# Toggle theme alias
 
-function RegisterAlias {
-  param (
-    [string]$alias,
-    $func
-  )
+function ToggleTheme {
+  $regDir = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize"
+  $appKey = "AppsUseLightTheme"
+  $sysKey = "SystemUsesLightTheme"
+  $currentValue = Get-ItemProperty -Path $regDir -Name $appKey | Select-Object -exp $appKey
+  $newValue = !$currentValue + 0
 
-  if (!(Get-Alias -Name $alias -ErrorAction Ignore)) {
-    Write-Output "It seems like the alias '$alias' is not registered; setting alias $alias"
-    Set-Alias -Name $alias -Value $func -Force -Option AllScope
-  }
-  else {
-    Write-Output "Alias '$alias' is already registered!"
-  }
+  Set-ItemProperty -Path $regDir -Name $appKey -Value $newValue -Type Dword -Force
+  Set-ItemProperty -Path $regDir -Name $sysKey -Value $newValue -Type Dword -Force
 }
 
-RegisterAlias -alias "gaa"   -func -scriptBlockToCall { & git add --all }
-RegisterAlias -alias "gb"    -func -scriptBlockToCall { & git branch }
-RegisterAlias -alias "gc"    -func -scriptBlockToCall { & git commit -m }
-RegisterAlias -alias "gcl"   -func -scriptBlockToCall { & git clone }
-RegisterAlias -alias "gch"   -func -scriptBlockToCall { & git checkout }
-RegisterAlias -alias "gcho"  -func -scriptBlockToCall { & git checkout --orphan }
-RegisterAlias -alias "gf"    -func -scriptBlockToCall { & git fetch }
-RegisterAlias -alias "gfl"   -func -scriptBlockToCall { & gf && gpl }
-RegisterAlias -alias "gpl"   -func -scriptBlockToCall { & git pull }
-RegisterAlias -alias "gp"    -func -scriptBlockToCall { & git push }
-RegisterAlias -alias "gpu"   -func -scriptBlockToCall { & git push --set-upstream }
-RegisterAlias -alias "grl"   -func -scriptBlockToCall { & git reflog . }
-RegisterAlias -alias "grc"   -func -scriptBlockToCall { & git rm -r --cached . }
-RegisterAlias -alias "gs"    -func -scriptBlockToCall { & git status -sb }
-RegisterAlias -alias "gsync" -func -scriptBlockToCall { & grc && gaa }
+Set-Alias -Name tt -Value ToggleTheme
+
+# =================================================
+# Add git aliases to make commiting code on the command line easier
+
+function GitAddAll { & git add --all }
+Set-Alias -Name ga -Value GitAddAll -Force -Option AllScope
+
+function GitBranch { & git branch }
+Set-Alias -Name gb -Value GitBranch -Force -Option AllScope
+
+function GitCommit { & git commit -m }
+Set-Alias -Name gc -Value GitCommit -Force -Option AllScope
+
+function GitClone { & git clone }
+Set-Alias -Name gcl -Value GitClone -Force -Option AllScope
+
+function GitCheckout { & git checkout }
+Set-Alias -Name gch -Value GitCheckout -Force -Option AllScope
+
+function GitCheckoutOrphan { & git checkout --orphan }
+Set-Alias -Name gcho -Value GitCheckoutOrphan -Force -Option AllScope
+
+function GitFetch { & git fetch }
+Set-Alias -Name gf -Value GitFetch -Force -Option AllScope
+
+function GitPull { & git pull }
+Set-Alias -Name gl -Value GitPull -Force -Option AllScope
+
+function GitPush { & git push }
+Set-Alias -Name gp -Value GitPush -Force -Option AllScope
+
+function GitPushUpstream { & git push --set-upstream }
+Set-Alias -Name gpu -Value GitPushUpstream -Force -Option AllScope
+
+function GitRefLog { & git reflog . }
+Set-Alias -Name grf -Value GitRefLog -Force -Option AllScope
+
+function GitStatus { & git status -sb }
+Set-Alias -Name gs -Value GitStatus -Force -Option AllScope
+
+function GitRmCache { & git rm -r --cached . }
+function GitResetCache { & GitRmCache && GitAddAll }
+Set-Alias -Name gra -Value GitResetCache -Force -Option AllScope
