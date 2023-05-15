@@ -5,14 +5,14 @@ Write-Output "Writing stuff to registry"
 
 # Enable verbose log for shutdown, restart, login, etc
 $RD_VerboseLogging = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"
-Set-ItemProperty -Path $RD_VerboseLogging -Name "verbosestatus" -Value 1 -Type Dword -Force
+New-ItemProperty -Path $RD_VerboseLogging -Name "verbosestatus" -Value 1 -Type Dword -Force
 
 # Show file extensions
-$RD_FileExt = "KHCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
-Set-ItemProperty -Path $RD_FileExt -Name "HideFileExt" -Value 0 -Type Dword -Force
+$RD_ShowFileExt = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
+New-ItemProperty -Path $RD_ShowFileExt -Name "HideFileExt" -Value 0 -Type Dword -Force
 
 
-$winget_programs = @(
+$WingetPrograms = @(
   # The good stuff
   "Git.Git",
   "Mozilla.Firefox",
@@ -71,18 +71,45 @@ function SetupWorkspace {
   Write-Output "Installing your crap right now"
   Write-Output "Installing stuff via winget"
 
-  foreach ($program in $winget_programs) {
+  foreach ($program in $WingetPrograms) {
     Write-Output "Installing $program..."
     winget install -e --id $program
   }
 
+  # ===================================
+  # Install python and node stuff globally
+
   # Install latest node version using nvm
   nvm install lts
-  npm install --global yarn typescript serve pnpm
 
-  # Global python stuff
-  python -m pip install -U autopep8 yapf poetry opencv-python
+  $NPM_Packages = @(
+    "typescript",
+    "yarn",
+    "pnpm",
+    "npkill"
+  )
 
+  $Python_Packages = @(
+    "numpy",
+    "autopep8",
+    "yapf",
+    "mypy",
+    "requests",
+    "beautifulsoup4",
+    "pytube",
+    "ffmpeg-python",
+    "opencv-contrib-python",
+
+    # Data science stuff
+    "pandas",
+    "matplotlib",
+    "ipykernel"
+  )
+
+  npm install -g $NPM_Packages
+  python -m pip install -U $Python_Packages --verbose
+
+  # ===================================
   # Setup git stuff
   Write-Output "Setup almost done!"
 
@@ -105,6 +132,6 @@ else {
   SetupWorkspace
 }
 
-# ———————————————————————————————————————
+# ===================================
 # Register custom command aliases
-& $PSScriptRoot\powershell\aliases.ps1
+& .\aliases.ps1

@@ -2,7 +2,10 @@
 Clears the damn cache
 #>
 
-$appDataDir = "C:\Users\$($_.Name)\AppData"
+$appDataDir = "C:\Users\*\AppData"
+
+$firefoxPath = "Local\Mozilla\Firefox\Profiles"
+$bravePath = "Local\BraveSoftware\Brave-Browser\User Data"
 
 $tempfolders = @(
   # General cache
@@ -12,13 +15,20 @@ $tempfolders = @(
   “$appDataDir\Local\Temp\*”,
 
   # Firefox cache
-  "$appDataDir\Local\Mozilla\Firefox\Profiles\*.default\cache\*",
-  "$appDataDir\Local\Mozilla\Firefox\Profiles\*.default\cache2\entries\*.*",
-  "$appDataDir\Local\Mozilla\Firefox\Profiles\*.default\thumbnails\*",
-  "$appDataDir\Local\Mozilla\Firefox\Profiles\*.default\webappsstore.sqlite",
+  "$appDataDir\$firefoxPath\*.default\cache\*",
+  "$appDataDir\$firefoxPath\*.default\cache2\entries\*.*",
+  "$appDataDir\$firefoxPath\*.default\thumbnails\*",
+  "$appDataDir\$firefoxPath\*.default\webappsstore.sqlite",
+  "$appDataDir\$firefoxPath\*.default-release\cache\*",
+  "$appDataDir\$firefoxPath\*.default-release\cache2\entries\*.*",
+  "$appDataDir\$firefoxPath\*.default-release\thumbnails\*",
+  "$appDataDir\$firefoxPath\*.default-release\webappsstore.sqlite",
   
   # Brave cache
-  "$appDataDir\Local\BraveSoftware\User Data\Default\*"
+  "$appDataDir\$bravePath\Default\Cache\*",
+  "$appDataDir\$bravePath\Default\Code Cache\*"
 )
 
-Remove-Item $tempfolders -Force -Recurse -Verbose -EA SilentlyContinue
+foreach ($folder in $tempFolders) {
+  Remove-Item $folder -Force -Recurse -Verbose
+}

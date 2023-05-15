@@ -1,0 +1,3 @@
+[submodule "pwsh/debloat"]
+	path = pwsh/debloat
+	url = https://github.com/Sycnex/Windows10Debloater.git
