@@ -11,10 +11,70 @@ Set-ItemProperty -Path $RD_VerboseLogging -Name "verbosestatus" -Value 1 -Type D
 $RD_FileExt = "KHCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
 Set-ItemProperty -Path $RD_FileExt -Name "HideFileExt" -Value 0 -Type Dword -Force
 
+
+$winget_programs = @(
+  # The good stuff
+  "Git.Git",
+  "Mozilla.Firefox",
+  "Mozilla.Thunderbird",
+  "Brave.Brave",
+  "GitHub.GitHubDesktop",
+  "7zip.7zip",
+  "CoreyButler.NVMforWindows",
+  "Python.Python.3.11",
+  "GoLang.Go.1.19",
+  "Rustlang.Rustup",
+  "IObit.IObitUnlocker",
+  "AutoHotkey.AutoHotkey",
+
+  # Video stuff
+  "VideoLAN.VLC",
+  "HandBrake.HandBrake",
+  "OBSProject.OBSStudio",
+  
+  # Code editors/IDEs
+  "Neovim.Neovim",
+  "Microsoft.VisualStudioCode.Insiders",
+  "Microsoft.VisualStudio.2022.Community",
+  "JetBrains.PyCharm.Community",
+
+  # Productivity and management
+  "Notion.Notion",
+  "Discord.Discord",
+  "Telegram.TelegramDesktop",
+  "Valve.Steam",
+  "WinDirStat.WinDirStat",
+  "voidtools.Everything",
+  "Figma.Figma",
+  "Google.Drive",
+  
+  # Miscellanous
+  "Oracle.VirtualBox",
+  "Glarysoft.GlaryUtilities",
+  
+  # Redistributables and runtimes
+  "Microsoft.DotNet.DesktopRuntime.6",
+  "Microsoft.VCRedist.2010.x86",
+  "Microsoft.VCRedist.2010.x64",
+  "Microsoft.VCRedist.2012.x86",
+  "Microsoft.VCRedist.2012.x64",
+  "Microsoft.VCRedist.2013.x86",
+  "Microsoft.VCRedist.2013.x64",
+
+  # Fancy terminal stuff
+  "JanDeDobbeleer.OhMyPosh",
+  "Microsoft.PowerShell.Preview",
+  "Microsoft.WindowsTerminal"
+)
+
 function SetupWorkspace {
   Write-Output "Installing your crap right now"
   Write-Output "Installing stuff via winget"
-  winget import .\winget.json
+
+  foreach ($program in $winget_programs) {
+    Write-Output "Installing $program..."
+    winget install -e --id $program
+  }
 
   # Install latest node version using nvm
   nvm install lts
