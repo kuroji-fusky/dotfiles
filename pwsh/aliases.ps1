@@ -3,7 +3,6 @@
 
 Set-Alias -Name codei -Value 'code-insiders'
 Set-Alias -Name c -Value Clear-Host
-Set-Alias -Name cc -Value Clear-Host
 
 # =================================================
 # Navigate directories
@@ -36,6 +35,12 @@ function mkcd {
 Set-Alias -Name mkcd -Value mkcd
 
 # =================================================
+# Restart dat shit
+
+function Restart-Compooter { shutdown -r -f -t 0 }
+Set-Alias -Name restart -Value Restart-Compooter
+
+# =================================================
 # Toggle theme alias
 
 function ToggleTheme {
@@ -47,6 +52,9 @@ function ToggleTheme {
 
   Set-ItemProperty -Path $regDir -Name $appKey -Value $newValue -Type Dword -Force
   Set-ItemProperty -Path $regDir -Name $sysKey -Value $newValue -Type Dword -Force
+
+  taskkill.exe -f -im explorer.exe
+  Start-Process explorer
 }
 
 Set-Alias -Name tt -Value ToggleTheme
@@ -93,3 +101,18 @@ Set-Alias -Name gs -Value GitStatus -Force -Option AllScope
 function GitRmCache { & git rm -r --cached . }
 function GitResetCache { & GitRmCache && GitAddAll }
 Set-Alias -Name gra -Value GitResetCache -Force -Option AllScope
+
+# =================================================
+# Common dev commands
+
+function YarnDev { & yarn dev }
+Set-Alias -Name yd -Value YarnDev
+
+function YarnBuild { & yarn build }
+Set-Alias -Name yd -Value YarnBuild
+
+function YarnStart { & yarn start }
+Set-Alias -Name ys -Value YarnStart
+
+function YarnPreview { & yarn preview }
+Set-Alias -Name yp -Value YarnPreview

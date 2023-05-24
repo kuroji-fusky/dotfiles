@@ -11,8 +11,10 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+
 alias codei= 'code-insiders'
 
+# =================================================
 # Git stuff
 alias ga="git add -A ."
 alias gb="git branch"
@@ -28,3 +30,10 @@ alias gpu="git push --set-upstream"
 alias grc="git rm -r --cached .; ga"
 alias grl="git reflog"
 alias gs="git status -sb"
+
+# =================================================
+# Common dev commands
+alias yd="yarn dev"
+alias yb="yarn build"
+alias yp="yarn preview"
+alias ys="yarn start"
