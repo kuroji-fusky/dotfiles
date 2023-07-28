@@ -1,0 +1,17 @@
+
+! https://youtube.fandom.com
+youtube.fandom.com##.marketing-notifications
+
+! https://smtown.fandom.com
+smtown.fandom.com##.marketing-notifications
+
+! https://burubado.com
+burubado.com###dummy-chat-button-iframe
+
+! https://www.youtube.com
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope [is-shorts=""]
+
+! https://www.deviantart.com
+www.deviantart.com##iframe[title="DealerAdIframe"]
+

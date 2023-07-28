@@ -31,6 +31,7 @@ $WingetPrograms = @(
   "VideoLAN.VLC",
   "HandBrake.HandBrake",
   "OBSProject.OBSStudio",
+  "gyan.FFmpeg",
   
   # Code editors/IDEs
   "Neovim.Neovim",
