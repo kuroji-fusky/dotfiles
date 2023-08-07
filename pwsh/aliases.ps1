@@ -17,7 +17,7 @@ Set-Alias -Name ".." -Value Set-LocationUp
 function Set-LocationUp2 { & Set-Location ../.. }
 Set-Alias -Name "..." -Value Set-LocationUp2
 
-function Set-GithubDir { & Set-Location ~/Documents/GitHub }
+function Set-GithubDir { & Set-Location ~/GitHub }
 Set-Alias -Name kgh -Value Set-GithubDir
 
 # =================================================
@@ -38,7 +38,7 @@ Set-Alias -Name mkcd -Value mkcd
 # Restart dat shit
 
 function Restart-Compooter { shutdown -r -f -t 0 }
-Set-Alias -Name restart -Value Restart-Compooter
+Set-Alias -Name rst -Value Restart-Compooter
 
 # =================================================
 # Toggle theme alias
@@ -80,8 +80,11 @@ Set-Alias -Name gch -Value GitCheckout -Force -Option AllScope
 function GitCheckoutOrphan { & git checkout --orphan }
 Set-Alias -Name gcho -Value GitCheckoutOrphan -Force -Option AllScope
 
-function GitFetch { & git fetch }
+function GitFetch { & git fetch --verbose }
 Set-Alias -Name gf -Value GitFetch -Force -Option AllScope
+
+function GitFetchAll { & git fetch --all --verbose }
+Set-Alias -Name gfa -Value GitFetchAll -Force -Option AllScope
 
 function GitPull { & git pull }
 Set-Alias -Name gl -Value GitPull -Force -Option AllScope
