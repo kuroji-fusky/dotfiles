@@ -108,11 +108,15 @@ Set-Alias -Name gra -Value GitResetCache -Force -Option AllScope
 # =================================================
 # Common dev commands
 
+# Yiff OwO
+function YarnInstallForce { & yarn install --force }
+Set-Alias -Name yif -Value YarnInstallForce
+
 function YarnDev { & yarn dev }
 Set-Alias -Name yd -Value YarnDev
 
 function YarnBuild { & yarn build }
-Set-Alias -Name yd -Value YarnBuild
+Set-Alias -Name yb -Value YarnBuild
 
 function YarnStart { & yarn start }
 Set-Alias -Name ys -Value YarnStart
