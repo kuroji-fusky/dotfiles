@@ -1,3 +1,6 @@
+! https://www.youtube.com
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope [is-shorts=""]
 
 ! https://youtube.fandom.com
 youtube.fandom.com##.marketing-notifications
@@ -5,13 +8,17 @@ youtube.fandom.com##.marketing-notifications
 ! https://smtown.fandom.com
 smtown.fandom.com##.marketing-notifications
 
-! https://burubado.com
-burubado.com###dummy-chat-button-iframe
-
-! https://www.youtube.com
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope [is-shorts=""]
+! https://www.thedealersden.com
+www.thedealersden.com##.text-center.mx-3.mb-4
 
 ! https://www.deviantart.com
 www.deviantart.com##iframe[title="DealerAdIframe"]
 
+! https://sass-lang.com
+sass-lang.com##.sl-c-alert--special.sl-c-alert
+
+! https://soundcloud.com
+soundcloud.com##.mobileApps.g-all-transitions-200-linear.sidebarModule
+
+! https://www.etsy.com
+www.etsy.com##.wt-m-xs-2.HwoAlert
