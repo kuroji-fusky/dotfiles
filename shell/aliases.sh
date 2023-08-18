@@ -6,11 +6,10 @@ alias {c,cls}='clear'
 alias ls="ls --color=auto"
 alias la="ls -la"
 
-alais ~="cd ~"
+alias ~="cd ~"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-
 
 alias codei= 'code-insiders'
 
@@ -33,6 +32,7 @@ alias gs="git status -sb"
 
 # =================================================
 # Common dev commands
+alias yif="yarn install --force"
 alias yd="yarn dev"
 alias yb="yarn build"
 alias yp="yarn preview"

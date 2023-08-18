@@ -1,5 +1,11 @@
 #!/bin/bash
 
+validate-package() {
+}
+
+# WIP -- Force kills a network port, defaults to kill localhost 3000, 4000, 5500, 5173, 8000, and 8080
+kill-port() {}
+
 # Installs node or python stuff with ease
 ki() {
   if [[ $1 != https://github.com/* ]]; then
@@ -35,7 +41,7 @@ clean() {
   read -p "clean project? (y/n)" yn
 
   if [ $yn = 'y' ]; then
-    rm -rdf node_modules __pycache__
+    rm -rdfv node_modules __pycache__
     echo "All done!"
   fi
 }
@@ -44,18 +50,32 @@ clean() {
 extract() {
   if [ -f $1 ]; then
     case $1 in
-      *.tar.bz2)  tar -jxvf $1                        ;;
-      *.tar.gz)   tar -zxvf $1                        ;;
-      *.bz2)      bunzip2 $1                          ;;
-      *.dmg)      hdiutil mount $1                    ;;
-      *.gz)       gunzip $1                           ;;
-      *.tar)      tar -xvf $1                         ;;
-      *.tgz)      tar -zxvf $1                        ;;
-      *.zip)      unzip $1                            ;;
-      *.ZIP)      unzip $1                            ;;
-      *)          echo "'$1' cannot be extracted/mounted via extract()" ;;
+    *.tar.bz2) tar -jxvf $1 ;;
+    *.tar.gz) tar -zxvf $1 ;;
+    *.bz2) bunzip2 $1 ;;
+    *.dmg) hdiutil mount $1 ;;
+    *.gz) gunzip $1 ;;
+    *.tar) tar -xvf $1 ;;
+    *.tgz) tar -zxvf $1 ;;
+    *.zip) unzip $1 ;;
+    *.ZIP) unzip $1 ;;
+    *) echo "'$1' cannot be extracted/mounted via extract()" ;;
     esac
   else
     echo "'$1' is not a valid file"
   fi
+}
+
+rm-ext() {
+  for file in $0; do
+    rm -v "$file"
+  done
+}
+
+# A simple wrapper for `yt-dlp`
+ytd() {
+  # check for updates first
+  pip --install yt-dlp -U
+
+  # do some crazy arg parsing shit here
 }
