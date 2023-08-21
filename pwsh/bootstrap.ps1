@@ -13,6 +13,15 @@ New-ItemProperty -Path $RD_ShowFileExt -Name "HideFileExt" -Value 0 -Type Dword 
 
 
 $WingetPrograms = @(
+  # Redistributables and runtimes
+  "Microsoft.DotNet.DesktopRuntime.6",
+  "Microsoft.VCRedist.2010.x86",
+  "Microsoft.VCRedist.2010.x64",
+  "Microsoft.VCRedist.2012.x86",
+  "Microsoft.VCRedist.2012.x64",
+  "Microsoft.VCRedist.2013.x86",
+  "Microsoft.VCRedist.2013.x64",
+  
   # The good stuff
   "Git.Git",
   "Mozilla.Firefox",
@@ -51,16 +60,6 @@ $WingetPrograms = @(
   
   # Miscellanous
   "Oracle.VirtualBox",
-  "Glarysoft.GlaryUtilities",
-  
-  # Redistributables and runtimes
-  "Microsoft.DotNet.DesktopRuntime.6",
-  "Microsoft.VCRedist.2010.x86",
-  "Microsoft.VCRedist.2010.x64",
-  "Microsoft.VCRedist.2012.x86",
-  "Microsoft.VCRedist.2012.x64",
-  "Microsoft.VCRedist.2013.x86",
-  "Microsoft.VCRedist.2013.x64",
 
   # Fancy terminal stuff
   "JanDeDobbeleer.OhMyPosh",
@@ -112,10 +111,10 @@ function SetupWorkspace {
 
   # ===================================
   # Setup git stuff
-  Write-Output "Setup almost done!"
+  Write-Output "Setup almost done! All you need is to configure your Git credientals lol"
 
-  $name = Read-Host "Enter username: "
-  $email = Read-Host "Enter email: "
+  $name = Read-Host "Enter username "
+  $email = Read-Host "Enter email "
 
   git config --global user.name $name
   git config --global user.email $email
