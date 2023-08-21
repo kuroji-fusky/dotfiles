@@ -9,5 +9,5 @@ Here are my scripts I need for my machines to keep an optimal and consistent wor
 > bypassing its Execution Policy:
 
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; .\bootstrap-win.ps1
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser; .\bootstrap.ps1
 ```
