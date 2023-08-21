@@ -3,9 +3,7 @@ www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope [is-shorts=""]
 
 ! *.fandom.com
-youtube.fandom.com##.marketing-notifications
-smtown.fandom.com##.marketing-notifications
-luckys-tale.fandom.com##.marketing-notifications
+fandom.com##.marketing-notifications
 
 ! https://www.thedealersden.com
 www.thedealersden.com##.text-center.mx-3.mb-4
