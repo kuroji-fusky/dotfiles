@@ -1,1 +1,0 @@
-./pwsh/bootstrap.ps1
