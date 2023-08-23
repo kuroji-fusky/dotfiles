@@ -1,0 +1,18 @@
+[
+  {
+    "key": "shift+f1",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "numpad_add",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "numpad_subtract",
+    "command": "editor.action.fontZoomOut"
+  }
+]

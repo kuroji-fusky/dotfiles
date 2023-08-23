@@ -1,0 +1,51 @@
+{
+  // Git shit
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  "window.zoomLevel": 2,
+  "workbench.colorTheme": "Majira Strawberry Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDragAndDrop": false,
+  "glassit.alpha": 220,
+  "powershell.promptToUpdatePowerShell": false,
+
+  // Sticky scroll dat shit
+  "editor.stickyScroll.enabled": true,
+
+  // Format shit
+  "editor.insertSpaces": true,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+
+  // Fonts
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
+
+  // Make VS Code smooth af
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.lineHeight": 1.75,
+  "editor.smoothScrolling": true,
+
+  // Set default formatter by languages
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

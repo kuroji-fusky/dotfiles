@@ -1,5 +1,5 @@
 "
-" Skep's shitty Vim config
+" Kuro's shitty Vim config
 "
 filetype on
 filetype indent on

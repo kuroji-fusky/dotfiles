@@ -11,7 +11,6 @@ New-ItemProperty -Path $RD_VerboseLogging -Name "verbosestatus" -Value 1 -Type D
 $RD_ShowFileExt = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
 New-ItemProperty -Path $RD_ShowFileExt -Name "HideFileExt" -Value 0 -Type Dword -Force
 
-
 $WingetPrograms = @(
   # Redistributables and runtimes
   "Microsoft.DotNet.DesktopRuntime.6",
@@ -113,8 +112,8 @@ function SetupWorkspace {
   # Setup git stuff
   Write-Output "Setup almost done! All you need is to configure your Git credientals lol"
 
-  $name = Read-Host "Enter username "
-  $email = Read-Host "Enter email "
+  $name = Read-Host "[git] Enter username "
+  $email = Read-Host "[git] Enter email "
 
   git config --global user.name $name
   git config --global user.email $email
