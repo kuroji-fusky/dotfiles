@@ -29,11 +29,13 @@ $WingetPrograms = @(
   "GitHub.GitHubDesktop",
   "7zip.7zip",
   "CoreyButler.NVMforWindows",
+  "Docker.DockerDesktop",
+  "nektos.act",
   "Python.Python.3.11",
   "GoLang.Go.1.19",
   "Rustlang.Rustup",
-  "IObit.IObitUnlocker",
   "AutoHotkey.AutoHotkey",
+  "IObit.IObitUnlocker",
 
   # Video stuff
   "VideoLAN.VLC",
