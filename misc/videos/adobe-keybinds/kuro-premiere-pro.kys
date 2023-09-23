@@ -2,262 +2,6 @@
 <PremiereData Version="3">
 	<shortcuts Version="5">
 		<platform>windows</platform>
-		<context.history Version="1">
-			<itemcount>3</itemcount>
-			<item.2 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.history.step.forward</commandname>
-			</item.2>
-			<item.1 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.history.step.backward</commandname>
-			</item.1>
-			<item.0 Version="1">
-				<virtualkey>2</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.clear</commandname>
-			</item.0>
-		</context.history>
-		<context.edittotape Version="1">
-			<itemcount>0</itemcount>
-		</context.edittotape>
-		<context.metadata_editor Version="1">
-			<itemcount>2</itemcount>
-			<item.1 Version="1">
-				<virtualkey>1</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.metadataeditor.play</commandname>
-			</item.1>
-			<item.0 Version="1">
-				<virtualkey>2147483724</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.metadataeditor.loop</commandname>
-			</item.0>
-		</context.metadata_editor>
-		<context.scopes Version="1">
-			<itemcount>0</itemcount>
-		</context.scopes>
-		<context.titler Version="1">
-			<itemcount>26</itemcount>
-			<item.25 Version="1">
-				<virtualkey>2147483735</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.wedge</commandname>
-			</item.25>
-			<item.23 Version="1">
-				<virtualkey>2147483732</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.type</commandname>
-			</item.23>
-			<item.24 Version="1">
-				<virtualkey>2147483715</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.type.vertical</commandname>
-			</item.24>
-			<item.15 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.registered</commandname>
-			</item.15>
-			<item.11 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.nudge.one.up</commandname>
-			</item.11>
-			<item.2 Version="1">
-				<virtualkey>2147483721</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.font.italic</commandname>
-			</item.2>
-			<item.10 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.nudge.one.right</commandname>
-			</item.10>
-			<item.20 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.rectangle</commandname>
-			</item.20>
-			<item.18 Version="1">
-				<virtualkey>2147483724</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.line</commandname>
-			</item.18>
-			<item.7 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.nudge.five.up</commandname>
-			</item.7>
-			<item.4 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.nudge.five.down</commandname>
-			</item.4>
-			<item.12 Version="1">
-				<virtualkey>2147483716</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.position.bottom.titlesafe</commandname>
-			</item.12>
-			<item.19 Version="1">
-				<virtualkey>2147483728</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.pen</commandname>
-			</item.19>
-			<item.1 Version="1">
-				<virtualkey>2147483714</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.font.bold</commandname>
-			</item.1>
-			<item.9 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.nudge.one.left</commandname>
-			</item.9>
-			<item.6 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.nudge.five.right</commandname>
-			</item.6>
-			<item.8 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.nudge.one.down</commandname>
-			</item.8>
-			<item.17 Version="1">
-				<virtualkey>2147483717</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.ellipse</commandname>
-			</item.17>
-			<item.13 Version="1">
-				<virtualkey>2147483718</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.position.left.titlesafe</commandname>
-			</item.13>
-			<item.5 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.nudge.five.left</commandname>
-			</item.5>
-			<item.22 Version="1">
-				<virtualkey>2147483734</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.select</commandname>
-			</item.22>
-			<item.21 Version="1">
-				<virtualkey>2147483727</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.rotation</commandname>
-			</item.21>
-			<item.0 Version="1">
-				<virtualkey>2147483715</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.copyright</commandname>
-			</item.0>
-			<item.3 Version="1">
-				<virtualkey>2147483733</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.font.underline</commandname>
-			</item.3>
-			<item.14 Version="1">
-				<virtualkey>2147483727</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.position.top.titlesafe</commandname>
-			</item.14>
-			<item.16 Version="1">
-				<virtualkey>2147483713</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.tool.arc</commandname>
-			</item.16>
-		</context.titler>
-		<context.audiomixer Version="1">
-			<itemcount>3</itemcount>
-			<item.2 Version="1">
-				<virtualkey>2147483732</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.audiomixer.showhidetracks</commandname>
-			</item.2>
-			<item.1 Version="1">
-				<virtualkey>2147483721</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.audiomixer.meterinput</commandname>
-			</item.1>
-			<item.0 Version="1">
-				<virtualkey>2147483724</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.audiomixer.loop</commandname>
-			</item.0>
-		</context.audiomixer>
 		<context.mediabrowser Version="1">
 			<itemcount>3</itemcount>
 			<item.2 Version="1">
@@ -282,2228 +26,6 @@
 				<commandname>cmd.mediabrowser.openinsourcemonitor</commandname>
 			</item.0>
 		</context.mediabrowser>
-		<context.markerList Version="1">
-			<itemcount>0</itemcount>
-		</context.markerList>
-		<context.program.monitor Version="1">
-			<itemcount>12</itemcount>
-			<item.11 Version="1">
-				<virtualkey>2147483707</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.snapping</commandname>
-			</item.11>
-			<item.2 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.nudge.down.five</commandname>
-			</item.2>
-			<item.10 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.rulers</commandname>
-			</item.10>
-			<item.7 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.nudge.right.one</commandname>
-			</item.7>
-			<item.4 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.nudge.left.five</commandname>
-			</item.4>
-			<item.1 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.lockguides</commandname>
-			</item.1>
-			<item.9 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.nudge.up.one</commandname>
-			</item.9>
-			<item.6 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.nudge.right.five</commandname>
-			</item.6>
-			<item.8 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.nudge.up.five</commandname>
-			</item.8>
-			<item.5 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.nudge.left.one</commandname>
-			</item.5>
-			<item.0 Version="1">
-				<virtualkey>2147483707</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.guides</commandname>
-			</item.0>
-			<item.3 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.nudge.down.one</commandname>
-			</item.3>
-		</context.program.monitor>
-		<context.global Version="1">
-			<itemcount>208</itemcount>
-			<item.130 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.lead.five.inc</commandname>
-			</item.130>
-			<item.127 Version="1">
-				<virtualkey>2147483693</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.minimize.all.tracks</commandname>
-			</item.127>
-			<item.141 Version="1">
-				<virtualkey>2147483718</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.tlnav.reveal.nested.sequence</commandname>
-			</item.141>
-			<item.126 Version="1">
-				<virtualkey>2147483709</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.expand.all.tracks</commandname>
-			</item.126>
-			<item.122 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.trimbackwardmany</commandname>
-			</item.122>
-			<item.129 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.lead.five.dec</commandname>
-			</item.129>
-			<item.147 Version="1">
-				<virtualkey>2147483705</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.toggle.all.target.audio</commandname>
-			</item.147>
-			<item.161 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.05ratestretch</commandname>
-			</item.161>
-			<item.128 Version="1">
-				<virtualkey>2147483722</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.menu.templates</commandname>
-			</item.128>
-			<item.120 Version="1">
-				<virtualkey>2147483732</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.toggletrimtype</commandname>
-			</item.120>
-			<item.119 Version="1">
-				<virtualkey>2147483731</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.snap</commandname>
-			</item.119>
-			<item.117 Version="1">
-				<virtualkey>2147483735</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.rippletrimnextedittoplayhead</commandname>
-			</item.117>
-			<item.135 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.size.one.dec</commandname>
-			</item.135>
-			<item.123 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.trimforward</commandname>
-			</item.123>
-			<item.116 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.reversematchframe</commandname>
-			</item.116>
-			<item.148 Version="1">
-				<virtualkey>2147483696</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.toggle.all.target.video</commandname>
-			</item.148>
-			<item.140 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.tlnav.prev.edit.any.track</commandname>
-			</item.140>
-			<item.143 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.select.next.clip</commandname>
-			</item.143>
-			<item.115 Version="1">
-				<virtualkey>2147483723</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.razorateditline.all</commandname>
-			</item.115>
-			<item.139 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.prev.edit</commandname>
-			</item.139>
-			<item.146 Version="1">
-				<virtualkey>2147483696</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.toggle.all.source.video</commandname>
-			</item.146>
-			<item.125 Version="1">
-				<virtualkey>2147483725</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.set.marker</commandname>
-			</item.125>
-			<item.198 Version="1">
-				<virtualkey>2147483693</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.zoom.out</commandname>
-			</item.198>
-			<item.200 Version="1">
-				<virtualkey>2147483702</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Audio Mixers</commandname>
-			</item.200>
-			<item.114 Version="1">
-				<virtualkey>2147483723</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.razorateditline</commandname>
-			</item.114>
-			<item.203 Version="1">
-				<virtualkey>2147483704</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Media Browser</commandname>
-			</item.203>
-			<item.204 Version="1">
-				<virtualkey>2147483700</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Program Monitors</commandname>
-			</item.204>
-			<item.113 Version="1">
-				<virtualkey>4</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.preview</commandname>
-			</item.113>
-			<item.205 Version="1">
-				<virtualkey>2147483697</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Projects</commandname>
-			</item.205>
-			<item.206 Version="1">
-				<virtualkey>2147483698</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Source Monitors</commandname>
-			</item.206>
-			<item.207 Version="1">
-				<virtualkey>2147483699</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Timelines</commandname>
-			</item.207>
-			<item.112 Version="1">
-				<virtualkey>2147483718</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.matchframe</commandname>
-			</item.112>
-			<item.111 Version="1">
-				<virtualkey>2147483733</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.makesubsequence</commandname>
-			</item.111>
-			<item.110 Version="1">
-				<virtualkey>2147483707</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.lift</commandname>
-			</item.110>
-			<item.109 Version="1">
-				<virtualkey>2147483741</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.increaseclipvolumemany</commandname>
-			</item.109>
-			<item.108 Version="1">
-				<virtualkey>2147483741</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.increaseclipvolume</commandname>
-			</item.108>
-			<item.107 Version="1">
-				<virtualkey>2147483707</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.findprevioussequencegap</commandname>
-			</item.107>
-			<item.106 Version="1">
-				<virtualkey>2147483707</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.findnextsequencegap</commandname>
-			</item.106>
-			<item.105 Version="1">
-				<virtualkey>2147483687</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.extract</commandname>
-			</item.105>
-			<item.104 Version="1">
-				<virtualkey>2147483717</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.extendselectededittoplayhead</commandname>
-			</item.104>
-			<item.142 Version="1">
-				<virtualkey>2147483716</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.select.clip.at.playhead</commandname>
-			</item.142>
-			<item.103 Version="1">
-				<virtualkey>2147483729</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.extendpreviousedittoplayhead</commandname>
-			</item.103>
-			<item.102 Version="1">
-				<virtualkey>2147483735</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.extendnextedittoplayhead</commandname>
-			</item.102>
-			<item.118 Version="1">
-				<virtualkey>2147483729</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.rippletrimpreviousedittoplayhead</commandname>
-			</item.118>
-			<item.101 Version="1">
-				<virtualkey>2147483739</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.decreaseclipvolumemany</commandname>
-			</item.101>
-			<item.134 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.size.five.inc</commandname>
-			</item.134>
-			<item.154 Version="1">
-				<virtualkey>2147483744</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.toggle.maximize.focused.frame</commandname>
-			</item.154>
-			<item.167 Version="1">
-				<virtualkey>2147483738</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.11zoom</commandname>
-			</item.167>
-			<item.166 Version="1">
-				<virtualkey>2147483720</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.10hand</commandname>
-			</item.166>
-			<item.165 Version="1">
-				<virtualkey>2147483728</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.09pen</commandname>
-			</item.165>
-			<item.168 Version="1">
-				<virtualkey>2147483732</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.12text</commandname>
-			</item.168>
-			<item.169 Version="1">
-				<virtualkey>1</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.play.ctitoout</commandname>
-			</item.169>
-			<item.170 Version="1">
-				<virtualkey>1</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.play.fat</commandname>
-			</item.170>
-			<item.171 Version="1">
-				<virtualkey>2147483723</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.playedit</commandname>
-			</item.171>
-			<item.155 Version="1">
-				<virtualkey>2147483744</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.toggle.maximize.frame</commandname>
-			</item.155>
-			<item.153 Version="1">
-				<virtualkey>2147483744</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.toggle.fullscreen.monitor</commandname>
-			</item.153>
-			<item.151 Version="1">
-				<virtualkey>2147483740</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.zoomto.sequence</commandname>
-			</item.151>
-			<item.199 Version="1">
-				<virtualkey>2147483705</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Audio Clip Mixer</commandname>
-			</item.199>
-			<item.124 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.trimforwardmany</commandname>
-			</item.124>
-			<item.164 Version="1">
-				<virtualkey>2147483733</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.08slide</commandname>
-			</item.164>
-			<item.150 Version="1">
-				<virtualkey>2147483735</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.trim.out.to.cti</commandname>
-			</item.150>
-			<item.149 Version="1">
-				<virtualkey>2147483729</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.trim.in.to.cti</commandname>
-			</item.149>
-			<item.172 Version="1">
-				<virtualkey>1</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.playintoout</commandname>
-			</item.172>
-			<item.121 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.trimbackward</commandname>
-			</item.121>
-			<item.152 Version="1">
-				<virtualkey>2147483731</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.toggle.audio.scrubbing</commandname>
-			</item.152>
-			<item.173 Version="1">
-				<virtualkey>37</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.selectedclip.end</commandname>
-			</item.173>
-			<item.174 Version="1">
-				<virtualkey>36</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.selectedclip.start</commandname>
-			</item.174>
-			<item.175 Version="1">
-				<virtualkey>37</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.sequence.end</commandname>
-			</item.175>
-			<item.176 Version="1">
-				<virtualkey>36</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.sequence.start</commandname>
-			</item.176>
-			<item.159 Version="1">
-				<virtualkey>2147483714</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.03ripple</commandname>
-			</item.159>
-			<item.160 Version="1">
-				<virtualkey>2147483726</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.04roll</commandname>
-			</item.160>
-			<item.158 Version="1">
-				<virtualkey>2147483713</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.02trackselectforward</commandname>
-			</item.158>
-			<item.163 Version="1">
-				<virtualkey>2147483737</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.07slip</commandname>
-			</item.163>
-			<item.162 Version="1">
-				<virtualkey>2147483715</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.06razor</commandname>
-			</item.162>
-			<item.145 Version="1">
-				<virtualkey>2147483705</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.toggle.all.source.audio</commandname>
-			</item.145>
-			<item.202 Version="1">
-				<virtualkey>2147483703</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Effects</commandname>
-			</item.202>
-			<item.137 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.next.edit</commandname>
-			</item.137>
-			<item.99 Version="1">
-				<virtualkey>2147483716</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.applydefaultvideotransition</commandname>
-			</item.99>
-			<item.98 Version="1">
-				<virtualkey>2147483716</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.applydefaulttransitions</commandname>
-			</item.98>
-			<item.97 Version="1">
-				<virtualkey>2147483716</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.sequence.applydefaultaudiotransition</commandname>
-			</item.97>
-			<item.96 Version="1">
-				<virtualkey>2147483692</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.select.previous.panel</commandname>
-			</item.96>
-			<item.95 Version="1">
-				<virtualkey>2147483694</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.select.next.panel</commandname>
-			</item.95>
-			<item.94 Version="1">
-				<virtualkey>2147483718</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.select.find.box</commandname>
-			</item.94>
-			<item.93 Version="1">
-				<virtualkey>2147483728</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.posterframe.set</commandname>
-			</item.93>
-			<item.92 Version="1">
-				<virtualkey>2147483728</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.posterframe.clear</commandname>
-			</item.92>
-			<item.91 Version="1">
-				<virtualkey>2147483732</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.placeholder</commandname>
-			</item.91>
-			<item.90 Version="1">
-				<virtualkey>2147483696</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.toggle.record</commandname>
-			</item.90>
-			<item.89 Version="1">
-				<virtualkey>2147483696</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.multicam.toggle.multicam.view</commandname>
-			</item.89>
-			<item.88 Version="1">
-				<virtualkey>2147483705</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera9</commandname>
-			</item.88>
-			<item.87 Version="1">
-				<virtualkey>2147483704</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera8</commandname>
-			</item.87>
-			<item.86 Version="1">
-				<virtualkey>2147483703</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera7</commandname>
-			</item.86>
-			<item.85 Version="1">
-				<virtualkey>2147483702</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera6</commandname>
-			</item.85>
-			<item.84 Version="1">
-				<virtualkey>2147483701</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera5</commandname>
-			</item.84>
-			<item.83 Version="1">
-				<virtualkey>2147483700</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera4</commandname>
-			</item.83>
-			<item.82 Version="1">
-				<virtualkey>2147483699</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera3</commandname>
-			</item.82>
-			<item.81 Version="1">
-				<virtualkey>2147483698</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera2</commandname>
-			</item.81>
-			<item.80 Version="1">
-				<virtualkey>2147483697</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choosenocut.camera1</commandname>
-			</item.80>
-			<item.79 Version="1">
-				<virtualkey>2147483704</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choose.camera.8</commandname>
-			</item.79>
-			<item.78 Version="1">
-				<virtualkey>2147483703</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choose.camera.7</commandname>
-			</item.78>
-			<item.77 Version="1">
-				<virtualkey>2147483702</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choose.camera.6</commandname>
-			</item.77>
-			<item.76 Version="1">
-				<virtualkey>2147483701</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choose.camera.5</commandname>
-			</item.76>
-			<item.75 Version="1">
-				<virtualkey>2147483700</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choose.camera.4</commandname>
-			</item.75>
-			<item.74 Version="1">
-				<virtualkey>2147483699</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choose.camera.3</commandname>
-			</item.74>
-			<item.73 Version="1">
-				<virtualkey>2147483698</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choose.camera.2</commandname>
-			</item.73>
-			<item.72 Version="1">
-				<virtualkey>2147483697</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.multicam.choose.camera.1</commandname>
-			</item.72>
-			<item.71 Version="1">
-				<virtualkey>2147483736</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.marker.setsequenceinoutmarkeraroundtargetclip</commandname>
-			</item.71>
-			<item.70 Version="1">
-				<virtualkey>2147483695</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.marker.setsequenceinoutmarkeraroundselection.out</commandname>
-			</item.70>
-			<item.69 Version="1">
-				<virtualkey>2147483725</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.marker.gotomarker.previous</commandname>
-			</item.69>
-			<item.68 Version="1">
-				<virtualkey>2147483725</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.marker.gotomarker.next</commandname>
-			</item.68>
-			<item.67 Version="1">
-				<virtualkey>2147483725</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.marker.clearmarker.current</commandname>
-			</item.67>
-			<item.66 Version="1">
-				<virtualkey>2147483725</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.marker.clearmarker.all</commandname>
-			</item.66>
-			<item.65 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.graphicsinspector.alignright</commandname>
-			</item.65>
-			<item.64 Version="1">
-				<virtualkey>2147483724</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.graphicsinspector.alignleft</commandname>
-			</item.64>
-			<item.63 Version="1">
-				<virtualkey>2147483715</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.graphicsinspector.aligncenter</commandname>
-			</item.63>
-			<item.62 Version="1">
-				<virtualkey>2147483739</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.select.previous.graphic.layer</commandname>
-			</item.62>
-			<item.61 Version="1">
-				<virtualkey>2147483741</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.select.next.graphic.layer</commandname>
-			</item.61>
-			<item.60 Version="1">
-				<virtualkey>2147483741</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.move.graphic.layer.up</commandname>
-			</item.60>
-			<item.59 Version="1">
-				<virtualkey>2147483741</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.graphics.move.graphic.layer.to.top</commandname>
-			</item.59>
-			<item.58 Version="1">
-				<virtualkey>2147483739</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.graphics.move.graphic.layer.to.bottom</commandname>
-			</item.58>
-			<item.57 Version="1">
-				<virtualkey>2147483739</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.move.graphic.layer.down</commandname>
-			</item.57>
-			<item.56 Version="1">
-				<virtualkey>2147483687</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.enter.text.edit</commandname>
-			</item.56>
-			<item.55 Version="1">
-				<virtualkey>2147483732</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.add.text</commandname>
-			</item.55>
-			<item.54 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.add.shape.rectangle</commandname>
-			</item.54>
-			<item.53 Version="1">
-				<virtualkey>2147483717</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.add.shape.ellipse</commandname>
-			</item.53>
-			<item.52 Version="1">
-				<virtualkey>2147483727</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.goto.out</commandname>
-			</item.52>
-			<item.51 Version="1">
-				<virtualkey>2147483721</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.goto.in</commandname>
-			</item.51>
-			<item.50 Version="1">
-				<virtualkey>2147483731</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.savecopy</commandname>
-			</item.50>
-			<item.49 Version="1">
-				<virtualkey>2147483731</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.file.saveas</commandname>
-			</item.49>
-			<item.48 Version="1">
-				<virtualkey>11</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.save</commandname>
-			</item.48>
-			<item.47 Version="1">
-				<virtualkey>2147483731</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.save</commandname>
-			</item.47>
-			<item.46 Version="1">
-				<virtualkey>2147483720</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.file.properties.selection</commandname>
-			</item.46>
-			<item.45 Version="1">
-				<virtualkey>2147483727</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.openproject</commandname>
-			</item.45>
-			<item.44 Version="1">
-				<virtualkey>2147483726</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.new.sequence</commandname>
-			</item.44>
-			<item.43 Version="1">
-				<virtualkey>2147483726</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.new.project</commandname>
-			</item.43>
-			<item.42 Version="1">
-				<virtualkey>2147483695</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.new.bin</commandname>
-			</item.42>
-			<item.41 Version="1">
-				<virtualkey>2147483721</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.importfrombrowser</commandname>
-			</item.41>
-			<item.40 Version="1">
-				<virtualkey>2147483721</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.import</commandname>
-			</item.40>
-			<item.39 Version="1">
-				<virtualkey>2147483725</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.export.movie</commandname>
-			</item.39>
-			<item.38 Version="1">
-				<virtualkey>2147483729</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.exit</commandname>
-			</item.38>
-			<item.37 Version="1">
-				<virtualkey>2147483735</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.closepanel</commandname>
-			</item.37>
-			<item.36 Version="1">
-				<virtualkey>2147483735</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.file.close</commandname>
-			</item.36>
-			<item.35 Version="1">
-				<virtualkey>12</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.batchcapture</commandname>
-			</item.35>
-			<item.34 Version="1">
-				<virtualkey>2147483717</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.export.frame</commandname>
-			</item.34>
-			<item.33 Version="1">
-				<virtualkey>2147483738</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.undo</commandname>
-			</item.33>
-			<item.32 Version="1">
-				<virtualkey>2147483713</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.selectall</commandname>
-			</item.32>
-			<item.31 Version="1">
-				<virtualkey>35</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.edit.rippledelete</commandname>
-			</item.31>
-			<item.30 Version="1">
-				<virtualkey>2147483738</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.edit.redo</commandname>
-			</item.30>
-			<item.29 Version="1">
-				<virtualkey>2147483734</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.edit.pasteinsert</commandname>
-			</item.29>
-			<item.28 Version="1">
-				<virtualkey>2147483734</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.pasteattributes</commandname>
-			</item.28>
-			<item.27 Version="1">
-				<virtualkey>2147483734</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.paste</commandname>
-			</item.27>
-			<item.26 Version="1">
-				<virtualkey>2147483723</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.keyboardshortcuts</commandname>
-			</item.26>
-			<item.25 Version="1">
-				<virtualkey>2147483718</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.find</commandname>
-			</item.25>
-			<item.23 Version="1">
-				<virtualkey>2147483695</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.edit.duplicate</commandname>
-			</item.23>
-			<item.24 Version="1">
-				<virtualkey>2147483717</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.editoriginal</commandname>
-			</item.24>
-			<item.15 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.speed</commandname>
-			</item.15>
-			<item.11 Version="1">
-				<virtualkey>2147483733</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.makesubclip</commandname>
-			</item.11>
-			<item.2 Version="1">
-				<virtualkey>2147483721</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.clear.in</commandname>
-			</item.2>
-			<item.10 Version="1">
-				<virtualkey>2147483724</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.linkaudioandvideo</commandname>
-			</item.10>
-			<item.20 Version="1">
-				<virtualkey>2147483715</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.copy</commandname>
-			</item.20>
-			<item.133 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.titler.misc.size.five.dec</commandname>
-			</item.133>
-			<item.177 Version="1">
-				<virtualkey>2147483722</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.shuttle.left</commandname>
-			</item.177>
-			<item.178 Version="1">
-				<virtualkey>2147483724</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.shuttle.right</commandname>
-			</item.178>
-			<item.18 Version="1">
-				<virtualkey>2147483727</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.common.setout</commandname>
-			</item.18>
-			<item.136 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.size.one.inc</commandname>
-			</item.136>
-			<item.179 Version="1">
-				<virtualkey>2147483722</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.shuttle.slow.left</commandname>
-			</item.179>
-			<item.180 Version="1">
-				<virtualkey>2147483724</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.shuttle.slow.right</commandname>
-			</item.180>
-			<item.181 Version="1">
-				<virtualkey>2147483723</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.shuttle.stop</commandname>
-			</item.181>
-			<item.182 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.step.back</commandname>
-			</item.182>
-			<item.183 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.step.back.five</commandname>
-			</item.183>
-			<item.184 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.step.forward</commandname>
-			</item.184>
-			<item.138 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.tlnav.next.edit.any.track</commandname>
-			</item.138>
-			<item.185 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.transport.step.forward.five</commandname>
-			</item.185>
-			<item.186 Version="1">
-				<virtualkey>1</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.transport.toggleplay</commandname>
-			</item.186>
-			<item.187 Version="1">
-				<virtualkey>2147483697</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.0</commandname>
-			</item.187>
-			<item.197 Version="1">
-				<virtualkey>2147483709</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.zoom.in</commandname>
-			</item.197>
-			<item.188 Version="1">
-				<virtualkey>2147483698</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.1</commandname>
-			</item.188>
-			<item.131 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.lead.one.dec</commandname>
-			</item.131>
-			<item.156 Version="1">
-				<virtualkey>2147483734</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tools.01pointer</commandname>
-			</item.156>
-			<item.132 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.titler.misc.lead.one.inc</commandname>
-			</item.132>
-			<item.157 Version="1">
-				<virtualkey>2147483713</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.tools.02_5trackselectbackward</commandname>
-			</item.157>
-			<item.189 Version="1">
-				<virtualkey>2147483699</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.2</commandname>
-			</item.189>
-			<item.201 Version="1">
-				<virtualkey>2147483701</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>uif.window.Effect Controls</commandname>
-			</item.201>
-			<item.190 Version="1">
-				<virtualkey>2147483700</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.3</commandname>
-			</item.190>
-			<item.191 Version="1">
-				<virtualkey>2147483701</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.4</commandname>
-			</item.191>
-			<item.7 Version="1">
-				<virtualkey>2147483717</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.clip.enable</commandname>
-			</item.7>
-			<item.4 Version="1">
-				<virtualkey>2147483727</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.clear.out</commandname>
-			</item.4>
-			<item.12 Version="1">
-				<virtualkey>2147483694</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.overlay</commandname>
-			</item.12>
-			<item.19 Version="1">
-				<virtualkey>35</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.clear</commandname>
-			</item.19>
-			<item.1 Version="1">
-				<virtualkey>2147483715</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.caption.add.trackitem</commandname>
-			</item.1>
-			<item.9 Version="1">
-				<virtualkey>2147483692</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.insert</commandname>
-			</item.9>
-			<item.6 Version="1">
-				<virtualkey>2147483719</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.clip.audiooptions.sourcechannelmappings</commandname>
-			</item.6>
-			<item.8 Version="1">
-				<virtualkey>2147483719</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.group</commandname>
-			</item.8>
-			<item.17 Version="1">
-				<virtualkey>2147483721</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.common.setin</commandname>
-			</item.17>
-			<item.13 Version="1">
-				<virtualkey>5</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.renderandreplace</commandname>
-			</item.13>
-			<item.5 Version="1">
-				<virtualkey>2147483719</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.audiooptions.gain</commandname>
-			</item.5>
-			<item.22 Version="1">
-				<virtualkey>2147483713</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.edit.deselectall</commandname>
-			</item.22>
-			<item.21 Version="1">
-				<virtualkey>2147483736</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.cut</commandname>
-			</item.21>
-			<item.0 Version="1">
-				<virtualkey>2147483713</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.caption.add.track</commandname>
-			</item.0>
-			<item.3 Version="1">
-				<virtualkey>2147483736</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.clear.inandout</commandname>
-			</item.3>
-			<item.192 Version="1">
-				<virtualkey>2147483702</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.5</commandname>
-			</item.192>
-			<item.193 Version="1">
-				<virtualkey>2147483703</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.6</commandname>
-			</item.193>
-			<item.100 Version="1">
-				<virtualkey>2147483739</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.sequence.decreaseclipvolume</commandname>
-			</item.100>
-			<item.194 Version="1">
-				<virtualkey>2147483704</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.7</commandname>
-			</item.194>
-			<item.195 Version="1">
-				<virtualkey>2147483705</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.user.workspace.8</commandname>
-			</item.195>
-			<item.144 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.tlnav.select.previous.clip</commandname>
-			</item.144>
-			<item.14 Version="1">
-				<virtualkey>3221225515</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.clip.scaletoframesize</commandname>
-			</item.14>
-			<item.16 Version="1">
-				<virtualkey>2147483719</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.clip.ungroup</commandname>
-			</item.16>
-			<item.196 Version="1">
-				<virtualkey>2147483696</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.window.workspace.revert</commandname>
-			</item.196>
-		</context.global>
-		<context.source.monitor Version="1">
-			<itemcount>0</itemcount>
-		</context.source.monitor>
-		<context.Graphics Version="1">
-			<itemcount>9</itemcount>
-			<item.2 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.nudge.down.one</commandname>
-			</item.2>
-			<item.7 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.nudge.up.five</commandname>
-			</item.7>
-			<item.4 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.nudge.left.one</commandname>
-			</item.4>
-			<item.1 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.nudge.down.five</commandname>
-			</item.1>
-			<item.6 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.nudge.right.one</commandname>
-			</item.6>
-			<item.8 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.monitor.nudge.up.one</commandname>
-			</item.8>
-			<item.5 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.nudge.right.five</commandname>
-			</item.5>
-			<item.0 Version="1">
-				<virtualkey>2</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.graphics.clear</commandname>
-			</item.0>
-			<item.3 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.monitor.nudge.left.five</commandname>
-			</item.3>
-		</context.Graphics>
-		<context.effectcontrols Version="1">
-			<itemcount>2</itemcount>
-			<item.1 Version="1">
-				<virtualkey>2147483724</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.effectcontrols.loop.audio</commandname>
-			</item.1>
-			<item.0 Version="1">
-				<virtualkey>2</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.clear</commandname>
-			</item.0>
-		</context.effectcontrols>
-		<context.prproduction Version="1">
-			<itemcount>12</itemcount>
-			<item.11 Version="1">
-				<virtualkey>2147483693</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.zoomout</commandname>
-			</item.11>
-			<item.2 Version="1">
-				<virtualkey>2147483695</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.prproductionfolder.makeacopy</commandname>
-			</item.2>
-			<item.10 Version="1">
-				<virtualkey>2147483709</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.zoomin</commandname>
-			</item.10>
-			<item.7 Version="1">
-				<virtualkey>2</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.movetotrash</commandname>
-			</item.7>
-			<item.4 Version="1">
-				<virtualkey>36</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.move.home</commandname>
-			</item.4>
-			<item.1 Version="1">
-				<virtualkey>2147483735</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.prproductionfolder.closeproject</commandname>
-			</item.1>
-			<item.9 Version="1">
-				<virtualkey>2147483727</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.openproject</commandname>
-			</item.9>
-			<item.6 Version="1">
-				<virtualkey>38</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.move.pageup</commandname>
-			</item.6>
-			<item.8 Version="1">
-				<virtualkey>2147483726</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.newproject</commandname>
-			</item.8>
-			<item.5 Version="1">
-				<virtualkey>39</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.move.pagedown</commandname>
-			</item.5>
-			<item.0 Version="1">
-				<virtualkey>2147483714</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.mediabrowser.newfolder</commandname>
-			</item.0>
-			<item.3 Version="1">
-				<virtualkey>37</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.prproductionfolder.move.end</commandname>
-			</item.3>
-		</context.prproduction>
-		<context.timecode Version="1">
-			<itemcount>0</itemcount>
-		</context.timecode>
-		<context.timeline Version="1">
-			<itemcount>28</itemcount>
-			<item.27 Version="1">
-				<virtualkey>2147483741</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.workbar.set.out</commandname>
-			</item.27>
-			<item.26 Version="1">
-				<virtualkey>2147483739</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.workbar.set.in</commandname>
-			</item.26>
-			<item.25 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.slip.right.several</commandname>
-			</item.25>
-			<item.23 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.slip.left.several</commandname>
-			</item.23>
-			<item.24 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.slip.right.one</commandname>
-			</item.24>
-			<item.15 Version="1">
-				<virtualkey>2</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.ripple.delete</commandname>
-			</item.15>
-			<item.11 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.nudge.right.several</commandname>
-			</item.11>
-			<item.2 Version="1">
-				<virtualkey>2147483693</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.decrease.video.tracks.height</commandname>
-			</item.2>
-			<item.10 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.nudge.right.one</commandname>
-			</item.10>
-			<item.20 Version="1">
-				<virtualkey>2147483694</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.slide.right.one</commandname>
-			</item.20>
-			<item.18 Version="1">
-				<virtualkey>2147483692</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.slide.left.one</commandname>
-			</item.18>
-			<item.7 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.nudge.down</commandname>
-			</item.7>
-			<item.4 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.goto.prev.caption.trackitem</commandname>
-			</item.4>
-			<item.12 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.nudge.up</commandname>
-			</item.12>
-			<item.19 Version="1">
-				<virtualkey>2147483692</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.slide.left.several</commandname>
-			</item.19>
-			<item.1 Version="1">
-				<virtualkey>2147483693</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.decrease.audio.tracks.height</commandname>
-			</item.1>
-			<item.9 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.nudge.left.several</commandname>
-			</item.9>
-			<item.6 Version="1">
-				<virtualkey>2147483709</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.increase.video.tracks.height</commandname>
-			</item.6>
-			<item.8 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.nudge.left.one</commandname>
-			</item.8>
-			<item.17 Version="1">
-				<virtualkey>38</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.show.previous.screen</commandname>
-			</item.17>
-			<item.13 Version="1">
-				<virtualkey>2147483734</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.paste.to.same.track</commandname>
-			</item.13>
-			<item.5 Version="1">
-				<virtualkey>2147483709</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.increase.audio.tracks.height</commandname>
-			</item.5>
-			<item.22 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.slip.left.one</commandname>
-			</item.22>
-			<item.21 Version="1">
-				<virtualkey>2147483694</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.slide.right.several</commandname>
-			</item.21>
-			<item.0 Version="1">
-				<virtualkey>2</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.clear</commandname>
-			</item.0>
-			<item.3 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>true</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.goto.next.caption.trackitem</commandname>
-			</item.3>
-			<item.14 Version="1">
-				<virtualkey>2147483734</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.timeline.pasteinsert.to.same.track</commandname>
-			</item.14>
-			<item.16 Version="1">
-				<virtualkey>39</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.timeline.show.next.screen</commandname>
-			</item.16>
-		</context.timeline>
-		<context.progress Version="1">
-			<itemcount>0</itemcount>
-		</context.progress>
-		<context.csxshandler Version="1">
-			<itemcount>0</itemcount>
-		</context.csxshandler>
-		<context.capture Version="1">
-			<itemcount>11</itemcount>
-			<item.2 Version="1">
-				<virtualkey>2147483730</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.fastrewind</commandname>
-			</item.2>
-			<item.10 Version="1">
-				<virtualkey>2147483731</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.stop</commandname>
-			</item.10>
-			<item.7 Version="1">
-				<virtualkey>2147483734</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.record.video</commandname>
-			</item.7>
-			<item.4 Version="1">
-				<virtualkey>2147483735</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.goto.outpoint</commandname>
-			</item.4>
-			<item.1 Version="1">
-				<virtualkey>2147483718</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.fastforward</commandname>
-			</item.1>
-			<item.9 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.step.forward</commandname>
-			</item.9>
-			<item.6 Version="1">
-				<virtualkey>2147483713</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.record.audio</commandname>
-			</item.6>
-			<item.8 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.step.back</commandname>
-			</item.8>
-			<item.5 Version="1">
-				<virtualkey>2147483719</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.record</commandname>
-			</item.5>
-			<item.0 Version="1">
-				<virtualkey>2147483717</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.eject</commandname>
-			</item.0>
-			<item.3 Version="1">
-				<virtualkey>2147483729</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.capture.goto.inpoint</commandname>
-			</item.3>
-		</context.capture>
-		<context.project Version="1">
-			<itemcount>29</itemcount>
-			<item.28 Version="1">
-				<virtualkey>2147483693</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.zoom.out</commandname>
-			</item.28>
-			<item.27 Version="1">
-				<virtualkey>2147483709</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.zoom.in</commandname>
-			</item.27>
-			<item.26 Version="1">
-				<virtualkey>38</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.wingtip.view.list</commandname>
-			</item.26>
-			<item.25 Version="1">
-				<virtualkey>39</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.wingtip.view.icon</commandname>
-			</item.25>
-			<item.23 Version="1">
-				<virtualkey>4</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.previousrowfield</commandname>
-			</item.23>
-			<item.24 Version="1">
-				<virtualkey>2147483740</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.toggle.view</commandname>
-			</item.24>
-			<item.15 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.moveextend.up</commandname>
-			</item.15>
-			<item.11 Version="1">
-				<virtualkey>44</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.move.up</commandname>
-			</item.11>
-			<item.2 Version="1">
-				<virtualkey>2147483714</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.file.newbinfromselection</commandname>
-			</item.2>
-			<item.10 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.move.right</commandname>
-			</item.10>
-			<item.20 Version="1">
-				<virtualkey>2147483727</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.openinsource</commandname>
-			</item.20>
-			<item.18 Version="1">
-				<virtualkey>3</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.nextcolumnfield</commandname>
-			</item.18>
-			<item.7 Version="1">
-				<virtualkey>36</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.move.home</commandname>
-			</item.7>
-			<item.4 Version="1">
-				<virtualkey>2147483720</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.enablehover</commandname>
-			</item.4>
-			<item.12 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.moveextend.down</commandname>
-			</item.12>
-			<item.19 Version="1">
-				<virtualkey>4</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.nextrowfield</commandname>
-			</item.19>
-			<item.1 Version="1">
-				<virtualkey>2147483714</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.file.new.bin</commandname>
-			</item.1>
-			<item.9 Version="1">
-				<virtualkey>38</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.move.pageup</commandname>
-			</item.9>
-			<item.6 Version="1">
-				<virtualkey>37</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.move.end</commandname>
-			</item.6>
-			<item.8 Version="1">
-				<virtualkey>39</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.move.pagedown</commandname>
-			</item.8>
-			<item.17 Version="1">
-				<virtualkey>2147483741</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.next.thumbnail.size.large</commandname>
-			</item.17>
-			<item.13 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.moveextend.left</commandname>
-			</item.13>
-			<item.5 Version="1">
-				<virtualkey>45</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.move.down</commandname>
-			</item.5>
-			<item.22 Version="1">
-				<virtualkey>3</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.previouscolumnfield</commandname>
-			</item.22>
-			<item.21 Version="1">
-				<virtualkey>2147483739</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.previous.thumbnail.size.large</commandname>
-			</item.21>
-			<item.0 Version="1">
-				<virtualkey>2</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.edit.clear</commandname>
-			</item.0>
-			<item.3 Version="1">
-				<virtualkey>35</virtualkey>
-				<modifier.ctrl>true</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.deletewithoptions</commandname>
-			</item.3>
-			<item.14 Version="1">
-				<virtualkey>43</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>true</modifier.shift>
-				<commandname>cmd.project.moveextend.right</commandname>
-			</item.14>
-			<item.16 Version="1">
-				<virtualkey>42</virtualkey>
-				<modifier.ctrl>false</modifier.ctrl>
-				<modifier.alt>false</modifier.alt>
-				<modifier.shift>false</modifier.shift>
-				<commandname>cmd.project.movel.eft</commandname>
-			</item.16>
-		</context.project>
-		<context.essentialsound Version="1">
-			<itemcount>0</itemcount>
-		</context.essentialsound>
-		<context.color Version="1">
-			<itemcount>0</itemcount>
-		</context.color>
 		<context.effects Version="1">
 			<itemcount>2</itemcount>
 			<item.1 Version="1">
@@ -2521,8 +43,2556 @@
 				<commandname>cmd.edit.clear</commandname>
 			</item.0>
 		</context.effects>
+		<context.global Version="1">
+			<itemcount>218</itemcount>
+			<item.25 Version="1">
+				<virtualkey>2147483727</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.common.setout</commandname>
+			</item.25>
+			<item.98 Version="1">
+				<virtualkey>2147483705</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera9</commandname>
+			</item.98>
+			<item.71 Version="1">
+				<virtualkey>2147483741</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.select.next.graphic.layer</commandname>
+			</item.71>
+			<item.95 Version="1">
+				<virtualkey>2147483702</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera6</commandname>
+			</item.95>
+			<item.16 Version="1">
+				<virtualkey>2147483733</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.makesubclip</commandname>
+			</item.16>
+			<item.3 Version="1">
+				<virtualkey>2147483736</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.clear.inandout</commandname>
+			</item.3>
+			<item.46 Version="1">
+				<virtualkey>2147483729</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.exit</commandname>
+			</item.46>
+			<item.58 Version="1">
+				<virtualkey>2147483731</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.savecopy</commandname>
+			</item.58>
+			<item.44 Version="1">
+				<virtualkey>2147483735</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.file.close</commandname>
+			</item.44>
+			<item.51 Version="1">
+				<virtualkey>2147483726</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.new.project</commandname>
+			</item.51>
+			<item.36 Version="1">
+				<virtualkey>3221225520</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.pasteattributes</commandname>
+			</item.36>
+			<item.12 Version="1">
+				<virtualkey>2147483719</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.group</commandname>
+			</item.12>
+			<item.30 Version="1">
+				<virtualkey>2147483695</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.edit.duplicate</commandname>
+			</item.30>
+			<item.15 Version="1">
+				<virtualkey>3221225519</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.linkaudioandvideo</commandname>
+			</item.15>
+			<item.31 Version="1">
+				<virtualkey>2147483717</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.editoriginal</commandname>
+			</item.31>
+			<item.5 Version="1">
+				<virtualkey>3221225525</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clear.inandout</commandname>
+			</item.5>
+			<item.84 Version="1">
+				<virtualkey>2147483699</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choose.camera.3</commandname>
+			</item.84>
+			<item.50 Version="1">
+				<virtualkey>2147483695</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.new.bin</commandname>
+			</item.50>
+			<item.92 Version="1">
+				<virtualkey>2147483699</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera3</commandname>
+			</item.92>
+			<item.97 Version="1">
+				<virtualkey>2147483704</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera8</commandname>
+			</item.97>
+			<item.22 Version="1">
+				<virtualkey>2147483719</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.clip.ungroup</commandname>
+			</item.22>
+			<item.66 Version="1">
+				<virtualkey>2147483687</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.enter.text.edit</commandname>
+			</item.66>
+			<item.86 Version="1">
+				<virtualkey>2147483701</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choose.camera.5</commandname>
+			</item.86>
+			<item.75 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.graphicsinspector.alignright</commandname>
+			</item.75>
+			<item.81 Version="1">
+				<virtualkey>2147483736</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.marker.setsequenceinoutmarkeraroundtargetclip</commandname>
+			</item.81>
+			<item.99 Version="1">
+				<virtualkey>2147483696</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.multicam.toggle.multicam.view</commandname>
+			</item.99>
+			<item.80 Version="1">
+				<virtualkey>2147483695</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.marker.setsequenceinoutmarkeraroundselection.out</commandname>
+			</item.80>
+			<item.56 Version="1">
+				<virtualkey>11</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.save</commandname>
+			</item.56>
+			<item.53 Version="1">
+				<virtualkey>2147483727</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.openproject</commandname>
+			</item.53>
+			<item.27 Version="1">
+				<virtualkey>2147483715</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.copy</commandname>
+			</item.27>
+			<item.78 Version="1">
+				<virtualkey>2147483725</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.marker.gotomarker.next</commandname>
+			</item.78>
+			<item.41 Version="1">
+				<virtualkey>2147483738</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.undo</commandname>
+			</item.41>
+			<item.49 Version="1">
+				<virtualkey>2147483721</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.importfrombrowser</commandname>
+			</item.49>
+			<item.83 Version="1">
+				<virtualkey>2147483698</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choose.camera.2</commandname>
+			</item.83>
+			<item.133 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.trimbackwardmany</commandname>
+			</item.133>
+			<item.216 Version="1">
+				<virtualkey>2147483698</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Source Monitors</commandname>
+			</item.216>
+			<item.206 Version="1">
+				<virtualkey>2147483696</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.workspace.revert</commandname>
+			</item.206>
+			<item.176 Version="1">
+				<virtualkey>2147483720</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.10hand</commandname>
+			</item.176>
+			<item.173 Version="1">
+				<virtualkey>2147483737</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.07slip</commandname>
+			</item.173>
+			<item.48 Version="1">
+				<virtualkey>2147483721</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.import</commandname>
+			</item.48>
+			<item.62 Version="1">
+				<virtualkey>3221225526</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.goto.out</commandname>
+			</item.62>
+			<item.89 Version="1">
+				<virtualkey>2147483704</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choose.camera.8</commandname>
+			</item.89>
+			<item.155 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.select.previous.clip</commandname>
+			</item.155>
+			<item.94 Version="1">
+				<virtualkey>2147483701</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera5</commandname>
+			</item.94>
+			<item.154 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.select.next.clip</commandname>
+			</item.154>
+			<item.93 Version="1">
+				<virtualkey>2147483700</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera4</commandname>
+			</item.93>
+			<item.100 Version="1">
+				<virtualkey>2147483696</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.toggle.record</commandname>
+			</item.100>
+			<item.55 Version="1">
+				<virtualkey>2147483731</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.save</commandname>
+			</item.55>
+			<item.42 Version="1">
+				<virtualkey>2147483717</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.export.frame</commandname>
+			</item.42>
+			<item.168 Version="1">
+				<virtualkey>2147483713</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.02trackselectforward</commandname>
+			</item.168>
+			<item.34 Version="1">
+				<virtualkey>2147483734</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.paste</commandname>
+			</item.34>
+			<item.20 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.speed</commandname>
+			</item.20>
+			<item.61 Version="1">
+				<virtualkey>2147483727</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.goto.out</commandname>
+			</item.61>
+			<item.76 Version="1">
+				<virtualkey>2147483725</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.marker.clearmarker.all</commandname>
+			</item.76>
+			<item.143 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.lead.one.inc</commandname>
+			</item.143>
+			<item.208 Version="1">
+				<virtualkey>2147483693</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.zoom.out</commandname>
+			</item.208>
+			<item.165 Version="1">
+				<virtualkey>2147483744</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.toggle.maximize.frame</commandname>
+			</item.165>
+			<item.131 Version="1">
+				<virtualkey>2147483732</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.toggletrimtype</commandname>
+			</item.131>
+			<item.64 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.add.shape.rectangle</commandname>
+			</item.64>
+			<item.37 Version="1">
+				<virtualkey>2147483734</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.edit.pasteinsert</commandname>
+			</item.37>
+			<item.135 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.trimforwardmany</commandname>
+			</item.135>
+			<item.177 Version="1">
+				<virtualkey>2147483738</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.11zoom</commandname>
+			</item.177>
+			<item.118 Version="1">
+				<virtualkey>2147483741</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.increaseclipvolume</commandname>
+			</item.118>
+			<item.65 Version="1">
+				<virtualkey>2147483732</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.add.text</commandname>
+			</item.65>
+			<item.170 Version="1">
+				<virtualkey>2147483726</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.04roll</commandname>
+			</item.170>
+			<item.105 Version="1">
+				<virtualkey>2147483694</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.select.next.panel</commandname>
+			</item.105>
+			<item.32 Version="1">
+				<virtualkey>2147483718</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.find</commandname>
+			</item.32>
+			<item.164 Version="1">
+				<virtualkey>2147483744</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.toggle.maximize.focused.frame</commandname>
+			</item.164>
+			<item.9 Version="1">
+				<virtualkey>3221225518</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.deleteeffects</commandname>
+			</item.9>
+			<item.4 Version="1">
+				<virtualkey>2147483740</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clear.inandout</commandname>
+			</item.4>
+			<item.91 Version="1">
+				<virtualkey>2147483698</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera2</commandname>
+			</item.91>
+			<item.129 Version="1">
+				<virtualkey>2147483729</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.rippletrimpreviousedittoplayhead</commandname>
+			</item.129>
+			<item.113 Version="1">
+				<virtualkey>2147483729</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.extendpreviousedittoplayhead</commandname>
+			</item.113>
+			<item.28 Version="1">
+				<virtualkey>2147483736</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.cut</commandname>
+			</item.28>
+			<item.152 Version="1">
+				<virtualkey>2147483718</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.tlnav.reveal.nested.sequence</commandname>
+			</item.152>
+			<item.178 Version="1">
+				<virtualkey>2147483732</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.12text</commandname>
+			</item.178>
+			<item.8 Version="1">
+				<virtualkey>2147483719</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.clip.audiooptions.sourcechannelmappings</commandname>
+			</item.8>
+			<item.189 Version="1">
+				<virtualkey>2147483722</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.shuttle.slow.left</commandname>
+			</item.189>
+			<item.47 Version="1">
+				<virtualkey>2147483725</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.export.movie</commandname>
+			</item.47>
+			<item.182 Version="1">
+				<virtualkey>1</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.playintoout</commandname>
+			</item.182>
+			<item.116 Version="1">
+				<virtualkey>2147483707</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.findnextsequencegap</commandname>
+			</item.116>
+			<item.103 Version="1">
+				<virtualkey>2147483728</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.posterframe.set</commandname>
+			</item.103>
+			<item.79 Version="1">
+				<virtualkey>2147483725</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.marker.gotomarker.previous</commandname>
+			</item.79>
+			<item.77 Version="1">
+				<virtualkey>2147483725</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.marker.clearmarker.current</commandname>
+			</item.77>
+			<item.175 Version="1">
+				<virtualkey>2147483728</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.09pen</commandname>
+			</item.175>
+			<item.87 Version="1">
+				<virtualkey>2147483702</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choose.camera.6</commandname>
+			</item.87>
+			<item.204 Version="1">
+				<virtualkey>2147483704</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.7</commandname>
+			</item.204>
+			<item.59 Version="1">
+				<virtualkey>2147483721</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.goto.in</commandname>
+			</item.59>
+			<item.181 Version="1">
+				<virtualkey>2147483723</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.playedit</commandname>
+			</item.181>
+			<item.85 Version="1">
+				<virtualkey>2147483700</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choose.camera.4</commandname>
+			</item.85>
+			<item.130 Version="1">
+				<virtualkey>2147483731</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.snap</commandname>
+			</item.130>
+			<item.125 Version="1">
+				<virtualkey>2147483723</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.razorateditline</commandname>
+			</item.125>
+			<item.88 Version="1">
+				<virtualkey>2147483703</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choose.camera.7</commandname>
+			</item.88>
+			<item.72 Version="1">
+				<virtualkey>2147483739</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.select.previous.graphic.layer</commandname>
+			</item.72>
+			<item.10 Version="1">
+				<virtualkey>2147483717</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.clip.enable</commandname>
+			</item.10>
+			<item.57 Version="1">
+				<virtualkey>2147483731</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.file.saveas</commandname>
+			</item.57>
+			<item.171 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.05ratestretch</commandname>
+			</item.171>
+			<item.123 Version="1">
+				<virtualkey>4</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.preview</commandname>
+			</item.123>
+			<item.102 Version="1">
+				<virtualkey>2147483728</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.posterframe.clear</commandname>
+			</item.102>
+			<item.215 Version="1">
+				<virtualkey>2147483697</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Projects</commandname>
+			</item.215>
+			<item.69 Version="1">
+				<virtualkey>2147483741</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.graphics.move.graphic.layer.to.top</commandname>
+			</item.69>
+			<item.149 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.tlnav.next.edit.any.track</commandname>
+			</item.149>
+			<item.127 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.reversematchframe</commandname>
+			</item.127>
+			<item.167 Version="1">
+				<virtualkey>2147483713</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.tools.02_5trackselectbackward</commandname>
+			</item.167>
+			<item.148 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.next.edit</commandname>
+			</item.148>
+			<item.139 Version="1">
+				<virtualkey>2147483722</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.menu.templates</commandname>
+			</item.139>
+			<item.191 Version="1">
+				<virtualkey>2147483723</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.shuttle.stop</commandname>
+			</item.191>
+			<item.138 Version="1">
+				<virtualkey>2147483693</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.minimize.all.tracks</commandname>
+			</item.138>
+			<item.122 Version="1">
+				<virtualkey>2147483718</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.matchframe</commandname>
+			</item.122>
+			<item.126 Version="1">
+				<virtualkey>2147483723</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.razorateditline.all</commandname>
+			</item.126>
+			<item.179 Version="1">
+				<virtualkey>1</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.play.ctitoout</commandname>
+			</item.179>
+			<item.207 Version="1">
+				<virtualkey>2147483709</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.zoom.in</commandname>
+			</item.207>
+			<item.159 Version="1">
+				<virtualkey>2147483696</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.toggle.all.target.video</commandname>
+			</item.159>
+			<item.21 Version="1">
+				<virtualkey>3221225515</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.speed</commandname>
+			</item.21>
+			<item.35 Version="1">
+				<virtualkey>2147483734</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.pasteattributes</commandname>
+			</item.35>
+			<item.212 Version="1">
+				<virtualkey>2147483703</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Effects</commandname>
+			</item.212>
+			<item.214 Version="1">
+				<virtualkey>2147483700</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Program Monitors</commandname>
+			</item.214>
+			<item.104 Version="1">
+				<virtualkey>2147483718</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.select.find.box</commandname>
+			</item.104>
+			<item.112 Version="1">
+				<virtualkey>2147483735</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.extendnextedittoplayhead</commandname>
+			</item.112>
+			<item.200 Version="1">
+				<virtualkey>2147483700</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.3</commandname>
+			</item.200>
+			<item.196 Version="1">
+				<virtualkey>1</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.toggleplay</commandname>
+			</item.196>
+			<item.109 Version="1">
+				<virtualkey>2147483716</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.applydefaultvideotransition</commandname>
+			</item.109>
+			<item.184 Version="1">
+				<virtualkey>36</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.selectedclip.start</commandname>
+			</item.184>
+			<item.124 Version="1">
+				<virtualkey>5</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.previewyellow</commandname>
+			</item.124>
+			<item.197 Version="1">
+				<virtualkey>2147483697</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.0</commandname>
+			</item.197>
+			<item.114 Version="1">
+				<virtualkey>2147483717</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.extendselectededittoplayhead</commandname>
+			</item.114>
+			<item.158 Version="1">
+				<virtualkey>2147483705</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.toggle.all.target.audio</commandname>
+			</item.158>
+			<item.183 Version="1">
+				<virtualkey>37</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.selectedclip.end</commandname>
+			</item.183>
+			<item.150 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.prev.edit</commandname>
+			</item.150>
+			<item.140 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.lead.five.dec</commandname>
+			</item.140>
+			<item.115 Version="1">
+				<virtualkey>2147483687</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.extract</commandname>
+			</item.115>
+			<item.201 Version="1">
+				<virtualkey>2147483701</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.4</commandname>
+			</item.201>
+			<item.192 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.step.back</commandname>
+			</item.192>
+			<item.190 Version="1">
+				<virtualkey>2147483724</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.shuttle.slow.right</commandname>
+			</item.190>
+			<item.195 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.step.forward.five</commandname>
+			</item.195>
+			<item.39 Version="1">
+				<virtualkey>35</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.edit.rippledelete</commandname>
+			</item.39>
+			<item.202 Version="1">
+				<virtualkey>2147483702</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.5</commandname>
+			</item.202>
+			<item.156 Version="1">
+				<virtualkey>2147483705</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.toggle.all.source.audio</commandname>
+			</item.156>
+			<item.203 Version="1">
+				<virtualkey>2147483703</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.6</commandname>
+			</item.203>
+			<item.119 Version="1">
+				<virtualkey>2147483741</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.increaseclipvolumemany</commandname>
+			</item.119>
+			<item.163 Version="1">
+				<virtualkey>2147483744</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.toggle.fullscreen.monitor</commandname>
+			</item.163>
+			<item.54 Version="1">
+				<virtualkey>2147483720</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.file.properties.selection</commandname>
+			</item.54>
+			<item.205 Version="1">
+				<virtualkey>2147483705</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.8</commandname>
+			</item.205>
+			<item.180 Version="1">
+				<virtualkey>1</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.play.fat</commandname>
+			</item.180>
+			<item.194 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.step.forward</commandname>
+			</item.194>
+			<item.157 Version="1">
+				<virtualkey>2147483696</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.toggle.all.source.video</commandname>
+			</item.157>
+			<item.174 Version="1">
+				<virtualkey>2147483733</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.08slide</commandname>
+			</item.174>
+			<item.132 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.trimbackward</commandname>
+			</item.132>
+			<item.166 Version="1">
+				<virtualkey>2147483734</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.01pointer</commandname>
+			</item.166>
+			<item.128 Version="1">
+				<virtualkey>2147483735</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.rippletrimnextedittoplayhead</commandname>
+			</item.128>
+			<item.153 Version="1">
+				<virtualkey>2147483716</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.select.clip.at.playhead</commandname>
+			</item.153>
+			<item.169 Version="1">
+				<virtualkey>2147483714</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.03ripple</commandname>
+			</item.169>
+			<item.217 Version="1">
+				<virtualkey>2147483699</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Timelines</commandname>
+			</item.217>
+			<item.7 Version="1">
+				<virtualkey>2147483719</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.audiooptions.gain</commandname>
+			</item.7>
+			<item.110 Version="1">
+				<virtualkey>2147483739</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.decreaseclipvolume</commandname>
+			</item.110>
+			<item.23 Version="1">
+				<virtualkey>3221225521</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.videooptions.addframehold</commandname>
+			</item.23>
+			<item.188 Version="1">
+				<virtualkey>2147483724</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.shuttle.right</commandname>
+			</item.188>
+			<item.199 Version="1">
+				<virtualkey>2147483699</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.2</commandname>
+			</item.199>
+			<item.144 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.size.five.dec</commandname>
+			</item.144>
+			<item.146 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.size.one.dec</commandname>
+			</item.146>
+			<item.142 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.lead.one.dec</commandname>
+			</item.142>
+			<item.137 Version="1">
+				<virtualkey>2147483709</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.expand.all.tracks</commandname>
+			</item.137>
+			<item.101 Version="1">
+				<virtualkey>2147483732</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.placeholder</commandname>
+			</item.101>
+			<item.107 Version="1">
+				<virtualkey>2147483716</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.applydefaultaudiotransition</commandname>
+			</item.107>
+			<item.211 Version="1">
+				<virtualkey>2147483701</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Effect Controls</commandname>
+			</item.211>
+			<item.147 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.size.one.inc</commandname>
+			</item.147>
+			<item.161 Version="1">
+				<virtualkey>2147483735</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.trim.out.to.cti</commandname>
+			</item.161>
+			<item.121 Version="1">
+				<virtualkey>2147483733</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.makesubsequence</commandname>
+			</item.121>
+			<item.19 Version="1">
+				<virtualkey>3221225529</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.scaletoframesize</commandname>
+			</item.19>
+			<item.11 Version="1">
+				<virtualkey>3221225514</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.enable</commandname>
+			</item.11>
+			<item.68 Version="1">
+				<virtualkey>2147483739</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.graphics.move.graphic.layer.to.bottom</commandname>
+			</item.68>
+			<item.96 Version="1">
+				<virtualkey>2147483703</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera7</commandname>
+			</item.96>
+			<item.17 Version="1">
+				<virtualkey>3221225517</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.nestify</commandname>
+			</item.17>
+			<item.2 Version="1">
+				<virtualkey>2147483721</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.clear.in</commandname>
+			</item.2>
+			<item.13 Version="1">
+				<virtualkey>2147483692</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.insert</commandname>
+			</item.13>
+			<item.43 Version="1">
+				<virtualkey>12</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.batchcapture</commandname>
+			</item.43>
+			<item.70 Version="1">
+				<virtualkey>2147483741</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.move.graphic.layer.up</commandname>
+			</item.70>
+			<item.187 Version="1">
+				<virtualkey>2147483722</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.shuttle.left</commandname>
+			</item.187>
+			<item.151 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.tlnav.prev.edit.any.track</commandname>
+			</item.151>
+			<item.106 Version="1">
+				<virtualkey>2147483692</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.select.previous.panel</commandname>
+			</item.106>
+			<item.63 Version="1">
+				<virtualkey>2147483717</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.add.shape.ellipse</commandname>
+			</item.63>
+			<item.186 Version="1">
+				<virtualkey>36</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.sequence.start</commandname>
+			</item.186>
+			<item.120 Version="1">
+				<virtualkey>2147483707</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.lift</commandname>
+			</item.120>
+			<item.117 Version="1">
+				<virtualkey>2147483707</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.findprevioussequencegap</commandname>
+			</item.117>
+			<item.38 Version="1">
+				<virtualkey>2147483738</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.edit.redo</commandname>
+			</item.38>
+			<item.40 Version="1">
+				<virtualkey>2147483713</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.selectall</commandname>
+			</item.40>
+			<item.14 Version="1">
+				<virtualkey>2147483724</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.linkaudioandvideo</commandname>
+			</item.14>
+			<item.60 Version="1">
+				<virtualkey>3221225524</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.goto.in</commandname>
+			</item.60>
+			<item.18 Version="1">
+				<virtualkey>2147483694</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.clip.overlay</commandname>
+			</item.18>
+			<item.6 Version="1">
+				<virtualkey>2147483727</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.clear.out</commandname>
+			</item.6>
+			<item.1 Version="1">
+				<virtualkey>2147483715</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.caption.add.trackitem</commandname>
+			</item.1>
+			<item.136 Version="1">
+				<virtualkey>2147483725</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.set.marker</commandname>
+			</item.136>
+			<item.209 Version="1">
+				<virtualkey>2147483705</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Audio Clip Mixer</commandname>
+			</item.209>
+			<item.111 Version="1">
+				<virtualkey>2147483739</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.decreaseclipvolumemany</commandname>
+			</item.111>
+			<item.108 Version="1">
+				<virtualkey>2147483716</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.sequence.applydefaulttransitions</commandname>
+			</item.108>
+			<item.141 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.lead.five.inc</commandname>
+			</item.141>
+			<item.172 Version="1">
+				<virtualkey>2147483715</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tools.06razor</commandname>
+			</item.172>
+			<item.198 Version="1">
+				<virtualkey>2147483698</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.window.user.workspace.1</commandname>
+			</item.198>
+			<item.210 Version="1">
+				<virtualkey>2147483702</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Audio Mixers</commandname>
+			</item.210>
+			<item.33 Version="1">
+				<virtualkey>2147483723</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.keyboardshortcuts</commandname>
+			</item.33>
+			<item.213 Version="1">
+				<virtualkey>2147483704</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>uif.window.Media Browser</commandname>
+			</item.213>
+			<item.74 Version="1">
+				<virtualkey>2147483724</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.graphicsinspector.alignleft</commandname>
+			</item.74>
+			<item.0 Version="1">
+				<virtualkey>2147483713</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.caption.add.track</commandname>
+			</item.0>
+			<item.145 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.size.five.inc</commandname>
+			</item.145>
+			<item.185 Version="1">
+				<virtualkey>37</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.transport.sequence.end</commandname>
+			</item.185>
+			<item.134 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.sequence.trimforward</commandname>
+			</item.134>
+			<item.160 Version="1">
+				<virtualkey>2147483729</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.tlnav.trim.in.to.cti</commandname>
+			</item.160>
+			<item.52 Version="1">
+				<virtualkey>2147483726</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.new.sequence</commandname>
+			</item.52>
+			<item.24 Version="1">
+				<virtualkey>2147483721</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.common.setin</commandname>
+			</item.24>
+			<item.73 Version="1">
+				<virtualkey>2147483715</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.graphicsinspector.aligncenter</commandname>
+			</item.73>
+			<item.26 Version="1">
+				<virtualkey>35</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.clear</commandname>
+			</item.26>
+			<item.82 Version="1">
+				<virtualkey>2147483697</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choose.camera.1</commandname>
+			</item.82>
+			<item.45 Version="1">
+				<virtualkey>2147483735</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.closepanel</commandname>
+			</item.45>
+			<item.162 Version="1">
+				<virtualkey>2147483731</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.toggle.audio.scrubbing</commandname>
+			</item.162>
+			<item.67 Version="1">
+				<virtualkey>2147483739</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.move.graphic.layer.down</commandname>
+			</item.67>
+			<item.29 Version="1">
+				<virtualkey>2147483713</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.edit.deselectall</commandname>
+			</item.29>
+			<item.193 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.transport.step.back.five</commandname>
+			</item.193>
+			<item.90 Version="1">
+				<virtualkey>2147483697</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.multicam.choosenocut.camera1</commandname>
+			</item.90>
+		</context.global>
+		<context.capture Version="1">
+			<itemcount>11</itemcount>
+			<item.3 Version="1">
+				<virtualkey>2147483729</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.goto.inpoint</commandname>
+			</item.3>
+			<item.5 Version="1">
+				<virtualkey>2147483719</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.record</commandname>
+			</item.5>
+			<item.9 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.step.forward</commandname>
+			</item.9>
+			<item.4 Version="1">
+				<virtualkey>2147483735</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.goto.outpoint</commandname>
+			</item.4>
+			<item.8 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.step.back</commandname>
+			</item.8>
+			<item.10 Version="1">
+				<virtualkey>2147483731</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.stop</commandname>
+			</item.10>
+			<item.7 Version="1">
+				<virtualkey>2147483734</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.record.video</commandname>
+			</item.7>
+			<item.2 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.fastrewind</commandname>
+			</item.2>
+			<item.6 Version="1">
+				<virtualkey>2147483713</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.record.audio</commandname>
+			</item.6>
+			<item.1 Version="1">
+				<virtualkey>2147483718</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.fastforward</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2147483717</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.capture.eject</commandname>
+			</item.0>
+		</context.capture>
+		<context.scopes Version="1">
+			<itemcount>0</itemcount>
+		</context.scopes>
+		<context.timecode Version="1">
+			<itemcount>0</itemcount>
+		</context.timecode>
+		<context.source.monitor Version="1">
+			<itemcount>0</itemcount>
+		</context.source.monitor>
+		<context.csxshandler Version="1">
+			<itemcount>0</itemcount>
+		</context.csxshandler>
+		<context.progress Version="1">
+			<itemcount>0</itemcount>
+		</context.progress>
+		<context.effectcontrols Version="1">
+			<itemcount>2</itemcount>
+			<item.1 Version="1">
+				<virtualkey>2147483724</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.effectcontrols.loop.audio</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.clear</commandname>
+			</item.0>
+		</context.effectcontrols>
+		<context.markerList Version="1">
+			<itemcount>0</itemcount>
+		</context.markerList>
+		<context.color Version="1">
+			<itemcount>0</itemcount>
+		</context.color>
+		<context.titler Version="1">
+			<itemcount>26</itemcount>
+			<item.25 Version="1">
+				<virtualkey>2147483735</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.wedge</commandname>
+			</item.25>
+			<item.16 Version="1">
+				<virtualkey>2147483713</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.arc</commandname>
+			</item.16>
+			<item.3 Version="1">
+				<virtualkey>2147483733</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.font.underline</commandname>
+			</item.3>
+			<item.12 Version="1">
+				<virtualkey>2147483716</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.position.bottom.titlesafe</commandname>
+			</item.12>
+			<item.15 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.registered</commandname>
+			</item.15>
+			<item.5 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.nudge.five.left</commandname>
+			</item.5>
+			<item.22 Version="1">
+				<virtualkey>2147483734</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.select</commandname>
+			</item.22>
+			<item.20 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.rectangle</commandname>
+			</item.20>
+			<item.9 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.nudge.one.left</commandname>
+			</item.9>
+			<item.4 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.nudge.five.down</commandname>
+			</item.4>
+			<item.8 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.nudge.one.down</commandname>
+			</item.8>
+			<item.10 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.nudge.one.right</commandname>
+			</item.10>
+			<item.21 Version="1">
+				<virtualkey>2147483727</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.rotation</commandname>
+			</item.21>
+			<item.7 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.nudge.five.up</commandname>
+			</item.7>
+			<item.23 Version="1">
+				<virtualkey>2147483732</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.type</commandname>
+			</item.23>
+			<item.19 Version="1">
+				<virtualkey>2147483728</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.pen</commandname>
+			</item.19>
+			<item.11 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.nudge.one.up</commandname>
+			</item.11>
+			<item.17 Version="1">
+				<virtualkey>2147483717</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.ellipse</commandname>
+			</item.17>
+			<item.2 Version="1">
+				<virtualkey>2147483721</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.font.italic</commandname>
+			</item.2>
+			<item.13 Version="1">
+				<virtualkey>2147483718</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.position.left.titlesafe</commandname>
+			</item.13>
+			<item.14 Version="1">
+				<virtualkey>2147483727</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.position.top.titlesafe</commandname>
+			</item.14>
+			<item.18 Version="1">
+				<virtualkey>2147483724</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.line</commandname>
+			</item.18>
+			<item.6 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.nudge.five.right</commandname>
+			</item.6>
+			<item.1 Version="1">
+				<virtualkey>2147483714</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.font.bold</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2147483715</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.titler.misc.copyright</commandname>
+			</item.0>
+			<item.24 Version="1">
+				<virtualkey>2147483715</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.titler.misc.tool.type.vertical</commandname>
+			</item.24>
+		</context.titler>
 		<context.audioclipmixer Version="1">
 			<itemcount>0</itemcount>
 		</context.audioclipmixer>
+		<context.history Version="1">
+			<itemcount>3</itemcount>
+			<item.2 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.history.step.forward</commandname>
+			</item.2>
+			<item.1 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.history.step.backward</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.clear</commandname>
+			</item.0>
+		</context.history>
+		<context.essentialsound Version="1">
+			<itemcount>0</itemcount>
+		</context.essentialsound>
+		<context.edittotape Version="1">
+			<itemcount>0</itemcount>
+		</context.edittotape>
+		<context.audiomixer Version="1">
+			<itemcount>3</itemcount>
+			<item.2 Version="1">
+				<virtualkey>2147483732</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.audiomixer.showhidetracks</commandname>
+			</item.2>
+			<item.1 Version="1">
+				<virtualkey>2147483721</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.audiomixer.meterinput</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2147483724</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.audiomixer.loop</commandname>
+			</item.0>
+		</context.audiomixer>
+		<context.project Version="1">
+			<itemcount>29</itemcount>
+			<item.25 Version="1">
+				<virtualkey>39</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.wingtip.view.icon</commandname>
+			</item.25>
+			<item.16 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.movel.eft</commandname>
+			</item.16>
+			<item.3 Version="1">
+				<virtualkey>35</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.deletewithoptions</commandname>
+			</item.3>
+			<item.12 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.moveextend.down</commandname>
+			</item.12>
+			<item.15 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.moveextend.up</commandname>
+			</item.15>
+			<item.5 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.move.down</commandname>
+			</item.5>
+			<item.22 Version="1">
+				<virtualkey>3</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.previouscolumnfield</commandname>
+			</item.22>
+			<item.27 Version="1">
+				<virtualkey>2147483709</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.zoom.in</commandname>
+			</item.27>
+			<item.20 Version="1">
+				<virtualkey>2147483727</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.openinsource</commandname>
+			</item.20>
+			<item.9 Version="1">
+				<virtualkey>38</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.move.pageup</commandname>
+			</item.9>
+			<item.4 Version="1">
+				<virtualkey>2147483720</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.enablehover</commandname>
+			</item.4>
+			<item.28 Version="1">
+				<virtualkey>2147483693</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.zoom.out</commandname>
+			</item.28>
+			<item.8 Version="1">
+				<virtualkey>39</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.move.pagedown</commandname>
+			</item.8>
+			<item.10 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.move.right</commandname>
+			</item.10>
+			<item.21 Version="1">
+				<virtualkey>2147483739</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.previous.thumbnail.size.large</commandname>
+			</item.21>
+			<item.7 Version="1">
+				<virtualkey>36</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.move.home</commandname>
+			</item.7>
+			<item.23 Version="1">
+				<virtualkey>4</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.previousrowfield</commandname>
+			</item.23>
+			<item.19 Version="1">
+				<virtualkey>4</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.nextrowfield</commandname>
+			</item.19>
+			<item.11 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.move.up</commandname>
+			</item.11>
+			<item.17 Version="1">
+				<virtualkey>2147483741</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.next.thumbnail.size.large</commandname>
+			</item.17>
+			<item.2 Version="1">
+				<virtualkey>2147483714</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.file.newbinfromselection</commandname>
+			</item.2>
+			<item.13 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.moveextend.left</commandname>
+			</item.13>
+			<item.14 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.moveextend.right</commandname>
+			</item.14>
+			<item.18 Version="1">
+				<virtualkey>3</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.nextcolumnfield</commandname>
+			</item.18>
+			<item.6 Version="1">
+				<virtualkey>37</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.move.end</commandname>
+			</item.6>
+			<item.1 Version="1">
+				<virtualkey>2147483714</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.file.new.bin</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.clear</commandname>
+			</item.0>
+			<item.24 Version="1">
+				<virtualkey>2147483740</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.project.toggle.view</commandname>
+			</item.24>
+			<item.26 Version="1">
+				<virtualkey>38</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.project.wingtip.view.list</commandname>
+			</item.26>
+		</context.project>
+		<context.Graphics Version="1">
+			<itemcount>9</itemcount>
+			<item.3 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.nudge.left.five</commandname>
+			</item.3>
+			<item.5 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.nudge.right.five</commandname>
+			</item.5>
+			<item.4 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.nudge.left.one</commandname>
+			</item.4>
+			<item.8 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.nudge.up.one</commandname>
+			</item.8>
+			<item.7 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.nudge.up.five</commandname>
+			</item.7>
+			<item.2 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.nudge.down.one</commandname>
+			</item.2>
+			<item.6 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.nudge.right.one</commandname>
+			</item.6>
+			<item.1 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.nudge.down.five</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.graphics.clear</commandname>
+			</item.0>
+		</context.Graphics>
+		<context.timeline Version="1">
+			<itemcount>28</itemcount>
+			<item.25 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.slip.right.several</commandname>
+			</item.25>
+			<item.16 Version="1">
+				<virtualkey>39</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.show.next.screen</commandname>
+			</item.16>
+			<item.3 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.goto.next.caption.trackitem</commandname>
+			</item.3>
+			<item.12 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.nudge.up</commandname>
+			</item.12>
+			<item.15 Version="1">
+				<virtualkey>2</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.ripple.delete</commandname>
+			</item.15>
+			<item.5 Version="1">
+				<virtualkey>2147483709</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.increase.audio.tracks.height</commandname>
+			</item.5>
+			<item.22 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.slip.left.one</commandname>
+			</item.22>
+			<item.27 Version="1">
+				<virtualkey>2147483741</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.workbar.set.out</commandname>
+			</item.27>
+			<item.20 Version="1">
+				<virtualkey>2147483694</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.slide.right.one</commandname>
+			</item.20>
+			<item.9 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.nudge.left.several</commandname>
+			</item.9>
+			<item.4 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.goto.prev.caption.trackitem</commandname>
+			</item.4>
+			<item.8 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.nudge.left.one</commandname>
+			</item.8>
+			<item.10 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.nudge.right.one</commandname>
+			</item.10>
+			<item.21 Version="1">
+				<virtualkey>2147483694</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.slide.right.several</commandname>
+			</item.21>
+			<item.7 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.nudge.down</commandname>
+			</item.7>
+			<item.23 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.slip.left.several</commandname>
+			</item.23>
+			<item.19 Version="1">
+				<virtualkey>2147483692</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.slide.left.several</commandname>
+			</item.19>
+			<item.11 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.nudge.right.several</commandname>
+			</item.11>
+			<item.17 Version="1">
+				<virtualkey>38</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.show.previous.screen</commandname>
+			</item.17>
+			<item.2 Version="1">
+				<virtualkey>2147483693</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.decrease.video.tracks.height</commandname>
+			</item.2>
+			<item.13 Version="1">
+				<virtualkey>2147483734</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.paste.to.same.track</commandname>
+			</item.13>
+			<item.14 Version="1">
+				<virtualkey>2147483734</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.timeline.pasteinsert.to.same.track</commandname>
+			</item.14>
+			<item.18 Version="1">
+				<virtualkey>2147483692</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.slide.left.one</commandname>
+			</item.18>
+			<item.6 Version="1">
+				<virtualkey>2147483709</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.increase.video.tracks.height</commandname>
+			</item.6>
+			<item.1 Version="1">
+				<virtualkey>2147483693</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.decrease.audio.tracks.height</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.edit.clear</commandname>
+			</item.0>
+			<item.24 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.slip.right.one</commandname>
+			</item.24>
+			<item.26 Version="1">
+				<virtualkey>2147483739</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.timeline.workbar.set.in</commandname>
+			</item.26>
+		</context.timeline>
+		<context.metadata_editor Version="1">
+			<itemcount>2</itemcount>
+			<item.1 Version="1">
+				<virtualkey>1</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.metadataeditor.play</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2147483724</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.metadataeditor.loop</commandname>
+			</item.0>
+		</context.metadata_editor>
+		<context.prproduction Version="1">
+			<itemcount>12</itemcount>
+			<item.3 Version="1">
+				<virtualkey>37</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.move.end</commandname>
+			</item.3>
+			<item.5 Version="1">
+				<virtualkey>39</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.move.pagedown</commandname>
+			</item.5>
+			<item.9 Version="1">
+				<virtualkey>2147483727</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.openproject</commandname>
+			</item.9>
+			<item.4 Version="1">
+				<virtualkey>36</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.move.home</commandname>
+			</item.4>
+			<item.8 Version="1">
+				<virtualkey>2147483726</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.newproject</commandname>
+			</item.8>
+			<item.10 Version="1">
+				<virtualkey>2147483709</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.zoomin</commandname>
+			</item.10>
+			<item.7 Version="1">
+				<virtualkey>2</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.movetotrash</commandname>
+			</item.7>
+			<item.11 Version="1">
+				<virtualkey>2147483693</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.zoomout</commandname>
+			</item.11>
+			<item.2 Version="1">
+				<virtualkey>2147483695</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.prproductionfolder.makeacopy</commandname>
+			</item.2>
+			<item.6 Version="1">
+				<virtualkey>38</virtualkey>
+				<modifier.ctrl>false</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.prproductionfolder.move.pageup</commandname>
+			</item.6>
+			<item.1 Version="1">
+				<virtualkey>2147483735</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.prproductionfolder.closeproject</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2147483714</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.mediabrowser.newfolder</commandname>
+			</item.0>
+		</context.prproduction>
+		<context.program.monitor Version="1">
+			<itemcount>12</itemcount>
+			<item.3 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.nudge.down.one</commandname>
+			</item.3>
+			<item.5 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.nudge.left.one</commandname>
+			</item.5>
+			<item.9 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.nudge.up.one</commandname>
+			</item.9>
+			<item.4 Version="1">
+				<virtualkey>42</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.nudge.left.five</commandname>
+			</item.4>
+			<item.8 Version="1">
+				<virtualkey>44</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.nudge.up.five</commandname>
+			</item.8>
+			<item.10 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.rulers</commandname>
+			</item.10>
+			<item.7 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.nudge.right.one</commandname>
+			</item.7>
+			<item.11 Version="1">
+				<virtualkey>2147483707</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.snapping</commandname>
+			</item.11>
+			<item.2 Version="1">
+				<virtualkey>45</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.nudge.down.five</commandname>
+			</item.2>
+			<item.6 Version="1">
+				<virtualkey>43</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.nudge.right.five</commandname>
+			</item.6>
+			<item.1 Version="1">
+				<virtualkey>2147483730</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>true</modifier.alt>
+				<modifier.shift>true</modifier.shift>
+				<commandname>cmd.monitor.lockguides</commandname>
+			</item.1>
+			<item.0 Version="1">
+				<virtualkey>2147483707</virtualkey>
+				<modifier.ctrl>true</modifier.ctrl>
+				<modifier.alt>false</modifier.alt>
+				<modifier.shift>false</modifier.shift>
+				<commandname>cmd.monitor.guides</commandname>
+			</item.0>
+		</context.program.monitor>
 	</shortcuts>
 </PremiereData>
