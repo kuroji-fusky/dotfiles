@@ -106,6 +106,29 @@ function GitResetCache { & GitRmCache && GitAddAll }
 Set-Alias -Name gra -Value GitResetCache -Force -Option AllScope
 
 # =================================================
+# Git functions
+
+# Update branch from both local and origin
+function Update-GitBranch {
+  param (
+    [string]$oldBranch,
+    [string]$newBranch
+  )
+
+  if (-not $oldBranch -or -not $newBranch) {
+    Write-Host "Usage: Update-GitBranch <oldBranch> <newBranch>"
+    return
+  }
+
+  git branch -m $oldBranch $newBranch -v
+  git fetch origin -v
+  git branch -u "origin/$newBranch" $newBranch -v
+  git remote set-head origin -a -v
+}
+
+Set-Alias -Name upb -Value Update-GitBranch
+
+# =================================================
 # Common dev commands
 
 # Yiff OwO
