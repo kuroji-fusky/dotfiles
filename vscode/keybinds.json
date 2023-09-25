@@ -14,5 +14,13 @@
   {
     "key": "numpad_subtract",
     "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "shift+f2",
+    "command": "workbench.action.selectTheme"
+  },
+  {
+    "key": "ctrl+k ctrl+t",
+    "command": "-workbench.action.selectTheme"
   }
 ]

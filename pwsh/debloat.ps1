@@ -1,4 +1,6 @@
-$fuckOuttaHere = @(
+#Requires -RunAsAdministrator
+
+$bloat = @(
   "*bing*",
   "*xbox*",
   "*messaging*",
@@ -18,7 +20,7 @@ $fuckOuttaHere = @(
   "*cortana*"
 )
 
-foreach ($abomination in $fuckOuttaHere) {
+foreach ($abomination in $bloat) {
   Get-AppxPackage $abomination | Remove-AppxPackage -Verbose
   Get-AppxPackage -AllUsers $abomination | Remove-AppxPackage -Verbose
 }
