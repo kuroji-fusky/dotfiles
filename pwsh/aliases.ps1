@@ -96,10 +96,16 @@ function GitPushUpstream { & git push --set-upstream }
 Set-Alias -Name gpu -Value GitPushUpstream -Force -Option AllScope
 
 function GitRefLog { & git reflog . }
-Set-Alias -Name grf -Value GitRefLog -Force -Option AllScope
+Set-Alias -Name grf -Value GitRefLog
 
 function GitStatus { & git status -sb }
 Set-Alias -Name gs -Value GitStatus -Force -Option AllScope
+
+function GitStashUnstaged { & git stash -u }
+Set-Alias -Name gsu -Value GitStashUnstaged
+
+function GitStashApply { & git stash apply }
+Set-Alias -Name gsa -Value GitStashApply
 
 function GitRmCache { & git rm -r --cached . }
 function GitResetCache { & GitRmCache && GitAddAll }
@@ -109,27 +115,30 @@ Set-Alias -Name gra -Value GitResetCache -Force -Option AllScope
 # Git functions
 
 # Update branch from both local and origin
-function Update-GitBranch {
+function Rename-GitBranch {
   param (
     [string]$oldBranch,
     [string]$newBranch
   )
 
   if (-not $oldBranch -or -not $newBranch) {
-    Write-Host "Usage: Update-GitBranch <oldBranch> <newBranch>"
+    Write-Host "Usage: Rename-GitBranch <oldBranch> <newBranch>"
     return
   }
 
-  git branch -m $oldBranch $newBranch -v
+  git branch -m $oldBranch $newBranch
   git fetch origin -v
   git branch -u "origin/$newBranch" $newBranch -v
-  git remote set-head origin -a -v
+  git remote set-head origin -a
 }
 
-Set-Alias -Name upb -Value Update-GitBranch
+Set-Alias -Name upb -Value Rename-GitBranch
 
 # =================================================
 # Common dev commands
+
+function YarnInstall { & yarn install --force }
+Set-Alias -Name yi -Value YarnInstall
 
 # Yiff OwO
 function YarnInstallForce { & yarn install --force }

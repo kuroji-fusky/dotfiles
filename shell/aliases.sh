@@ -29,9 +29,12 @@ alias gpu="git push --set-upstream"
 alias grc="git rm -r --cached .; ga"
 alias grl="git reflog"
 alias gs="git status -sb"
+alias gsu="git stash -u"
+alias gsa="git stash apply"
 
 # =================================================
 # Common dev commands
+alias yi="yarn install"
 alias yif="yarn install --force"
 alias yd="yarn dev"
 alias yb="yarn build"

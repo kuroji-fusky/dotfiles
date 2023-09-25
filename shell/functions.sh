@@ -93,19 +93,19 @@ ytd() {
   # do some crazy arg parsing shit here
 }
 
-update-branch() {
+rename-branch() {
   if [ $# -ne 2 ]; then
-    echo "Usage: update-branch <old_branch> <new_branch>"
+    echo "Usage: rename-branch <old_branch> <new_branch>"
     return 1
   fi
 
   old_branch="$1"
   new_branch="$2"
 
-  git branch -m "$old_branch" "$new_branch" -v
+  git branch -m "$old_branch" "$new_branch"
   git fetch origin -v
   git branch -u "origin/$new_branch" "$new_branch" -v
-  git remote set-head origin -a -v
+  git remote set-head origin -a
 }
 
-alias upb="update-branch"
+alias rnb="rename-branch"
