@@ -26,9 +26,7 @@ function mkcd {
 
 # =================================================
 # Restart dat shit
-
-function Restart-Compooter { shutdown -r -f -t 0 }
-Set-Alias -Name rst -Value Restart-Compooter
+function rst { shutdown -r -f -t 0 }
 
 # =================================================
 # Toggle theme alias
@@ -43,6 +41,8 @@ function ToggleTheme {
 
   Set-ItemProperty -Path $regDir -Name $appKey -Value $newValue -Type Dword -Force
   Set-ItemProperty -Path $regDir -Name $sysKey -Value $newValue -Type Dword -Force
+  taskkill.exe -f -im explorer.exe
+  Start-Process explorer
 }
 
 Set-Alias -Name tt -Value ToggleTheme
