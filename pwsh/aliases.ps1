@@ -7,9 +7,10 @@ Set-Alias -Name c -Value Clear-Host
 # =================================================
 # Navigate directories
 
-function .. { & Set-Location .. }
-function ... { & Set-Location ../.. }
-
+function ~ { Set-Location ~ }
+function .. { Set-Location .. }
+function ... { Set-Location ../.. }
+function crb { Clear-RecycleBin -Force }
 
 # =================================================
 # Register `mkcd` command for Windows
