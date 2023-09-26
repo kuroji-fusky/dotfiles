@@ -50,24 +50,24 @@ Set-Alias -Name tt -Value ToggleTheme
 # =================================================
 # Add git aliases to make commiting code on the command line easier
 
-function ga { git add --all }
+function gaa { git add --all }
 function gb { git branch }
 function gc { git commit -m $args[0] --verbose }
 function gcl { git clone -m $args[0] --verbose }
 function gch { git checkout $args[0] }
-function gcho { git checkout --orphan }
-function gf { & git fetch --verbose }
-function gfa { & git fetch --all --verbose }
+function gcho { git checkout --orphan $args[0] --verbose }
+function gf { git fetch --verbose }
+function gfa { git fetch --all --verbose }
 function gpl { git pull }
 function gps { git push }
-function gpu { & git push --set-upstream }
-function grf { & git reflog . }
-function gs { & git status -sb }
-function gss { & git stash -u }
-function gsa { & git stash apply }
+function gpu { git push --set-upstream $args[0] --verbose }
+function grf { git reflog . }
+function gs { git status -sb }
+function gss { git stash -u }
+function gsa { git stash apply }
 function grc { 
   git rm -r --cached .
-  git add -A --verbose
+  git add -all
 }
 
 # =================================================
