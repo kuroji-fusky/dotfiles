@@ -16,3 +16,10 @@ function RemoveItemExt {
     $file | Remove-Item -Verbose 
   }
 }
+
+# Disable Game mode
+
+$GameModePath = "HKCU:\Software\Microsoft\GameBar"
+
+New-ItemProperty -Path $GameModePath -Name 'AllowAutoGameMode' -Value '0' -Type DWORD -Force
+New-ItemProperty -Path $GameModePath -Name 'AutoGameModeEnabled' -Value '0' -Type DWORD -Force

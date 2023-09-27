@@ -59,7 +59,7 @@ function gcho { git checkout --orphan $args[0] --verbose }
 function gf { git fetch --verbose }
 function gfa { git fetch --all --verbose }
 function gpl { git pull }
-function gps { git push }
+function gp { git push }
 function gpu { git push --set-upstream $args[0] --verbose }
 function grf { git reflog . }
 function gs { git status -sb }
