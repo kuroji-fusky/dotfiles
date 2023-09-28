@@ -50,16 +50,20 @@ Set-Alias -Name tt -Value ToggleTheme
 # =================================================
 # Add git aliases to make commiting code on the command line easier
 
+# Remove built-in aliases to make room for git commands
+# Remove-Item 'Alias:Get-Path' -Force
+# Remove-Item 'Alias:\Get-Content' -Force
+
 function gaa { git add --all }
 function gb { git branch }
-function gc { git commit -m $args[0] --verbose }
+function gc { &git commit -m $args[0] --verbose }
 function gcl { git clone -m $args[0] --verbose }
 function gch { git checkout $args[0] }
 function gcho { git checkout --orphan $args[0] --verbose }
 function gf { git fetch --verbose }
 function gfa { git fetch --all --verbose }
-function gpl { git pull }
-function gp { git push }
+function gpl { git pull --verbose  }
+function gp { git push --verbose }
 function gpu { git push --set-upstream $args[0] --verbose }
 function grf { git reflog . }
 function gs { git status -sb }
