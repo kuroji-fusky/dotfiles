@@ -1,61 +1,74 @@
 #!/bin/bash
 
-validate-package() {
-}
-
 # WIP -- Force kills a network port, defaults to kill localhost 3000, 4000, 5500, 5173, 8000, and 8080
 kill-port() {}
 
 # Installs node or python stuff with ease
-setup-project() {
+setup-repo() {
   repo=$1
 
-  if [[ repo != https://github.com/* || repo != git@github.com/* ]]; then
+  if ! [[ $repo == "git@github.com:"* || $repo == "https://github.com/"* ]]; then
     echo "Not a valid GitHub repository URL!"
     return 1
   fi
 
   git clone "$1" -v
   repo_folder=$(basename "$1" ".git")
+
   cd "$repo_folder" || return 1
 
   # Check project type
   if [[ -f package.json ]]; then
     if [[ -f package-lock.json ]]; then
+      echo "NPM lockfile detected"
       npm install
+
     elif [[ -f yarn.lock ]]; then
+      echo "Yarn lockfile detected"
       yarn install
+
     elif [[ -f pnpm-lock.yaml ]]; then
-      pnpm install --no-shamefully-hoist
+      if [[ $(npm list -g | grep -c pnpm) -eq 0 ]]; then
+        echo "PNPM not installed, installing right now"
+        npm i -g pnpm
+      fi
+
+      echo "PNPM lockfile detected"
+      pnpm install
+
     else
+      echo "No lockfile(s) detected; fallback to Yarn"
       yarn install
     fi
+
   elif [[ -f requirements.txt ]]; then
     pip install -r requirements.txt
   else
     echo "Environment not detected"
   fi
 
+  cd .
   echo "Project bootstrap complete!"
 }
 
-alias ki="setup-project"
-
-junk=(
-  node_modules
-  __pycache__
-  .next
-  .out
-  .nuxt
-  .turbo
-  dist
-  out
-)
+alias setup-repo="setup-project"
 
 clean() {
+  junk=(
+    node_modules
+    __pycache__
+    .next
+    .out
+    .nuxt
+    .turbo
+    build
+    dist
+    out
+  )
+
   read -p "clean project? (y/n)" yn
 
-  if [ $yn = 'y' ]; then
+  if [ $yn == 'y' ]; then
     rm -rdfv ${junk[@]}
     echo "All done!"
   fi
