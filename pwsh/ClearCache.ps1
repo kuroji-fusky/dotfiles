@@ -1,7 +1,3 @@
-<#
-Clears the damn cache
-#>
-
 $appDataDir = "C:\Users\*\AppData"
 
 $firefoxPath = "Local\Mozilla\Firefox\Profiles"
@@ -32,3 +28,5 @@ $tempfolders = @(
 foreach ($folder in $tempFolders) {
   Remove-Item $folder -Force -Recurse -Verbose
 }
+
+Clear-RecycleBin -Force

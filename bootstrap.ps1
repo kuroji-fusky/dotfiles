@@ -3,16 +3,25 @@
 # Stuff that requires admin privilages for screwing around with the registry
 Write-Output "Writing stuff to registry"
 
-# Enable verbose log for shutdown, restart, login, etc
-$RD_VerboseLogging = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"
-New-ItemProperty -Path $RD_VerboseLogging -Name "verbosestatus" -Value 1 -Type Dword -Force
+$GameModePath = "HKCU:\Software\Microsoft\GameBar"
+$GameConfigStore = "HKCU:\System\GameConfigStore"
 
-Write-Output "Debloating..."
-& .\pwsh\debloat.ps1
+$Registries = @(
+  # Enable verbose mode
+  @("HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System", "verbosestatus", "1"),
+  # Shwo file extensions
+  @("HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced", "HideFileExt", "0"),
+  # Disable Game Overlay Shits
+  @($GameModePath, "AllowAutoGameMode", "0"),
+  @($GameModePath, "AutoGameModeEnabled", "0"),
+  @($GameConfigStore, "GameDVR_Enabled", "0")
+)
 
-# Show file extensions
-$RD_ShowFileExt = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
-New-ItemProperty -Path $RD_ShowFileExt -Name "HideFileExt" -Value 0 -Type Dword -Force
+foreach ($regItem in $Registries) {
+  $_path, $_key, $_val = $regItem
+
+  New-ItemProperty -Path $_path -Name $_key -Value $_val -Type Dword -Force
+}
 
 function SetupWorkspace {
   Write-Output "Installing your crap right now"
@@ -67,17 +76,9 @@ function SetupWorkspace {
   git config --global color.ui true
 }
 
-# Check if the winget command is available, just in case
-# of a fresh install
-if (Get-Command winget -ErrorAction SilentlyContinue) {
-  Write-Output "winget not detected on your system, installing..."
-  Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
-  SetupWorkspace
-}
-else {
-  SetupWorkspace
-}
-
 # ===================================
 # Register custom command aliases
 & .\pwsh\aliases.ps1
+
+Write-Output "Debloating..."
+& .\pwsh\debloat.ps1
