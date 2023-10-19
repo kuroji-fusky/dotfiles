@@ -1,33 +1,58 @@
 {
-  // Git shit
-  "git.confirmSync": false,
-  "git.autofetch": true,
-
+  // General
   "window.zoomLevel": 2,
-  "workbench.colorTheme": "Majira Strawberry Theme",
-  "workbench.iconTheme": "material-icon-theme",
   "explorer.confirmDragAndDrop": false,
   "glassit.alpha": 220,
   "powershell.promptToUpdatePowerShell": false,
 
-  // Sticky scroll dat shit
+  // Themes
+  "workbench.colorTheme": "Majira Strawberry Theme",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Git shit
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  // Sticky scroll
   "editor.stickyScroll.enabled": true,
 
   // Format shit
   "editor.insertSpaces": true,
-  "editor.fontSize": 15,
   "editor.tabSize": 2,
 
-  // Fonts
+  // Don't render characters on the minimap
+  "editor.minimap.renderCharacters": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // Hide the menu bar on the title of the window
+  "window.menuBarVisibility": "compact",
+
+  // Fonts and spacing
+  "editor.fontSize": 15,
   "editor.fontLigatures": true,
   "editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
-
+  "editor.lineHeight": 1.8,
+  
   // Make VS Code smooth af
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "block",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.lineHeight": 1.75,
   "editor.smoothScrolling": true,
+
+  // Ignore 'at-rule' warning for Tailwind @apply directive
+  "scss.lint.unknownAtRules": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+
+  // Update imports when refactoring garbage
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // GitLens
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "remoteBranches"
+  ],
 
   // Set default formatter by languages
   "[typescript]": {
@@ -46,6 +71,21 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

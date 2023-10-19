@@ -4,8 +4,8 @@
     "command": "workbench.action.openRecent"
   },
   {
-    "key": "ctrl+r",
-    "command": "-workbench.action.openRecent"
+    "key": "ctrl+k ctrl+t",
+    "command": "workbench.action.selectTheme"
   },
   {
     "key": "numpad_add",
@@ -16,11 +16,19 @@
     "command": "editor.action.fontZoomOut"
   },
   {
-    "key": "shift+f2",
-    "command": "workbench.action.selectTheme"
+    "key": "alt+c alt+b",
+    "command": "git.checkout"
   },
   {
-    "key": "ctrl+k ctrl+t",
-    "command": "-workbench.action.selectTheme"
+    "key": "shift+alt+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "shift+alt+[",
+    "command": "editor.emmet.action.balanceIn"
+  },
+  {
+    "key": "shift+alt+]",
+    "command": "editor.emmet.action.balanceOut"
   }
 ]
