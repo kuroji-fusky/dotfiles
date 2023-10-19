@@ -19,15 +19,16 @@ setup-repo() {
 
   # Check project type
   if [[ -f package.json ]]; then
-    if [[ -f package-lock.json ]]; then
+    case 1 in
+    $([[ -f package-lock.json ]]))
       echo "NPM lockfile detected"
       npm install
-
-    elif [[ -f yarn.lock ]]; then
+      ;;
+    $([[ -f yarn.lock ]]))
       echo "Yarn lockfile detected"
       yarn install
-
-    elif [[ -f pnpm-lock.yaml ]]; then
+      ;;
+    $([[ -f pnpm-lock.yaml ]]))
       if [[ $(npm list -g | grep -c pnpm) -eq 0 ]]; then
         echo "PNPM not installed, installing right now"
         npm i -g pnpm
@@ -35,11 +36,12 @@ setup-repo() {
 
       echo "PNPM lockfile detected"
       pnpm install
-
-    else
+      ;;
+    *)
       echo "No lockfile(s) detected; fallback to Yarn"
       yarn install
-    fi
+      ;;
+    esac
 
   elif [[ -f requirements.txt ]]; then
     pip install -r requirements.txt

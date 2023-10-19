@@ -25,8 +25,33 @@ function mkcd {
 }
 
 # =================================================
-# Restart dat shit
-function rst { shutdown -r -f -t 0 }
+# Restart alias
+function rst { 
+  $processes = @(
+    "AutoHotkeyU64.exe",
+    "Figma.exe",
+    "Telegram.exe",
+    "Discord.exe",
+    "Notion.exe",
+    "brave.exe",
+    "firefox.exe",
+    "thunderbird.exe",
+    "steam*",
+    "adobe*",
+    "cc*",
+    "google*",
+    "GitHubDesktop.exe",
+    "Code*",
+    "photos*",
+    "everything*"
+  )
+  
+  foreach ($process in $processes) {
+    taskkill -f -im $process
+  }
+
+  shutdown -r -f -t 0
+}
 
 # =================================================
 # Toggle theme alias
@@ -62,7 +87,7 @@ function gch { & git checkout $args[0] }
 function gcho { & git checkout --orphan $args[0] --verbose }
 function gf { & git fetch --verbose }
 function gfa { & git fetch --all --verbose }
-function gpl { & git pull --verbose  }
+function gpl { & git pull --verbose }
 function gp { & git push --verbose }
 function gpu { & git push --set-upstream $args[0] --verbose }
 function grl { & git reflog . }
