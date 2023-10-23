@@ -1,3 +1,3 @@
 * text=lf
 
-web\ublock-filter-list linguist-language=AdBlock linguist-detectable
+web/ublock-filter-list.txt linguist-language=AdBlock linguist-detectable
