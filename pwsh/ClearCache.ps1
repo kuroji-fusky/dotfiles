@@ -25,8 +25,10 @@ $tempfolders = @(
   "$appDataDir\$bravePath\Default\Code Cache\*"
 )
 
+Clear-RecycleBin -Force
+
 foreach ($folder in $tempFolders) {
   Remove-Item $folder -Force -Recurse -Verbose
 }
 
-Clear-RecycleBin -Force
+cd ~\GitHub\; Get-ChildItem -Recurse -Directory -Hidden -Filter .git | ForEach-Object { & git --git-dir="$($_.FullName)" --work-tree="$(Split-Path $_.FullName -Parent)" pull -v }; cd -
