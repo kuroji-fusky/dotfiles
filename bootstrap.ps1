@@ -4,7 +4,7 @@
 Write-Output "Writing stuff to registry"
 & .\pwsh\registry.ps1
 
-winget import .\winget.json --verbose
+winget import .\pwsh\winget.json --verbose
 
 # ===================================
 # Install python and node stuff globally

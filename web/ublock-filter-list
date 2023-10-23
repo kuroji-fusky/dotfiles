@@ -8,10 +8,6 @@ fandom.com##.marketing-notifications
 ! https://www.thedealersden.com
 www.thedealersden.com##.text-center.mx-3.mb-4
 
-! https://www.deviantart.com
-www.deviantart.com##iframe[title="DealerAdIframe"]
-www.deviantart.com##section :is(section[style*="background"], ._37VSw)
-
 ! https://sass-lang.com
 sass-lang.com##.sl-c-alert--special.sl-c-alert
 
@@ -28,3 +24,17 @@ careerkarma.com##.ant-modal-root
 careerkarma.com##.getMatchedBar_getMatchedWrapper__5LGax
 careerkarma.com##.close-banner-btn
 careerkarma.com##.columns.medium-4.small-12.sidebar
+
+! 2023-09-30 https://stackshare.io
+stackshare.io##.crisp-client
+
+! 2023-10-01 https://www.deviantart.com
+www.deviantart.com##div._37myx div._2kMWf._3WGhw div._2kMWf._3_RGZ div._2kMWf._2eSya.GmPyI div._32aCz._2N30k section
+www.deviantart.com##._3gQKb
+
+! 2023-10-09 https://console.cloudinary.com
+console.cloudinary.com##.intercom-app
+
+! 2023-09-12 https://blog.logrocket.com
+blog.logrocket.com##.sidebar
+blog.logrocket.com##.code-block-57.code-block
