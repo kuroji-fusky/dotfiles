@@ -75,9 +75,8 @@ Set-Alias -Name tt -Value ToggleTheme
 # =================================================
 # Add git aliases to make commiting code on the command line easier
 
-# Remove built-in aliases to make room for git commands
-# Remove-Item 'Alias:Get-Path' -Force
-# Remove-Item 'Alias:\Get-Content' -Force
+Remove-Alias -Name gp -Force
+Remove-Item alias:gp -Force
 
 function gaa { & git add --all }
 function gb { & git branch }
