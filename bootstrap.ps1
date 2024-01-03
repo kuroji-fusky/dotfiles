@@ -4,7 +4,7 @@
 Write-Output "Writing stuff to registry"
 & .\pwsh\registry.ps1
 
-winget import .\pwsh\winget.json --verbose
+winget import .\winget.json --verbose
 
 # ===================================
 # Install python and node stuff globally
@@ -23,7 +23,6 @@ $NPM_Packages = @(
 $Python_Packages = @(
   "numpy",
   "autopep8",
-  "yapf",
   "mypy",
   "requests",
   "beautifulsoup4",
@@ -42,13 +41,6 @@ python -m pip install -U $Python_Packages --verbose
 
 # ===================================
 # Setup git stuff
-Write-Output "Setup almost done! All you need is to configure your Git credientals lol"
-
-$name = Read-Host "[git] Enter username "
-$email = Read-Host "[git] Enter email "
-
-git config --global user.name $name
-git config --global user.email $email
 git config --global core.ignorecase false
 git config --global color.ui true
 

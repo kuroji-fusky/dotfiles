@@ -10,7 +10,10 @@ Set-Alias -Name c -Value Clear-Host
 function ~ { Set-Location ~ }
 function .. { Set-Location .. }
 function ... { Set-Location ../.. }
+function .... { Set-Location ../../.. }
 function crb { Clear-RecycleBin -Force }
+
+Set-Alias -Name touch -Value New-Item
 
 # =================================================
 # Register `mkcd` command for Windows
@@ -75,15 +78,17 @@ Set-Alias -Name tt -Value ToggleTheme
 # =================================================
 # Add git aliases to make commiting code on the command line easier
 
-Remove-Alias -Name gp -Force
-Remove-Item alias:gp -Force
+Remove-Alias -Name gp -Force -ErrorAction SilentlyContinue
+Remove-Alias -Name gc -Force -ErrorAction SilentlyContinue
 
 function gaa { & git add --all }
 function gb { & git branch }
 function gc { & git commit -m $args[0] --verbose }
-function gcl { & git clone -m $args[0] --verbose }
+function gcn { & git commit -m $args[0] --no-verify --verbose }
+function gcl { & git clone $args[0] --verbose }
 function gch { & git checkout $args[0] }
 function gcho { & git checkout --orphan $args[0] --verbose }
+function gd { & git diff }
 function gf { & git fetch --verbose }
 function gfa { & git fetch --all --verbose }
 function gpl { & git pull --verbose }
@@ -123,9 +128,6 @@ Set-Alias -Name upb -Value Rename-GitBranch
 # Common dev commands
 
 function yi { yarn install }
-
-# Yiff OwO
-function yif { yarn install --force }
 function yd { yarn dev }
 function yb { yarn build }
 function ys { yarn start }
