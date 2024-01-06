@@ -4,6 +4,7 @@
 Write-Output "Writing stuff to registry"
 & .\pwsh\registry.ps1
 
+Write-Output "Installing your shit"
 winget import .\winget.json --verbose
 
 # ===================================
