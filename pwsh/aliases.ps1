@@ -87,7 +87,7 @@ function gc { & git commit -m $args[0] --verbose }
 function gcn { & git commit -m $args[0] --no-verify --verbose }
 function gcl { & git clone $args[0] --verbose }
 function gch { & git checkout $args[0] }
-function gcho { & git checkout --orphan $args[0] --verbose }
+function gcho { & git checkout --orphan $args[0] }
 function gd { & git diff }
 function gf { & git fetch --verbose }
 function gfa { & git fetch --all --verbose }

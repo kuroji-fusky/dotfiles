@@ -17,7 +17,9 @@ $Registries = @(
   @("HKCU:\System\GameConfigStore", "GameDVR_Enabled", "0"),
 
   # Windows 11: Removes Widgets and Chat from the Taskbar
+  @("HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer", "TaskbarDa", "0"),
   @("HKLM:\Default\$ExplorerAdvancedPath", "TaskbarDa", "0"),
+  @("HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer", "TaskbarMn", "0"),
   @("HKLM:\Default\$ExplorerAdvancedPath", "TaskbarMn", "0"),
 
   # Windows 11: Remove "Snap layout" features

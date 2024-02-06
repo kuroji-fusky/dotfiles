@@ -1,6 +1,7 @@
 #Requires -RunAsAdministrator
 
 $bloat = @(
+  '*WebExperience*',
   "*bing*",
   "*xbox*",
   "*messaging*",
