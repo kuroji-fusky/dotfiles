@@ -61,14 +61,14 @@ function Stop-DefinedProcesses {
 # Restart alias
 function rst { 
   Stop-DefinedProcesses -ListOfProcesses $processesToClose
-  shutdown -r -f -t 0
+  Restart-Computer -Timeout 0 -Force
 }
 
 # =================================================
 # Shutdown alias
 function sst { 
   Stop-DefinedProcesses -ListOfProcesses $processesToClose
-  shutdown -s -f -t 0
+  Stop-Computer -Force
 }
 
 # =================================================
