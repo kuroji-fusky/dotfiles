@@ -61,7 +61,7 @@ function Stop-DefinedProcesses {
 # Restart alias
 function rst { 
   Stop-DefinedProcesses -ListOfProcesses $processesToClose
-  Restart-Computer -Timeout 0 -Force
+  Restart-Computer -Force
 }
 
 # =================================================
