@@ -27,38 +27,52 @@ function mkcd {
   Set-Location $args[0] -PassThru
 }
 
+$processesToClose = @(
+  "AutoHotkey*",
+  "Figma*",
+  "Telegram*",
+  "Discord*",
+  "Notion*",
+  "brave*",
+  "firefox*",
+  "thunderbird*",
+  "steam*",
+  "adobe*",
+  "cc*",
+  "google*",
+  "GitHubDesktop*",
+  "AfterFX*",
+  "Code*",
+  "photos*",
+  "everything*"
+)
+
+function Stop-DefinedProcesses {
+  param (
+    [String[]] $ListOfProcesses
+  )
+  
+  foreach ($process in $ListOfProcesses) {
+    Get-Process $process -ErrorAction SilentlyContinue | Stop-Process -PassThru
+  }
+}
+
 # =================================================
 # Restart alias
 function rst { 
-  $processes = @(
-    "AutoHotkeyU64.exe",
-    "Figma.exe",
-    "Telegram.exe",
-    "Discord.exe",
-    "Notion.exe",
-    "brave.exe",
-    "firefox.exe",
-    "thunderbird.exe",
-    "steam*",
-    "adobe*",
-    "cc*",
-    "google*",
-    "GitHubDesktop.exe",
-    "Code*",
-    "photos*",
-    "everything*"
-  )
-  
-  foreach ($process in $processes) {
-    taskkill -f -im $process
-  }
-
+  Stop-DefinedProcesses -ListOfProcesses $processesToClose
   shutdown -r -f -t 0
 }
 
 # =================================================
-# Toggle theme alias
+# Shutdown alias
+function sst { 
+  Stop-DefinedProcesses -ListOfProcesses $processesToClose
+  shutdown -s -f -t 0
+}
 
+# =================================================
+# Toggle theme alias
 function ToggleTheme {
   $regDir = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize"
   $appKey = "AppsUseLightTheme"
@@ -66,11 +80,22 @@ function ToggleTheme {
 
   $currentValue = Get-ItemProperty -Path $regDir -Name $appKey | Select-Object -exp $appKey
   $newValue = !$currentValue + 0
+  
+  $_prc_explorer = "explorer.exe"
+  $_prc_taskmgr = "taskmgr.exe"
 
   Set-ItemProperty -Path $regDir -Name $appKey -Value $newValue -Type Dword -Force
   Set-ItemProperty -Path $regDir -Name $sysKey -Value $newValue -Type Dword -Force
-  taskkill.exe -f -im explorer.exe
-  Start-Process explorer
+
+  Stop-Process $_prc_explorer
+  Start-Sleep -Seconds 0.33
+  Start-Process $_prc_explorer
+
+  if (Get-Process -Name $_prc_taskmgr -ErrorAction SilentlyContinue) {
+    Stop-Process $_prc_taskmgr
+    Start-Sleep -Seconds 0.33
+    Start-Process $_prc_taskmgr
+  }
 }
 
 Set-Alias -Name tt -Value ToggleTheme
@@ -125,8 +150,8 @@ function grc {
 # Git function to update branch name from both local and origin
 function Rename-GitBranch {
   param (
-    [string]$oldBranch,
-    [string]$newBranch
+    [string] $oldBranch,
+    [string] $newBranch
   )
 
   if (-not $oldBranch -or -not $newBranch) {

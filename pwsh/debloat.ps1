@@ -7,7 +7,6 @@ $bloat = @(
   "*messaging*",
   "*onenote*",
   "*skype*",
-  "*skype*",
   "*3dviewer*",
   "*maps*",
   "*feedback*",
