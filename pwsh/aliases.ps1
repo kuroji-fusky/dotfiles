@@ -81,20 +81,15 @@ function ToggleTheme {
   $currentValue = Get-ItemProperty -Path $regDir -Name $appKey | Select-Object -exp $appKey
   $newValue = !$currentValue + 0
   
-  $_prc_explorer = "explorer.exe"
-  $_prc_taskmgr = "taskmgr.exe"
-
   Set-ItemProperty -Path $regDir -Name $appKey -Value $newValue -Type Dword -Force
   Set-ItemProperty -Path $regDir -Name $sysKey -Value $newValue -Type Dword -Force
 
-  Stop-Process $_prc_explorer
-  Start-Sleep -Seconds 0.33
-  Start-Process $_prc_explorer
+  Get-Process -Name "explorer" | Stop-Process -PassThru -Force
 
-  if (Get-Process -Name $_prc_taskmgr -ErrorAction SilentlyContinue) {
-    Stop-Process $_prc_taskmgr
+  if (Get-Process -Name "taskmgr" -ErrorAction SilentlyContinue) {
+    Stop-Process -Name "taskmgr" -PassThru -Force
     Start-Sleep -Seconds 0.33
-    Start-Process $_prc_taskmgr
+    Start-Process -FilePath "taskmgr.exe"
   }
 }
 
