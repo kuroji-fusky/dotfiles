@@ -27,26 +27,6 @@ function mkcd {
   Set-Location $args[0] -PassThru
 }
 
-$processesToClose = @(
-  "AutoHotkey*",
-  "Figma*",
-  "Telegram*",
-  "Discord*",
-  "Notion*",
-  "brave*",
-  "firefox*",
-  "thunderbird*",
-  "steam*",
-  "adobe*",
-  "cc*",
-  "google*",
-  "GitHubDesktop*",
-  "AfterFX*",
-  "Code*",
-  "photos*",
-  "everything*"
-)
-
 # =================================================
 # Toggle theme alias
 function ToggleTheme {
@@ -81,6 +61,25 @@ function Stop-DefinedProcesses {
   }
 }
 
+$processesToClose = @(
+  "AutoHotkey*",
+  "Figma*",
+  "Telegram*",
+  "Discord*",
+  "Notion*",
+  "brave*",
+  "firefox*",
+  "thunderbird*",
+  "steam*",
+  "adobe*",
+  "cc*",
+  "google*",
+  "GitHubDesktop*",
+  "AfterFX*",
+  "Code*",
+  "photos*",
+  "everything*"
+)
 
 # =================================================
 # Restart alias
@@ -95,3 +94,13 @@ function sst {
   Stop-DefinedProcesses -ListOfProcesses $processesToClose
   Stop-Computer -Force
 }
+
+function KillPort {
+  $portProcesses = Get-NetTCPConnection -LocalPort $args[0] -ErrorAction Stop
+
+  foreach ($port in $portProcesses) {
+    Stop-Process -Force -Id $port
+  }
+}
+
+Set-Alias -Name kp -Value KillPort
