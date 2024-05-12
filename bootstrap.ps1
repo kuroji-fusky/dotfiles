@@ -4,14 +4,15 @@
 Write-Output "Writing stuff to registry"
 & .\pwsh\registry.ps1
 
-Write-Output "Installing your shit"
-winget import .\winget.json --verbose
+#Write-Output "Installing your shit"
+#winget import .\winget.json --verbose
 
 # ===================================
 # Install python and node stuff globally
 
 # Install latest node version using nvm
 nvm install lts
+nvm use lts
 
 $NPM_Packages = @(
   "typescript",
@@ -47,7 +48,9 @@ git config --global color.ui true
 
 # ===================================
 # Register custom command aliases
-& .\pwsh\aliases.ps1
+& .\pwsh\aliases\git.ps1
+& .\pwsh\aliases\scripts.ps1
+& .\pwsh\aliases\system.ps1
 
 Write-Output "Debloating..."
 & .\pwsh\debloat.ps1
