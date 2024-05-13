@@ -1,14 +1,22 @@
-import yt_dlp
+from yt_dlp import YoutubeDL as yt
+
 import argparse
+import json
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--music-mode",
-                    action="store_true",
-                    help="Downloads all the defined URLs as mp3")
-parser.add_argument("--archive-mode",
-                    action="store_true",
-                    help="Will download almost everything necessary for archival storage")
+download_modes = ["default", "music", "archive",
+                  "d", "m", "a"]
+
+parser.add_argument("--mode",
+                    "-M",
+                    nargs="*",
+                    default=download_modes[0],
+                    const=download_modes[0],
+                    choices=download_modes,
+                    required=False,
+                    type="str",
+                    help="A mode what video to download")
 
 args = parser.parse_args()
 
