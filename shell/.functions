@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # WIP -- Force kills a network port, defaults to kill localhost 3000, 4000, 5500, 5173, 8000, and 8080
 kill-port() {}

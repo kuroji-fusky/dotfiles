@@ -1,4 +1,6 @@
 global:
+  - outputs: ["/pwsh/aliases.ps1", "/shell/.aliases"]
+
   # changing dirs
   - label: "Dirs"
     aliases:
@@ -10,8 +12,8 @@ global:
   - aliases: 
     # You can use "cls" on Windows, but for simplicity, I placed it here since Windows
     # recognizes the "clear" command
-    - c:       "clear"
-    - gs:      "git status -sb"
+    - c:         "clear"
+    - gs:        "git status -sb"
 
   # Common git commands
   - label: "Git"
@@ -33,10 +35,12 @@ global:
       - gcho:    "git checkout --orphan {{0}}"
 
 windows:
+  - outputs: "/pwsh/aliases.ps1"
   - aliases:
     - codei:   "code-insiders {{0 ?> .}}"
 
 unix:
+  - outputs: "/shell/.aliases"
   - aliases:
     - ls:      "ls --color=auto"
     - la:      "ls -la --color=auto"

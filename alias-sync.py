@@ -1,20 +1,24 @@
-import yaml
-from datetime import datetime
+import re
 from typing import Literal
+from datetime import datetime
+
+import yaml
 
 CURRENT_DATE = datetime.now().strftime("%B %d, %Y %H:%M")
 AUTOGEN_MSG = f"This file is auto-generated; last modified on {CURRENT_DATE}"
 
 
-# WIP
-def parse_positional_args():
-    pass
+def parse_positional_args(input_str: str, replace_with: str) -> str:
+    # Matches something that has "{{n}}" or "{{n ?> <default value>}}" in a command
+    # ? consider adding support for env vars with "{{#env.something}}" perhaps?
+    # ? example: "node yourmom.js {{#env.NODE_ENV = 'production'}}"
+    pos_arg_pattern = re.match(r"({{\d}}|{{\d\s\?\>\s.*}})")
 
 
 _OS = Literal['win', 'unix']
 
 
-def parse_alias(alias_collection: list[dict], os: _OS = 'win'):
+def parse_alias(alias_collection: list[dict], os: _OS = 'win') -> str:
     [system_is_unix, system_is_windows] = [os == 'unix', os == 'win']
 
     _processed_aliases = []

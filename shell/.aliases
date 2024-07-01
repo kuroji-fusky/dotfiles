@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 alias {py,python}='python3'
 alias {c,cls}='clear'
