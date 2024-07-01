@@ -14,7 +14,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser; .\bootstrap.ps1
 
 ## Python setup
 
-For development, `cd` to the `python` directory and initialize a virtual environment.
+For development, initialize a virtual environment.
 
 ```console
 py -m venv venv

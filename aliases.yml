@@ -1,0 +1,42 @@
+global:
+  # changing dirs
+  - label: "Dirs"
+    aliases:
+      - "~":     "cd ~"
+      - "..":    "cd ../"
+      - "...":   "cd ../../"
+      - "....":  "cd ../../../"
+
+  - aliases: 
+    # You can use "cls" on Windows, but for simplicity, I placed it here since Windows
+    # recognizes the "clear" command
+    - c:       "clear"
+    - gs:      "git status -sb"
+
+  # Common git commands
+  - label: "Git"
+    aliases:
+      - gcl:     "git clone {{0}}"
+      - gclr:    "git clone {{0}} --recurse"
+      - ga:      "git add --all ."
+      - gf:      "git fetch"
+      - gc:      "git commit -m {{0}}"
+      - gcn:     "git commit -m {{0}} --no-verify"
+
+      - gst:     "git stash"
+      - gstu:    "git stash -u"
+      - gsta:    "git stash apply"
+
+      # git branches
+      - gb:      "git branch"
+      - gch:     "git checkout {{0}}"
+      - gcho:    "git checkout --orphan {{0}}"
+
+windows:
+  - aliases:
+    - codei:   "code-insiders {{0 ?> .}}"
+
+unix:
+  - aliases:
+    - ls:      "ls --color=auto"
+    - la:      "ls -la --color=auto"
