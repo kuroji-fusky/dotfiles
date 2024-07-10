@@ -35,12 +35,12 @@ global:
       - gcho:    "git checkout --orphan {{0}}"
 
 windows:
-  - outputs: "/pwsh/aliases.ps1"
+  - outputs: ["/pwsh/aliases.ps1"]
   - aliases:
-    - codei:   "code-insiders {{0 ?> .}}"
+    - codei:     "code-insiders {{0 ?> .}}"
 
 unix:
-  - outputs: "/shell/.aliases"
+  - outputs: ["/shell/.aliases"]
   - aliases:
-    - ls:      "ls --color=auto"
-    - la:      "ls -la --color=auto"
+    - ls:        "ls --color=auto"
+    - la:        "ls -la --color=auto"

@@ -1,5 +1,5 @@
 import re
-from typing import Literal
+from typing import Literal, LiteralString
 from datetime import datetime
 
 import yaml
@@ -9,7 +9,7 @@ AUTOGEN_MSG = f"This file is auto-generated; last modified on {CURRENT_DATE}"
 
 
 def parse_positional_args(input_str: str, replace_with: str) -> str:
-    # Matches something that has "{{n}}" or "{{n ?> <default value>}}" in a command
+    """Matches something that has `{{n}}` or `{{n ?> <default value>}}` in a command"""
     # ? consider adding support for env vars with "{{#env.something}}" perhaps?
     # ? example: "node yourmom.js {{#env.NODE_ENV = 'production'}}"
     pos_arg_pattern = re.match(r"({{\d}}|{{\d\s\?\>\s.*}})")
@@ -18,31 +18,44 @@ def parse_positional_args(input_str: str, replace_with: str) -> str:
 _OS = Literal['win', 'unix']
 
 
-def parse_alias(alias_collection: list[dict], os: _OS = 'win') -> str:
+def parse_alias(alias_collection: list[dict], os: _OS = 'win') -> LiteralString:
     [system_is_unix, system_is_windows] = [os == 'unix', os == 'win']
-
+    _processed_file_output = []
     _processed_aliases = []
 
-    if system_is_unix:
-        _processed_aliases.append("#!/bin/sh")
+    def _append_alias(x: str) -> None:
+        return _processed_aliases.append(x)
 
     # Push the current date first before the rest
-    _processed_aliases.append(f"# {AUTOGEN_MSG}")
+    _append_alias(f"# {AUTOGEN_MSG}")
+
+    if system_is_unix:
+        _append_alias("#!/bin/sh")
 
     for alias_section in alias_collection:
+        if 'outputs' in alias_section:
+            print(alias_section)
+
         if 'label' in alias_section:
-            _processed_aliases.append(
-                f"\n#\n# LABEL: {alias_section['label']}\n#\n")
+            _append_alias(f"\n\n# LABEL: {alias_section['label']}\n")
 
-        alias_list = alias_section['aliases']
+        if 'aliases' in alias_section:
+            alias_list = alias_section['aliases']
 
-        for alias_item in alias_list:
-            if system_is_windows:
-                _processed_aliases.append(
-                    ''.join([f'function {a[0]} {{ & {a[1]} }}' for a in alias_item.items()]))
+            for alias_item in alias_list:
+                if system_is_windows:
+                    _append_alias(
+                        ''.join([f'function {a[0]} {{ & {a[1]} }}' for a in alias_item.items()])  # noqa
+                    )
 
-    # Join everything
-    print("\n".join(_processed_aliases))
+                if system_is_unix:
+                    _append_alias(
+                        ''.join([f'alias {a[0]}=\"{a[1]}\"' for a in alias_item.items()])  # noqa
+                    )
+
+    parsed_output = "\n".join(_processed_aliases)
+
+    return parsed_output
 
 
 def main():
@@ -50,8 +63,11 @@ def main():
         alias_root = yaml.safe_load(st)
 
     global_alias = parse_alias(alias_root['global'])
+    global_alias_unix = parse_alias(alias_root['global'], 'unix')
     win_alias = parse_alias(alias_root['windows'])
     unix_alias = parse_alias(alias_root['unix'], 'unix')
+
+    print(global_alias_unix)
 
 
 if __name__ == "__main__":

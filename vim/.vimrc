@@ -7,6 +7,8 @@ filetype indent on
 syntax on
 
 set number
+set relativenumber
+
 set tabstop=2
 set nowrap
 set hlsearch
