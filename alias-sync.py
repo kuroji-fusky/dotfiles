@@ -1,3 +1,5 @@
+import os
+import stat
 import re
 from typing import Literal, LiteralString
 from datetime import datetime
@@ -7,14 +9,6 @@ import yaml
 CURRENT_DATE = datetime.now().strftime("%B %d, %Y %H:%M")
 AUTOGEN_MSG = f"This file is auto-generated; last modified on {CURRENT_DATE}"
 
-
-def parse_positional_args(input_str: str, replace_with: str) -> str:
-    """Matches something that has `{{n}}` or `{{n ?> <default value>}}` in a command"""
-    # ? consider adding support for env vars with "{{#env.something}}" perhaps?
-    # ? example: "node yourmom.js {{#env.NODE_ENV = 'production'}}"
-    pos_arg_pattern = re.match(r"({{\d}}|{{\d\s\?\>\s.*}})")
-
-
 _OS = Literal['win', 'unix']
 
 
@@ -22,6 +16,12 @@ def parse_alias(alias_collection: list[dict], os: _OS = 'win') -> LiteralString:
     [system_is_unix, system_is_windows] = [os == 'unix', os == 'win']
     _processed_file_output = []
     _processed_aliases = []
+
+    def parse_positional_args(input_str: str, replace_with: str) -> str:
+        """Matches something that has `{{n}}` or `{{n ?> <default value>}}` in a command"""
+        # ? consider adding support for env vars with "{{#env.something}}" perhaps?
+        # ? example: "node yourmom.js {{#env.NODE_ENV = 'production'}}"
+        pos_arg_pattern = re.match(r"({{\d}}|{{\d\s\?\>\s.*}})")
 
     def _append_alias(x: str) -> None:
         return _processed_aliases.append(x)
@@ -37,7 +37,7 @@ def parse_alias(alias_collection: list[dict], os: _OS = 'win') -> LiteralString:
             print(alias_section)
 
         if 'label' in alias_section:
-            _append_alias(f"\n\n# LABEL: {alias_section['label']}\n")
+            _append_alias(f"\n# LABEL: {alias_section['label']}\n")
 
         if 'aliases' in alias_section:
             alias_list = alias_section['aliases']
@@ -59,6 +59,9 @@ def parse_alias(alias_collection: list[dict], os: _OS = 'win') -> LiteralString:
 
 
 def main():
+    def save_executable(parsed_str: LiteralString) -> None:
+        ...
+
     with open("aliases.yml", "r", encoding="utf-8") as st:
         alias_root = yaml.safe_load(st)
 
