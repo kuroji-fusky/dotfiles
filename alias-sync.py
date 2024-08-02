@@ -12,16 +12,17 @@ AUTOGEN_MSG = f"This file is auto-generated; last modified on {CURRENT_DATE}"
 _OS = Literal['win', 'unix']
 
 
+def parse_positional_args(input_str: str, replace_with: str) -> str:
+    """Matches something that has `{{n}}` or `{{n ?> <default value>}}` in a command"""
+    # ? consider adding support for env vars with "{{#env.something}}" perhaps?
+    # ? example: "node yourmom.js {{#env.NODE_ENV = 'production'}}"
+    pos_arg_pattern = re.match(r"({{\d}}|{{\d\s\?\>\s.*}})")
+
+
 def parse_alias(alias_collection: list[dict], os: _OS = 'win') -> LiteralString:
     [system_is_unix, system_is_windows] = [os == 'unix', os == 'win']
     _processed_file_output = []
     _processed_aliases = []
-
-    def parse_positional_args(input_str: str, replace_with: str) -> str:
-        """Matches something that has `{{n}}` or `{{n ?> <default value>}}` in a command"""
-        # ? consider adding support for env vars with "{{#env.something}}" perhaps?
-        # ? example: "node yourmom.js {{#env.NODE_ENV = 'production'}}"
-        pos_arg_pattern = re.match(r"({{\d}}|{{\d\s\?\>\s.*}})")
 
     def _append_alias(x: str) -> None:
         return _processed_aliases.append(x)
