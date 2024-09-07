@@ -33,8 +33,9 @@ function Get-DriveSize {
   $RemainingSizeReadable = Get-RoundedSize -Bytes $RemainingSize
 
   $MountedVolumeTable = $MountedVolumes | Select-Object DriveLetter, FileSystemLabel , Size, SizeRemaining
-
   $MountedVolumeTable
 
-  Write-Output "`nYou have a total of $TotalSizeReadable of space and $RelativeSize ($RemainingSizeReadable) remaining left"
+  $TotalDriveCount = $($MountedVolumes | Measure-Object -Line).Lines
+
+  Write-Output "`nYou have a total of $TotalSizeReadable of space across $TotalDriveCount drives, and $RemainingSizeReadable ($RelativeSize) remaining left"
 }
