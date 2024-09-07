@@ -22,7 +22,7 @@ function Get-RoundedSize {
 }
 
 function Get-DriveSize {
-  $MountedVolumes = Get-Volume | Where-Object { $_.DriveLetter -ne $null }
+  $MountedVolumes = Get-Volume | Where-Object { $null -ne $_.DriveLetter }
 
   $TotalSize = $($MountedVolumes | Measure-Object -Property Size -Sum).Sum
   $RemainingSize = $($MountedVolumes | Measure-Object -Property SizeRemaining -Sum).Sum
