@@ -1,1 +1,2 @@
 * text=lf
+*.ps1 text=crlf

@@ -11,4 +11,4 @@
 	process = git-lfs filter-process
 	required = true
 [credential "https://github.com"]
-	kurojifusky = Kuroji Fusky
+	kuroji-fusky = Kuroji Fusky

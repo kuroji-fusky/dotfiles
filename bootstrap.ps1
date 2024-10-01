@@ -1,18 +1,20 @@
 #Requires -RunAsAdministrator
 
+
+# Thanks to this :3 https://stackoverflow.com/a/29424207/18905871
+function Get-CheckCommand {
+  param (
+    [string]$CmdName
+  )
+
+  return [bool](Get-Command -Name $CmdName -ErrorAction SilentlyContinue)
+}
+
+$CurrentPSRootDir = "$PSScriptRoot\pwsh"
+
 # Stuff that requires admin privilages for screwing around with the registry
 Write-Output "Writing stuff to registry"
-& .\pwsh\registry.ps1
-
-#Write-Output "Installing your shit"
-#winget import .\winget.json --verbose
-
-# ===================================
-# Install python and node stuff globally
-
-# Install latest node version using nvm
-nvm install lts
-nvm use lts
+& "$CurrentPSRootDir\registry.ps1"
 
 $NPM_Packages = @(
   "typescript",
@@ -38,19 +40,49 @@ $Python_Packages = @(
   "ipykernel"
 )
 
-npm install -g $NPM_Packages
-python -m pip install -U $Python_Packages --verbose
+if (Get-CheckCommand -CmdName "winget") {
+  Write-Output "Installing your shit"
+  winget import "$CurrentPSRootDir\winget.json" --verbose
+}
+else {
+  Write-Output "winget not installed"
+}
 
-# ===================================
-# Setup git stuff
-git config --global core.ignorecase false
-git config --global color.ui true
+# Install latest node version using nvm
+if (Get-CheckCommand -CmdName "nvm") {
+  nvm install lts
+  nvm use lts
+}
+
+if (Get-CheckCommand "npm") {
+  npm install -g $NPM_Packages
+}
+else {
+  Write-Output "Node/npm not installed; won't be installing npm packages"
+}
+
+if (
+  (
+    (Get-CheckCommand "python") -or `
+    (Get-CheckCommand "python3") -or `
+    (Get-CheckCommand "py")
+  ) -and `
+  (
+    (Get-CheckCommand "pip") -or `
+    (Get-CheckCommand "pip3")
+  )
+) {
+  python -m pip install -U $Python_Packages --verbose
+}
+else {
+  Write-Output "Python not installed; won't be installing pip packages"
+}
 
 # ===================================
 # Register custom command aliases
-& .\pwsh\aliases\git.ps1
-& .\pwsh\aliases\scripts.ps1
-& .\pwsh\aliases\system.ps1
+& "$CurrentPSRootDir\aliases\git.ps1"
+& "$CurrentPSRootDir\aliases\scripts.ps1"
+& "$CurrentPSRootDir\aliases\system.ps1"
 
 Write-Output "Debloating..."
-& .\pwsh\debloat.ps1
+& "$CurrentPSRootDir\debloat.ps1"
