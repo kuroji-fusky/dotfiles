@@ -39,3 +39,6 @@ function Get-DriveSize {
 
   Write-Output "`nYou have a total of $TotalSizeReadable of space across $TotalDriveCount drives, and $RemainingSizeReadable ($RelativeSize) remaining left"
 }
+
+Set-Alias -Name ds -Value Get-DriveSize
+Set-Alias -Name dsize -Value Get-DriveSize

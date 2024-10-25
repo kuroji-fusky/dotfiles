@@ -9,7 +9,7 @@ function yp { yarn preview }
 
 # todo: add a override if package-lock.json or pnpm-lock.yaml is found and has both lockfiles with yarn, fall back to yarn commands
 
-function InitializeVenv {
+function Set-InitializeVenv {
   if (Get-Command python) {
     python.exe -m venv venv
     return
@@ -26,8 +26,8 @@ function InitializeVenv {
   }
 }
 
-function DeactivateVenv {
+function Set-DeactivateVenv {
 }
 
-Set-Alias -Name venvi -Value InitializeVenv
-Set-Alias -Name venvd -Value DeactivateVenv
+Set-Alias -Name venvi -Value Set-InitializeVenv
+Set-Alias -Name venvd -Value Set-DeactivateVenv

@@ -95,7 +95,7 @@ function sst {
   Stop-Computer -Force
 }
 
-function KillPort {
+function Set-KillPort {
   $portProcesses = Get-NetTCPConnection -LocalPort $args[0] -ErrorAction Stop
 
   foreach ($port in $portProcesses) {
@@ -103,4 +103,4 @@ function KillPort {
   }
 }
 
-Set-Alias -Name kp -Value KillPort
+Set-Alias -Name kp -Value Set-KillPort
