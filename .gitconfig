@@ -1,14 +1,21 @@
 [user]
-	name = Kerby Keith Aquino
-	email = hello@kurojifusky.com
+  name = Kerby Keith Aquino
+  email = hello@kurojifusky.com
+
+[init]
+  defaultBranch = main
+
 [core]
-	ignorecase = false
+  ignorecase = false
+
 [color]
-	ui = true
+  ui = true
+
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+
 [credential "https://github.com"]
-	kuroji-fusky = Kuroji Fusky
+  kuroji-fusky = Kuroji Fusky
