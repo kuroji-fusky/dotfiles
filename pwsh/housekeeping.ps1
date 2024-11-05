@@ -4,7 +4,7 @@ Clear-RecycleBin -Force
 
 
 Write-Output "Pinging for an internet connection..."
-$HasConnection = & $(Test-Connection -Ping google.com -Quiet)
+$HasConnection = & Test-Connection -Ping google.com -Quiet
 
 If ($HasConnection) {
   ## Update stuff
