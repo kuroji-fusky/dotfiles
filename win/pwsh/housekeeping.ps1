@@ -1,6 +1,8 @@
 $HasConnection = Test-Connection -Ping google.com -Quiet &
 
 Clear-RecycleBin -Force
+
+# Clear temp files
 & "$PSScriptRoot\housekeeping\delete-temp-files.ps1"
 
 If ($HasConnection) {

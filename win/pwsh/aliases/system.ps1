@@ -57,7 +57,7 @@ function Stop-DefinedProcesses {
   )
   
   foreach ($process in $ListOfProcesses) {
-    Get-Process $process -ErrorAction SilentlyContinue | Stop-Process -PassThru
+    Get-Process $process -ErrorAction SilentlyContinue | Stop-Process -PassThru -Force
   }
 }
 

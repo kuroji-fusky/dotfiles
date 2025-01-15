@@ -44,6 +44,8 @@ function grl { & git reflog . }
 function gs { & git status -sb }
 function gss { & git stash -u }
 function gsa { & git stash apply }
+
+# TODO: make sure to ignore submodules defined from .gitmodules
 function grc { 
   git rm -r --cached .
   git add -all
