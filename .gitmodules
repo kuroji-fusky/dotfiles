@@ -1,6 +1,3 @@
-[submodule "python/utils"]
-	path = python/utils
-	url = https://github.com/kuroji-fusky/kuro-utils-python.git
 [submodule "win/pwsh/Block-Adobe-Firewall"]
 	path = win/pwsh/Block-Adobe-Firewall
 	url = https://github.com/kuroji-fusky/Block-Adobe-Firewall.git
