@@ -1,2 +1,5 @@
 * text=lf
 *.ps1 text=crlf
+
+# Detect Batchfiles
+*.bat linguist-detectable=true
