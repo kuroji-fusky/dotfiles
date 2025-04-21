@@ -4,6 +4,3 @@
 *.cmd    eol=crlf
 
 *.*rc    text
-
-# Detect Batchfiles
-*.bat    linguist-detectable=true
