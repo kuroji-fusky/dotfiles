@@ -1,5 +1,10 @@
+Import-Module "$PWD/pwsh/modules/DriveSize.psm1"
+
 # =================================================
 # ALIASES
+
+Set-Alias -Name ds -Value Get-DriveSize
+Set-Alias -Name dsize -Value Get-DriveSize
 
 Set-Alias -Name cdi -Value 'code-insiders'
 

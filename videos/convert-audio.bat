@@ -6,25 +6,24 @@ where /Q ffmpeg
 if errorlevel 1 (
     echo FFmpeg is not installed 
     pause
-    goto ExitMeBaby
+    goto ExitProg
 )
 
 :ProcessFiles
 if "%~1"=="" (
     echo FEED ME A PRECIOUS VIDEO FILE PLZ
     pause
-    goto ExitMeBaby
+    goto ExitProg
 )
 
 :ConvertFile
-for %%F in (%*) do (
-  set "inputFile=%%~F"
-  set "outputFile=%%~dpnF.wav"
-
-  setlocal enableDelayedExpansion
-    ffmpeg -i "!inputFile!" "!outputFile!" -y -hide_banner
-  endlocal
-)
+setlocal enableDelayedExpansion
+    for %%F in (%*) do (
+      set "inputFile=%%~F"
+      set "outputFile=%%~dpnF.wav"
+        ffmpeg -i "!inputFile!" "!outputFile!" -y -hide_banner
+    )
+endlocal
 
 echo.
 echo.
@@ -32,7 +31,7 @@ echo Conversion complete!
 echo.
 echo.
 pause
-goto ExitMeDaddy
+goto ExitProg
 
-:ExitMeDaddy
+:ExitProg
 exit /b

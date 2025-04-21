@@ -16,3 +16,5 @@ function Get-WindowState {
   $state = [CheckWindowState]::GetWindowState($hWnd)
   Write-Output $state
 }
+
+Export-ModuleMember -Function "Get-WindowState"
