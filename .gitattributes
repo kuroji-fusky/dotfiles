@@ -1,5 +1,9 @@
-* text=lf
-*.ps1 text=crlf
+*        eol=lf
+*.ps1    eol=crlf  linguist-detectable
+*.bat    eol=crlf  linguist-detectable
+*.cmd    eol=crlf
+
+*.*rc    text
 
 # Detect Batchfiles
-*.bat linguist-detectable=true
+*.bat    linguist-detectable=true
