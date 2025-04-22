@@ -4,7 +4,7 @@ Here are my scripts I need for my machines to keep an optimal and consistent wor
 
 ## Windows
 
-### Running the bootstrap
+### Running the bootstrap script
 
 > [!NOTE]
 > Running `bootstrap.ps1` will require admin privilages and allow the script by
