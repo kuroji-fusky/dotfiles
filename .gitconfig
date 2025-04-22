@@ -17,5 +17,5 @@
   process = git-lfs filter-process
   required = true
 
-[credential "https://github.com"]
-  kuroji-fusky = Kuroji Fusky
+[credential]
+  helper = manager-core
