@@ -1,6 +1,5 @@
 *        eol=lf
 *.ps1    eol=crlf  linguist-detectable
 *.bat    eol=crlf  linguist-detectable
-*.cmd    eol=crlf
 
 *.*rc    text
