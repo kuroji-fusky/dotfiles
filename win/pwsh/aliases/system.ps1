@@ -1,4 +1,4 @@
-Import-Module "$PWD/pwsh/modules/DriveSize.psm1"
+Import-Module "$(Split-Path $PSScriptRoot -Parent)\modules\DriveSize.psm1"
 
 # =================================================
 # ALIASES
@@ -6,7 +6,7 @@ Import-Module "$PWD/pwsh/modules/DriveSize.psm1"
 Set-Alias -Name ds -Value Get-DriveSize
 Set-Alias -Name dsize -Value Get-DriveSize
 
-Set-Alias -Name cdi -Value 'code-insiders'
+Set-Alias -Name cdi -Value "code-insiders.cmd"
 
 function ~ { Set-Location ~ }
 function .. { Set-Location .. }
