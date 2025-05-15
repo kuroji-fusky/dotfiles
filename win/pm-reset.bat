@@ -6,48 +6,92 @@
 @rem It also contains safeguards to force kill if `sc` couldn't kill it.
 setlocal
 
-set "PM_DIR=%PROGRAMDATA%\Safing\Portmaster"
-set "PM_SC=PortmasterCore"
-
 title Reinit Portmaster
 
 net session >nul 2>&1
 if %errorlevel% neq 0 (
     echo This script requires admin privilages, please re-run this script. *puppy eyes*
     echo.
-    pause
     goto term
 )
 
-sc stop %PM_SC%
+if "%PROGRAMDATA%" == "" (
+    echo ERROR: %PROGRAMDATA% is not set.
+    goto term
+)
 
+set "PM_DIR=%PROGRAMDATA%\Safing\Portmaster"
+set "PM_SC=PortmasterCore"
+
+set "TIMEOUT_SEC=6"
+
+:: Stop the process gently, if it's being stubborn, then cut it's throat
+sc stop %PM_SC% >nul
+
+set "retry_count=0"
 :CheckStopped
-sc query %PM_SC% | findstr /C:"STATE" | findstr /C:"STOPPED" >nul
-if %errorlevel% neq 0 (
-    timeout 6 >nul
-    sc query %PM_SC% | findstr /C:"STATE" | findstr /C:"STOP_PENDING" >nul
-
-    if %errorlevel% neq 0 (
-        taskkill /f /im "portmaster*"
-    )
-    goto :CheckStopped
+if %retry_count% geq 3 (
+    echo Service failed to stop after 3 attempts. Force killing Portmaster processes...
+    taskkill /f /im "portmaster*" >nul
+    goto StartPMService
 )
 
-sc start %PM_SC%
+if %retry_count% equ 0 (
+    echo Stopping process...
+) else (
+    echo Stopping process - attempt %retry_count%...
+)
 
+set /a retry_count+=1
+timeout %TIMEOUT_SEC% /nobreak >nul
+
+:: If it's truly dead, we can now resurrect that bitch from the dead
+call :CheckProcessStatus "STOPPED"
+if %errorlevel% neq 0 goto StartPMService
+
+:StartPMService
+sc start %PM_SC% >nul
+
+:: reset counter
+set "retry_count=0"
 :CheckRunning
-sc query %PM_SC% | findstr /C:"STATE" | findstr /C:"RUNNING" >nul
-if %errorlevel% neq 1 (
-    timeout 5 >nul
-    goto :CheckRunning
+if %retry_count% geq 10 (
+    echo Failed to start the Portmaster service after 10 times
+    goto term
 )
 
-cmd.exe /c start "" /min "%PM_DIR%\portmaster-start.exe" app --data=%PM_DIR%
+if %retry_count% equ 0 (
+    echo Service stopped; starting process...
+) else (
+    echo Starting process - attempt %retry_count%...
+)
 
-timeout 6 >nul
-taskkill -f -im "portmaster-app*"
-goto term
+set /a retry_count+=1
+timeout %TIMEOUT_SEC% /nobreak >nul
+
+call :CheckProcessStatus "RUNNING"
+if %errorlevel% neq 0 goto :CheckRunning
+
+:: Once everything's started, we can kill the frontend since it launches by default
+set "PM_FRONTEND_PROCESS=portmaster-app*"
+cmd.exe /c start "" "%PM_DIR%\portmaster-start.exe" app --data=%PM_DIR%
+
+:CheckFrontend
+timeout 1 /nobreak >nul
+tasklist | findstr /I %PM_FRONTEND_PROCESS% >nul
+
+if %errorlevel% equ 0 (
+    taskkill /f /im %PM_FRONTEND_PROCESS%
+    goto CheckFrontend
+)
+
+:CheckProcessStatus
+sc query %PM_SC% | findstr /C:"STATE" | findstr /C:%~1 >nul
+
+exit /b 0
 endlocal
 
 :term
+echo Press any key to exit...
+pause >nul
 exit /b
