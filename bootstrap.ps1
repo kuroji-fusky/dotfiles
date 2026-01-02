@@ -1,6 +1,6 @@
 #Requires -RunAsAdministrator
 
-$CurrentPSRootDir = "$PSScriptRoot\pwsh"
+$CurrentPSRootDir = "$PSScriptRoot\scripts\pwsh"
 $BootstrapPartialsDir = "$CurrentPSRootDir\bootstrap-partials"
 $SystemEnvPath = $env:USERPROFILE
 

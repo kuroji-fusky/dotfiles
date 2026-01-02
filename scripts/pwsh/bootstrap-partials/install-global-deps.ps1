@@ -14,7 +14,6 @@ $Python_Packages = @(
   "beautifulsoup4",
   "pytube",
   "ffmpeg-python",
-  "opencv-contrib-python",
 
   # Data science stuff
   "pandas",

@@ -30,7 +30,6 @@ echo.
 echo Conversion complete!
 echo.
 echo.
-pause
 goto ExitProg
 
 :ExitProg
