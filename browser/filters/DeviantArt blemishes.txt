@@ -1,0 +1,37 @@
+! Annoying notification thingy with promotions to current events and Core Memberships
+deviantart.com###site-header-notifications section section
+deviantart.com##body > div > div > section section
+deviantart.com##header > a[href$="/core-membership/buy"]
+
+! Core Membersip upsell on account nav menu
+deviantart.com##header a[data-username] ~ div a[href*="core-membership"] ~ div
+
+! Upsell modal
+deviantart.com##.ReactModalPortal ~ div:not([data-react-modal-body-trap],[id^="tooltip-portal"],.ReactModalPortal,.popper-portal) dialog
+
+! Advert
+deviantart.com##iframe[title="DealerAdIframe"]
+
+! Hide any hallow ads on sidebars
+deviantart.com##div[role="complementary"] > div:has(iframe)
+
+! Hide "Boosted" posts on art posts
+deviantart.com##div[role="complementary"] > div:has-text(/(Boosted|Subscribe)/)
+
+! Hide the "Support my work" banner below the artwork
+deviantart.com##header ~ div aside
+
+! DreamUp Garbage
+deviantart.com##a[href*="dreamup"]
+deviantart.com###burger-menu-networkbar li:has(a[href*="dreamup"])
+
+! --- Miscellaneous, optional features to disable - these are my personal preferences ---
+! I find this feature useless, just hide this abomination
+deviantart.com##.surface.surface-tertiary [role="menuitem"]:has-text(/Draw/)
+
+! Shop link is pointless
+deviantart.com##header a[href="https://www.deviantart.com/shop"]
+
+! No need to glaze themselves
+deviantart.com##.surface.surface-tertiary [role="menuitem"]:has-text(/Watch Team/)
+deviantart.com##footer div > div:has-text(/Watch Team/)

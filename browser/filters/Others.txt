@@ -1,0 +1,17 @@
+! YouTube: Remove "Ask" buttons below the player
+www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(/Ask/)
+www.youtube.com##ytd-menu-popup-renderer ytd-menu-service-item-renderer:has-text(/Ask/)
+
+! vidIQ only, hide AI textbox
+www.youtube.com###secondary-inner > .vidiq-scope:has-text(/^(Ask|Summarize)/)
+
+
+! ======= Misc =======
+! Jun 6, 2025 https://developer.mozilla.org
+developer.mozilla.org##.bottom-banner-container
+
+! Nov 14, 2025 https://en.wikipedia.org
+en.wikipedia.org###siteNotice
+
+! Dec 30, 2025 https://www.reddit.com
+www.reddit.com##aside[id^=answers-suggested-queries]

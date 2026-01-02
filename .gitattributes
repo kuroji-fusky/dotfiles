@@ -1,8 +1,10 @@
-*          eol=lf
-*.ps1      eol=crlf  linguist-detectable
-*.bat      eol=crlf  linguist-detectable
+*                       eol=lf
+*.ps1                   eol=crlf  linguist-detectable
+*.bat                   eol=crlf  linguist-detectable
 
 # Windows Sandbox config files are XML in disguise lmao
-win/*.wsb  eol=crlf  linguist-language=XML
+win/*.wsb               eol=crlf  linguist-language=XML
 
-*.*rc      text
+*.*rc                   text
+
+browser/filters/*.txt   linguist-language=AdBlock linguist-detectable
