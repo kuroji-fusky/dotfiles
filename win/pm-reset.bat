@@ -74,7 +74,15 @@ if %errorlevel% neq 0 goto :CheckRunning
 
 :: Once everything's started, we can kill the frontend since it launches by default
 set "PM_FRONTEND_PROCESS=portmaster-app*"
-cmd.exe /c start "" "%PM_DIR%\portmaster-start.exe" app --data=%PM_DIR%
+set "PM_EXEC=%PM_DIR%\portmaster-start.exe"
+
+:: fallback if upgraded to version
+if not exist "%PM_EXEC%" (
+	echo Portmaster v2 found, changing exec path
+    set "PM_EXEC=%PROGRAMFILES%/Portmaster/portmaster-core.exe"
+)
+
+cmd.exe /c start "" "%PM_EXEC%" app --data=%PM_DIR%
 
 :CheckFrontend
 timeout 1 /nobreak >nul
