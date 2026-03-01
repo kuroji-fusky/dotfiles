@@ -1,6 +1,6 @@
 # My "dotfiles" repo
 
-Here are my scripts I need for my machines to keep an optimal and consistent workflow
+Dem scripts I need for my machines to keep an optimal and consistent workflow
 
 ## Windows
 
@@ -11,7 +11,7 @@ Here are my scripts I need for my machines to keep an optimal and consistent wor
 > bypassing its Execution Policy:
 
 ```ps1
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser; .\win\bootstrap.ps1
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser; .\bootstrap.ps1
 ```
 
 ### Installing pre-defined programs
