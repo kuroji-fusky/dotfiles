@@ -3,5 +3,3 @@
 *.bat                   eol=crlf  linguist-detectable
 
 *.*rc                   text
-
-browser/filters/*.txt   linguist-language=AdBlock linguist-detectable
