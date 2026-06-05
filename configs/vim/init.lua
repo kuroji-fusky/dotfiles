@@ -1,0 +1,5 @@
+vim.fn.source("~/.vimrc")
+require("plugins")
+require("config")
+require("mappings")
+require("overrides")
