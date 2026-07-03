@@ -1,4 +1,4 @@
-vim.fn.source("~/.vimrc")
+vim.cmd("source " .. vim.fn.expand("~/.vimrc"))
 require("plugins")
 require("config")
 require("mappings")
