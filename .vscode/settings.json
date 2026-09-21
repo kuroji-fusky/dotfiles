@@ -1,5 +1,6 @@
 {
   "files.associations": {
-    "*.json": "jsonc"
+    "*.json": "jsonc",
+    "configs/yt-dlp/*.conf": "plaintext"
   }
 }
